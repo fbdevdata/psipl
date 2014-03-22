@@ -2,23 +2,6 @@
   "connections": [
     {
       "priority": true,
-      "type": "tcp",
-      "host": "w.fbc.io",
-      "ip": "",
-      "port": 2350
-    },
-    {
-      "priority": false,
-      "type": "socks5",
-      "host": "w.fbc.io",
-      "ip": "",
-      "port": 2350,
-      "proxyHost": "",
-      "proxyIp": "37.58.57.106",
-      "proxyPort": 1080
-    },
-    {
-      "priority": false,
       "type": "socks5",
       "host": "w.fbc.io",
       "ip": "",
