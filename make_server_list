@@ -1,0 +1,29 @@
+#!/bin/bash
+
+wpad_view='"server": ['
+wcps_view='"server": ['
+
+for s in `cat ps.list`; do 
+    wpad_view=$wpad_view'"'$s'",'
+    
+    wcps_view=$wcps_view'("'$s'",1),'
+    
+    wpad2_view=$wpad2_view'"PROXY '$s':3128",#'
+done
+
+wpad_view=${wpad_view%?}']'
+wcps_view=${wcps_view%?}']'
+
+echo "*wpad view"
+echo $wpad_view
+
+echo ""
+
+echo "*wcps view"
+echo $wcps_view
+
+echo ""
+
+echo "*wpad2 view"
+echo $wpad2_view | tr -s "#" "\n"
+
