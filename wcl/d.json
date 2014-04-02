@@ -31,28 +31,28 @@
   "files": [
     {
       "name": "Fonts.ibr",
-      "url": "http:\/\/fbdevdata.github.io\/psipl\/wcl\/f\/Fonts.ibr",
+      "url": "http:\/\/fbdevdata.github.io\/psipl\/wcl\/f3\/Fonts.ibr",
       "md5": "F5C4779F63BE941CDD0D1329A1BF69F5"
     },
     {
       "name": "FonWinClient.exe",
-      "url": "http:\/\/fbdevdata.github.io\/psipl\/wcl\/f\/FonWinClient.exe",
-      "md5": "96109D32DF2E772F64972B5BA60E9EE2"
+      "url": "http:\/\/fbdevdata.github.io\/psipl\/wcl\/f3\/FonWinClient.exe",
+      "md5": "5504C78CDA285E07A582E7E227982FCD"
     },
     {
       "name": "Images.ibr",
-      "url": "http:\/\/fbdevdata.github.io\/psipl\/wcl\/f\/Images.ibr",
+      "url": "http:\/\/fbdevdata.github.io\/psipl\/wcl\/f3\/Images.ibr",
       "md5": "15548C4BF82F230FED49C190A92FDC0C"
     },
     {
       "name": "Main.ibr",
-      "url": "http:\/\/fbdevdata.github.io\/psipl\/wcl\/f\/Main.ibr",
+      "url": "http:\/\/fbdevdata.github.io\/psipl\/wcl\/f3\/Main.ibr",
       "md5": "4D36425B271A2D1E303FB12FD6E44631"
     },
     {
       "name": "XML.ibr",
-      "url": "http:\/\/fbdevdata.github.io\/psipl\/wcl\/f\/XML.ibr",
-      "md5": "E63ECCD3BE199FC209A7BD75A3D2D8D9"
+      "url": "http:\/\/fbdevdata.github.io\/psipl\/wcl\/f3\/XML.ibr",
+      "md5": "0644CCB5E966326E2EFBDFC91E39F0ED"
     }
   ]
 }
