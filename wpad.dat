@@ -3,10 +3,7 @@ function FindProxyForURL(url, host) {
 		var proxies = [
 			"PROXY 46.165.201.27:3128",
 			"PROXY 46.165.228.154:3128",
-			"PROXY 46.165.222.216:3128",
-			"PROXY 46.165.243.139:3128",
-			"PROXY 46.165.243.140:3128",
-			"PROXY 46.165.243.141:3128"
+			"PROXY 46.165.222.216:3128"
 		];
 		var maxProxies = Math.min(proxies.length, 3);
 		function shuffle(array) {
