@@ -1,0 +1,12 @@
+function FindProxyForURL(url, host) {
+	if ((host == "fonbet.com") || dnsDomainIs(host, ".fonbet.com")) 
+    {
+        var proxies = [
+          "PROXY 4hsoft.com:8080; PROXY 46.165.201.27:3128;DIRECT", 
+          "PROXY 4hsoft.com:8080; PROXY 46.165.228.154:3128;DIRECT", 
+          "PROXY 4hsoft.com:8080; PROXY 46.165.222.216:3128;DIRECT"];
+        var index = Math.floor(Math.random() * proxies.length);
+        return proxies[index];
+    }
+    return "DIRECT";
+}
