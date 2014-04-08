@@ -22,7 +22,7 @@ function FindProxyForURL(url, host) {
 		var proxiesRnd = shuffle(proxies);
 		var result="";
 		for(var i=0; i < maxProxies; i++){
-			result += proxiesRnd.shift()+";";
+			result += proxiesRnd.shift()+"; ";
 		}
 		result += "DIRECT";
 		return result;
