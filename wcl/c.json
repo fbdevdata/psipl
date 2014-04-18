@@ -2,57 +2,50 @@
   "connections": [
     {
       "priority": true,
-      "type": "tcp",
-      "host": "w.fbc.io",
-      "ip": "",
-      "port": 2350
-    },
-    {
-      "priority": false,
       "type": "socks5",
-      "host": "w.fbc.io",
-      "ip": "",
+      "host": "",
+      "ip": "81.198.186.69",
       "port": 2350,
       "proxyHost": "",
-      "proxyIp": "37.58.57.106",
+      "proxyIp": "91.109.22.134",
       "proxyPort": 1080
     },
     {
-      "priority": false,
+      "priority": true,
       "type": "socks5",
-      "host": "w.fbc.io",
-      "ip": "",
+      "host": "",
+      "ip": "81.198.75.169",
       "port": 2350,
       "proxyHost": "",
-      "proxyIp": "46.165.201.27",
+      "proxyIp": "91.109.22.134",
       "proxyPort": 1080
     }
   ],
   "files": [
     {
       "name": "Fonts.ibr",
-      "url": "http:\/\/fbdevdata.github.io\/psipl\/wcl\/f8\/Fonts.ibr",
+      "url": "http:\/\/fbdevdata.github.io\/psipl\/wcl\/f9\/Fonts.ibr",
       "md5": "F5C4779F63BE941CDD0D1329A1BF69F5"
     },
     {
       "name": "FonWinClient.exe",
-      "url": "http:\/\/fbdevdata.github.io\/psipl\/wcl\/f8\/FonWinClient.exe",
-      "md5": "971182779717D0262D58C77E370A7FCE"
+      "url": "http:\/\/fbdevdata.github.io\/psipl\/wcl\/f9\/FonWinClient.exe",
+      "md5": "18194A6460C2D511FD60A6984208AB63"
     },
     {
       "name": "Images.ibr",
-      "url": "http:\/\/fbdevdata.github.io\/psipl\/wcl\/f8\/Images.ibr",
+      "url": "http:\/\/fbdevdata.github.io\/psipl\/wcl\/f9\/Images.ibr",
       "md5": "15548C4BF82F230FED49C190A92FDC0C"
     },
     {
       "name": "Main.ibr",
-      "url": "http:\/\/fbdevdata.github.io\/psipl\/wcl\/f8\/Main.ibr",
+      "url": "http:\/\/fbdevdata.github.io\/psipl\/wcl\/f9\/Main.ibr",
       "md5": "4D36425B271A2D1E303FB12FD6E44631"
     },
     {
       "name": "XML.ibr",
-      "url": "http:\/\/fbdevdata.github.io\/psipl\/wcl\/f8\/XML.ibr",
-      "md5": "E8631691447846DD497BCAE096B5E182"
+      "url": "http:\/\/fbdevdata.github.io\/psipl\/wcl\/f9\/XML.ibr",
+      "md5": "8A60E09E5F7014B85E479D2C1B09F989"
     }
   ]
 }
