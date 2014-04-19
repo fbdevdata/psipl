@@ -15,7 +15,7 @@
       "port": 2350
     },
     {
-      "priority": false,
+      "priority": true,
       "type": "socks5",
       "host": "",
       "ip": "81.198.186.69",
@@ -25,7 +25,7 @@
       "proxyPort": 1080
     },
     {
-      "priority": false,
+      "priority": true,
       "type": "socks5",
       "host": "",
       "ip": "81.198.75.169",
