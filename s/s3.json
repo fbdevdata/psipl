@@ -1,0 +1,50 @@
+{
+  "connections": [
+    {
+      "priority": true,
+      "type": "tcp",
+      "host": "",
+      "ip": "81.198.186.17",
+      "port": 2550
+    },
+    {
+      "priority": true,
+      "type": "tcp",
+      "host": "",
+      "ip": "81.198.75.167",
+      "port": 2550
+    }
+  ],
+  "files": [
+    {
+      "name": "Fonts.ibr",
+      "url": "http:\/\/fbdevdata.github.io\/psipl\/s\/f3\/Fonts.ibr",
+      "md5": "3011ECFC2BA68617A120CE62C748F108"
+    },
+    {
+      "name": "Images.ibr",
+      "url": "http:\/\/fbdevdata.github.io\/psipl\/s\/f3\/Images.ibr",
+      "md5": "A82E5B8F7CEE89D7749CE8582FECC72A"
+    },
+    {
+      "name": "Main.ibr",
+      "url": "http:\/\/fbdevdata.github.io\/psipl\/s\/f3\/Main.ibr",
+      "md5": "D44BA0B529E4EC02B10197A233F9F49B"
+    },
+    {
+      "name": "Stakemat.ibr",
+      "url": "http:\/\/fbdevdata.github.io\/psipl\/s\/f3\/Stakemat.ibr",
+      "md5": "B571FC8696FB0609A1DD61D64C5F47B3"
+    },
+    {
+      "name": "StakematClient.exe",
+      "url": "http:\/\/fbdevdata.github.io\/psipl\/s\/f3\/StakematClient.exe",
+      "md5": "1E61A59D5CF159419E2490569B11B485"
+    },
+    {
+      "name": "XML.ibr",
+      "url": "http:\/\/fbdevdata.github.io\/psipl\/s\/f3\/XML.ibr",
+      "md5": "633D07C5BEE47C2F6B56731377FD128F"
+    }
+  ]
+}
