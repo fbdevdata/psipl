@@ -13,6 +13,34 @@
       "host": "",
       "ip": "81.198.75.167",
       "port": 2550
+    },
+    {
+      "priority": true,
+      "type": "tcp",
+      "host": "",
+      "ip": "81.198.75.167",
+      "port": 2550
+    },
+    {
+      "priority": true,
+      "type": "tcp",
+      "host": "",
+      "ip": "46.165.222.216",
+      "port": 2550
+    },
+    {
+      "priority": true,
+      "type": "tcp",
+      "host": "",
+      "ip": "46.165.228.154",
+      "port": 2550
+    },
+    {
+      "priority": true,
+      "type": "tcp",
+      "host": "",
+      "ip": "46.165.201.27",
+      "port": 2550
     }
   ],
   "files": [
