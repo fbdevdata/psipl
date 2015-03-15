@@ -33,27 +33,6 @@
       "proxyHost": "",
       "proxyIp": "91.109.22.134",
       "proxyPort": 1080
-    },
-    {
-      "priority": false,
-      "type": "tcp",
-      "host": "",
-      "ip": "46.165.222.216",
-      "port": 2550
-    },
-    {
-      "priority": false,
-      "type": "tcp",
-      "host": "",
-      "ip": "46.165.228.154",
-      "port": 2550
-    },
-    {
-      "priority": false,
-      "type": "tcp",
-      "host": "",
-      "ip": "46.165.201.27",
-      "port": 2550
     }
   ],
   "files": [
