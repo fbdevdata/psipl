@@ -1,0 +1,70 @@
+{
+  "connections": [
+    {
+      "priority": true,
+      "type": "tcp",
+      "host": "",
+      "ip": "81.198.186.69",
+      "port": 2350
+    },
+    {
+      "priority": true,
+      "type": "tcp",
+      "host": "",
+      "ip": "81.198.75.169",
+      "port": 2350
+    },
+    {
+      "priority": false,
+      "type": "socks5",
+      "host": "",
+      "ip": "81.198.186.69",
+      "port": 2350,
+      "proxyHost": "",
+      "proxyIp": "91.109.22.134",
+      "proxyPort": 1080
+    },
+    {
+      "priority": false,
+      "type": "socks5",
+      "host": "",
+      "ip": "81.198.75.169",
+      "port": 2350,
+      "proxyHost": "",
+      "proxyIp": "91.109.22.134",
+      "proxyPort": 1080
+    }
+  ],
+  "files": [
+    {
+      "name": "Fonts.ibr",
+      "url": "http:\/\/fbdevdata.github.io\/psipl\/wcl\/f26\/Fonts.ibr",
+      "md5": "62A2E0DBEA2DB85947BDA1C73D2165E4"
+    },
+    {
+      "name": "FonWinClient.exe",
+      "url": "http:\/\/fbdevdata.github.io\/psipl\/wcl\/f26\/FonWinClient.exe",
+      "md5": "3701D38733F03C5EA6410091C5B8FE83"
+    },
+    {
+      "name": "Images.ibr",
+      "url": "http:\/\/fbdevdata.github.io\/psipl\/wcl\/f26\/Images.ibr",
+      "md5": "5E2B6AB3558B26E7BE91C7F7A678DEA9"
+    },
+    {
+      "name": "Main.ibr",
+      "url": "http:\/\/fbdevdata.github.io\/psipl\/wcl\/f26\/Main.ibr",
+      "md5": "E36CC75132759E1116FB47F1D8BE6588"
+    },
+    {
+      "name": "Update.exe",
+      "url": "http:\/\/fbdevdata.github.io\/psipl\/wcl\/f26\/Update.exe",
+      "md5": "DCFF57370ABBF3B4B56F6F12A51FFD55"
+    },
+    {
+      "name": "XML.ibr",
+      "url": "http:\/\/fbdevdata.github.io\/psipl\/wcl\/f26\/XML.ibr",
+      "md5": "DE233131B65B8E10E0002F50229FD13F"
+    }
+  ]
+}
