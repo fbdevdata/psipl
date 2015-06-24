@@ -2,9 +2,7 @@ function FindProxyForURL(url, host){
 	var domainStrings = [
 		'fonbet.com',
 		'bkfonbet.com',
-		'bk-fonbet.com',
-		'bkfon-bet.com',
-		'bk-fon-bet.com'
+		'bk-fonbet.com'
 	];
 	for (var i=0, len=domainStrings.length; i<len; i++) {
 		if (host == domainStrings[i] || dnsDomainIs(host, '.' + domainStrings[i])) {
