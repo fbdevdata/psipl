@@ -1,31 +1,15 @@
-function FindProxyForURL(url, host) {
-	if ((host == "fonbet.com") || dnsDomainIs(host, ".fonbet.com")) {
-		var proxies = [
-			"PROXY 46.165.201.27:3128",
-			"PROXY 46.165.228.154:3128",
-			"PROXY 46.165.222.216:3128"
-		];
-		var maxProxies = Math.min(proxies.length, 3);
-		function shuffle(array) {
-			var currentIndex = array.length;
-			var temporaryValue;
-			var randomIndex;
-			while (0 !== currentIndex) {
-				randomIndex = Math.floor(Math.random() * currentIndex);
-				currentIndex -= 1;
-				temporaryValue = array[currentIndex];
-				array[currentIndex] = array[randomIndex];
-				array[randomIndex] = temporaryValue;
-			}
-			return array;
+function FindProxyForURL(url, host){
+	var domainStrings = [
+		'fonbet.com',
+		'bkfonbet.com',
+		'bk-fonbet.com',
+		'bkfon-bet.com',
+		'bk-fon-bet.com'
+	];
+	for (var i=0, len=domainStrings.length; i<len; i++) {
+		if (host == domainStrings[i] || dnsDomainIs(host, '.' + domainStrings[i])) {
+			return 'PROXY 95.211.203.116:8080; PROXY 91.109.22.134:8080; PROXY 148.251.235.136:8080';
 		}
-		var proxiesRnd = shuffle(proxies);
-		var result="";
-		for(var i=0; i < maxProxies; i++){
-			result += proxiesRnd.shift()+"; ";
-		}
-		result += "DIRECT";
-		return result;
 	}
-	return "DIRECT";
+	return 'DIRECT';
 }
