@@ -1,0 +1,176 @@
+{
+  "connections": [
+    {
+      "priority": true,
+      "type": "tcp",
+      "host": "",
+      "ip": "81.198.186.17",
+      "port": 2550
+    },
+    {
+      "priority": true,
+      "type": "tcp",
+      "host": "",
+      "ip": "81.198.75.167",
+      "port": 2550
+    },
+    {
+      "priority": false,
+      "type": "socks5",
+      "host": "",
+      "ip": "81.198.186.17",
+      "port": 2550,
+      "proxyHost": "",
+      "proxyIp": "91.109.22.134",
+      "proxyPort": 1080
+    },
+    {
+      "priority": false,
+      "type": "socks5",
+      "host": "",
+      "ip": "81.198.75.167",
+      "port": 2550,
+      "proxyHost": "",
+      "proxyIp": "91.109.22.134",
+      "proxyPort": 1080
+    },
+    {
+      "priority": false,
+      "type": "tcp",
+      "host": "",
+      "ip": "46.165.222.216",
+      "port": 2550
+    },
+    {
+      "priority": false,
+      "type": "tcp",
+      "host": "",
+      "ip": "46.165.228.154",
+      "port": 2550
+    },
+    {
+      "priority": false,
+      "type": "tcp",
+      "host": "",
+      "ip": "46.165.201.27",
+      "port": 2550
+    }
+  ],
+  "files": [
+    {
+      "name": "cef.pak",
+      "url": "http:\/\/upd.fonarm.com\/stakemat\/f1\/cef.pak",
+      "md5": "B92425B69E7FB8CD77CA3A4581E069D5"
+    },
+    {
+      "name": "cef_100_percent.pak",
+      "url": "http:\/\/upd.fonarm.com\/stakemat\/f1\/cef_100_percent.pak",
+      "md5": "4545053E49191BFE491C9E880B22A19B"
+    },
+    {
+      "name": "cef_200_percent.pak",
+      "url": "http:\/\/upd.fonarm.com\/stakemat\/f1\/cef_200_percent.pak",
+      "md5": "78DABC6821BDCAA3E9A97271D04134A9"
+    },
+    {
+      "name": "ChromiumFlashPlugin.exe",
+      "url": "http:\/\/upd.fonarm.com\/stakemat\/f1\/ChromiumFlashPlugin.exe",
+      "md5": "7CD4DE1666A88A660AA643F0AED3075A"
+    },
+    {
+      "name": "devtools_resources.pak",
+      "url": "http:\/\/upd.fonarm.com\/stakemat\/f1\/devtools_resources.pak",
+      "md5": "BB289E35EB0D8EF24AFA0654DFFBB07A"
+    },
+    {
+      "name": "flash\\manifest.json",
+      "url": "http:\/\/upd.fonarm.com\/stakemat\/f1\/flash\/manifest.json",
+      "md5": "73C2405E06F439EF8C1DF6CFA831E862"
+    },
+    {
+      "name": "flash\\mms.cfg",
+      "url": "http:\/\/upd.fonarm.com\/stakemat\/f1\/flash\/mms.cfg",
+      "md5": "5246A94C265991426A0B8F9425CBEA42"
+    },
+    {
+      "name": "flash\\pepflashplayer32_18_0_0_203.dll",
+      "url": "http:\/\/upd.fonarm.com\/stakemat\/f1\/flash\/pepflashplayer32_18_0_0_203.dll",
+      "md5": "039A39F87869C47FFD3B9128106633D6"
+    },
+    {
+      "name": "Fonts.ibr",
+      "url": "http:\/\/upd.fonarm.com\/stakemat\/f1\/Fonts.ibr",
+      "md5": "933A92AFC49623B928F0B4BFC72678FF"
+    },
+    {
+      "name": "icudtl.dat",
+      "url": "http:\/\/upd.fonarm.com\/stakemat\/f1\/icudtl.dat",
+      "md5": "970FE088600931D0507605759C6B3679"
+    },
+    {
+      "name": "Images.ibr",
+      "url": "http:\/\/upd.fonarm.com\/stakemat\/f1\/Images.ibr",
+      "md5": "C241F3124BDF13D00CE7D049D3AD06C5"
+    },
+    {
+      "name": "libcef.dll",
+      "url": "http:\/\/upd.fonarm.com\/stakemat\/f1\/libcef.dll",
+      "md5": "3137FD80751AA70FEF68218B3C96AE31"
+    },
+    {
+      "name": "locales\\en-GB.pak",
+      "url": "http:\/\/upd.fonarm.com\/stakemat\/f1\/locales\/en-GB.pak",
+      "md5": "B1EC2D9DB6E33F986970E36E9F843EA2"
+    },
+    {
+      "name": "locales\\en-US.pak",
+      "url": "http:\/\/upd.fonarm.com\/stakemat\/f1\/locales\/en-US.pak",
+      "md5": "0D75613DF62C3165E74C48CA3A2339B4"
+    },
+    {
+      "name": "locales\\ru.pak",
+      "url": "http:\/\/upd.fonarm.com\/stakemat\/f1\/locales\/ru.pak",
+      "md5": "2C5290986649276A3E2D2A6FC5AE968C"
+    },
+    {
+      "name": "Main.ibr",
+      "url": "http:\/\/upd.fonarm.com\/stakemat\/f1\/Main.ibr",
+      "md5": "E36CC75132759E1116FB47F1D8BE6588"
+    },
+    {
+      "name": "MouseHook.dll",
+      "url": "http:\/\/upd.fonarm.com\/stakemat\/f1\/MouseHook.dll",
+      "md5": "A4FB429DE89CEC15755DED6803209F16"
+    },
+    {
+      "name": "natives_blob.bin",
+      "url": "http:\/\/upd.fonarm.com\/stakemat\/f1\/natives_blob.bin",
+      "md5": "6F9ADDDD3204090C49E313407B80E56C"
+    },
+    {
+      "name": "snapshot_blob.bin",
+      "url": "http:\/\/upd.fonarm.com\/stakemat\/f1\/snapshot_blob.bin",
+      "md5": "787344C6112F7FE86BAA2D70AFCCBF42"
+    },
+    {
+      "name": "Stakemat.ibr",
+      "url": "http:\/\/upd.fonarm.com\/stakemat\/f1\/Stakemat.ibr",
+      "md5": "6F73CB73AFB7B4C4139E8F2D58368CBD"
+    },
+    {
+      "name": "StakematClient.exe",
+      "url": "http:\/\/upd.fonarm.com\/stakemat\/f1\/StakematClient.exe",
+      "md5": "1D9521305E8D911C2A73E04443BE5581"
+    },
+    {
+      "name": "Upd2.exe",
+      "url": "http:\/\/upd.fonarm.com\/stakemat\/f1\/Upd2.exe",
+      "md5": "D739CA94BBEB016DBB3754CDAFF095E4"
+    },
+    {
+      "name": "XML.ibr",
+      "url": "http:\/\/upd.fonarm.com\/stakemat\/f1\/XML.ibr",
+      "md5": "84E5DC0F116A2254E0977380716581EF"
+    }
+  ]
+}
