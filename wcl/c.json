@@ -1,0 +1,70 @@
+{
+  "connections": [
+    {
+      "priority": true,
+      "type": "tcp",
+      "host": "",
+      "ip": "81.198.186.69",
+      "port": 2350
+    },
+    {
+      "priority": true,
+      "type": "tcp",
+      "host": "",
+      "ip": "81.198.75.169",
+      "port": 2350
+    },
+    {
+      "priority": false,
+      "type": "socks5",
+      "host": "",
+      "ip": "81.198.186.69",
+      "port": 2350,
+      "proxyHost": "",
+      "proxyIp": "91.109.22.134",
+      "proxyPort": 1080
+    },
+    {
+      "priority": false,
+      "type": "socks5",
+      "host": "",
+      "ip": "81.198.75.169",
+      "port": 2350,
+      "proxyHost": "",
+      "proxyIp": "91.109.22.134",
+      "proxyPort": 1080
+    }
+  ],
+  "files": [
+    {
+      "name": "Fonts.ibr",
+      "url": "http:\/\/upd.fbappdn.com\/winclient\/f1\/Fonts.ibr",
+      "md5": "933A92AFC49623B928F0B4BFC72678FF"
+    },
+    {
+      "name": "FonWinClient.exe",
+      "url": "http:\/\/upd.fbappdn.com\/winclient\/f1\/FonWinClient.exe",
+      "md5": "0055B0DA37820BC981657BA27ED88CAA"
+    },
+    {
+      "name": "Images.ibr",
+      "url": "http:\/\/upd.fbappdn.com\/winclient\/f1\/Images.ibr",
+      "md5": "C241F3124BDF13D00CE7D049D3AD06C5"
+    },
+    {
+      "name": "Main.ibr",
+      "url": "http:\/\/upd.fbappdn.com\/winclient\/f1\/Main.ibr",
+      "md5": "E36CC75132759E1116FB47F1D8BE6588"
+    },
+    {
+      "name": "Update.exe",
+      "url": "http:\/\/upd.fbappdn.com\/winclient\/f1\/Update.exe",
+      "md5": "DCFF57370ABBF3B4B56F6F12A51FFD55"
+    },
+    {
+      "name": "XML.ibr",
+      "url": "http:\/\/upd.fbappdn.com\/winclient\/f1\/XML.ibr",
+      "md5": "84E5DC0F116A2254E0977380716581EF"
+    }
+  ]
+}
