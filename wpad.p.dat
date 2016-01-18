@@ -1,5 +1,8 @@
 function FindProxyForURL(url, host) {
-	if ((host == "fonbet.com") || dnsDomainIs(host, ".fonbet.com")) {
+	if (
+		(host == "fonbet.com") || dnsDomainIs(host, ".fonbet.com") ||
+		(host == "bkfonbet.com") || dnsDomainIs(host, ".bkfonbet.com")
+	) {
 		var proxies = [
 			"PROXY 91.109.22.134:8080",
 			"PROXY 95.211.203.116:8080",
