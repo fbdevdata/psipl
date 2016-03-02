@@ -1,6 +1,9 @@
 {
-  "url": ["http://fbmetrix.net/fbwebapp-github/",
-  "http://fbmetrix.net/fbwebapp-dropbox/",
+  "url": ["http://fbmetrix.net/fbwebapp-aws01/",
+  "http://fbmetrix.net/fbwebapp-aws02/",
+  "http://fbmetrix.net/fbwebapp-aws03/",
+  "http://fbmetrix.net/fbwebapp-boxcloud/",
   "http://fbmetrix.net/fbwebapp-copy/",
+  "http://fbmetrix.net/fbwebapp-dropbox/",
   "http://fbmetrix.net/fbwebapp-cubbyusercontent/"]
 }
