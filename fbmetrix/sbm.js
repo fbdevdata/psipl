@@ -1,4 +1,4 @@
-
+var JS_NAME = 'sbm.js';
 var params = "?set_path_to=/path/to/resource&param1=a&test=tset&var=3";
 var urls = [
             "http://pm.dvtfb.com/links/remote.js",
@@ -12,6 +12,17 @@ if (params !== null) {
 }
 var validURLs = [];
 
+var sectionName = '';
+for (i = 0; i < document.scripts.length; i++) {
+    var scriptName = document.scripts[i].src;
+    scriptName = scriptName?scriptName:'';
+    if (scriptName.indexOf(JS_NAME)<0)
+            continue;
+    if (document.scripts[i].attributes['section']) {
+            sectionName = document.scripts[i].attributes['section'].textContent.toLowerCase();
+            break;
+    }
+}
 
 
 document.addEventListener("DOMContentLoaded", function() {
