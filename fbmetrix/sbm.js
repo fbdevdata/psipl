@@ -97,21 +97,34 @@ var sectionList = {
 }
 
 var JS_NAME = 'sbm.js';
-var sectionName = 'registration';
-for (i = 0; i < document.scripts.length; i++) {
-    var scriptName = document.scripts[i].src;
-    scriptName = scriptName?scriptName:'';
-    if (scriptName.indexOf(JS_NAME)<0)
-            continue;
-    if (document.scripts[i].attributes['section']) {
-            sectionName = document.scripts[i].attributes['section'].textContent.toLowerCase();
+var jsAttributes=null
+for (var i in document.scripts) {
+      var scriptName = document.scripts[i].src;
+      scriptName = scriptName?scriptName:'';
+      if (scriptName.indexOf(JS_NAME)>=0) {
+            jsAttributes = document.scripts[i].attributes;
             break;
-    }
+      }
+}
+
+sectionName="mainPage";
+waitTime=3000;
+localeLang="ru"
+if (jsAttributes) {
+      if (jsAttributes["section"]) 
+            sectionName=jsAttributes["section"]
+      if (jsAttributes["wait"])
+            waitTime=jsAttributes["wait"]
+      if (jsAttributes["locale"])
+            localeLang=jsAttributes["locale"]
 }
 
 var testURLs = []
 dmns.pub.forEach(function(domain) { 
-      testURLs.push(sectionList[sectionName].test.replace("%DOMAIN%",domain[DOMAIN.NAME])) 
+      testURLs.push({
+            test: sectionList[sectionName]["test"].replace("%DOMAIN%",domain[DOMAIN.NAME]),
+            route: sectionList[sectionName]["ru"].replace("%DOMAIN%",domain[DOMAIN.NAME])
+      }) 
 })
 
 var validURLs = [];
@@ -129,9 +142,10 @@ document.addEventListener("DOMContentLoaded", function() {
         var body = document.getElementsByTagName("body")[0];
         for (var i in testURLs) {
             var el = document.createElement('script');
-            el.src = testURLs[i];
+            el.src = testURLs[i].test;
             el.async = true;
             el.type = "text/javascript";
+            el.setAttribute("route",testURLs[i].route)
             body.appendChild(el);
         }
     }
