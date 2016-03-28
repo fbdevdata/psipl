@@ -123,7 +123,7 @@ var testURLs = []
 dmns.pub.forEach(function(domain) { 
       testURLs.push({
             test: sectionList[sectionName]["test"].replace("%DOMAIN%",domain[DOMAIN.NAME]),
-            route: sectionList[sectionName]["ru"].replace("%DOMAIN%",domain[DOMAIN.NAME])
+            route: sectionList[sectionName][localeLang].replace("%DOMAIN%",domain[DOMAIN.NAME])
       }) 
 })
 
