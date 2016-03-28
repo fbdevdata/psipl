@@ -1,10 +1,8 @@
-var info_dmns = {
-    "url": [
-      {"foninfo.net":1},
-    ]
-}
-var dmns = {
-    "url": [
+var info_dmns = [
+      {"foninfo.net":1}
+]
+
+var dmns = [
       {"fonbet.com":0},
       {"bkfonbet.com":0},
       {"bk-fonbet.com":1},
@@ -12,8 +10,7 @@ var dmns = {
       {"bkfonbet.club":1},
       {"fon-bet-bk.com":1},
       {"fonsportsbet.com":1}
-    ]
-}
+]
 
 var sections_list = {
   "mainPage": {
