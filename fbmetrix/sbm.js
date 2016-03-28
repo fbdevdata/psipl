@@ -1,19 +1,20 @@
 var info_dmns = [
-      {"foninfo.net":1}
+      ["foninfo.net":1]
 ]
 
 var dmns = [
-      {"fonbet.com":0},
-      {"bkfonbet.com":0},
-      {"bk-fonbet.com":1},
-      {"bkfon-bet.com":1},
-      {"bkfonbet.club":1},
-      {"fon-bet-bk.com":1},
-      {"fonsportsbet.com":1}
+      ["fonbet.com",0]
+      ["bkfonbet.com",0],
+      ["bk-fonbet.com",1],
+      ["bkfon-bet.com",1],
+      ["bkfonbet.club",1],
+      ["fon-bet-bk.com",1],
+      ["fonsportsbet.com",1]
 ]
 
-var sections_list = {
-  "mainPage": {
+var sections_list = []
+sections_list["mainPage"]=[]
+sections_list["mainPage"]["ru"]="http://%DOMAIN%/ru"
     "ru": "http://%DOMAIN%/ru",
     "en": "http://%DOMAIN%/en",
     "test": "http://%DOMAIN%/test_object.js"
