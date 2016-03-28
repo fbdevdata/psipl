@@ -1,30 +1,16 @@
-var JS_NAME = 'sbm.js';
-var params = "?set_path_to=/path/to/resource&param1=a&test=tset&var=3";
-var urls = [
-            "http://pm.dvtfb.com/links/remote.js",
-            "http://pm.dvtfb.com/links/remote.js",
-            "http://pm.dvtfb.com/links/remote.js"
-];
-if (params !== null) {
-    urls = urls.map(function(val) {
-        return val + params;
-    });
-}
-var validURLs = [];
-
-var sectionName = '';
-for (i = 0; i < document.scripts.length; i++) {
-    var scriptName = document.scripts[i].src;
-    scriptName = scriptName?scriptName:'';
-    if (scriptName.indexOf(JS_NAME)<0)
-            continue;
-    if (document.scripts[i].attributes['section']) {
-            sectionName = document.scripts[i].attributes['section'].textContent.toLowerCase();
-            break;
-    }
+var dmns = {
+    "url": [
+      {"fonbet.com":0},
+      {"bkfonbet.com":0},
+      {"bk-fonbet.com":1},
+      {"bkfon-bet.com":1},
+      {"bkfonbet.club":1},
+      {"fon-bet-bk.com":1},
+      {"fonsportsbet.com":1}
+    ]
 }
 
-sections_list = {
+var sections_list = {
   "mainPage": {
     "ru": "http://%DOMAIN%/ru",
     "en": "http://%DOMAIN%/en",
@@ -101,6 +87,35 @@ sections_list = {
         "test": "https://fivelevel.%DOMAIN%/Fivelevel/test_object.js"
     }
 }
+
+var JS_NAME = 'sbm.js';
+var sectionName = '';
+for (i = 0; i < document.scripts.length; i++) {
+    var scriptName = document.scripts[i].src;
+    scriptName = scriptName?scriptName:'';
+    if (scriptName.indexOf(JS_NAME)<0)
+            continue;
+    if (document.scripts[i].attributes['section']) {
+            sectionName = document.scripts[i].attributes['section'].textContent.toLowerCase();
+            break;
+    }
+}
+
+var urls = [
+            "http://pm.dvtfb.com/links/remote.js",
+            "http://pm.dvtfb.com/links/remote.js",
+            "http://pm.dvtfb.com/links/remote.js"
+];
+var validURLs = [];
+
+var params = "?set_path_to=/path/to/resource&param1=a&test=tset&var=3";
+if (params !== null) {
+    urls = urls.map(function(val) {
+        return val + params;
+    });
+}
+
+
 document.addEventListener("DOMContentLoaded", function() {
     if (urls.length > 0) {
         for (var i in urls) {
@@ -116,6 +131,7 @@ document.addEventListener("DOMContentLoaded", function() {
     setTimeout(function() {
         var link = validURLs[Math.floor(Math.random() * validURLs.length)];
         if (link !== undefined) {
+            alert(link);
             //window.location.href = link;
         }
     }, 3000);
