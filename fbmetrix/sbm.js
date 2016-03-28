@@ -18,7 +18,7 @@ var dmns = {
     ]
 }
 
-var sections_list = {
+var sectionList = {
   mainPage: {
     ru: "http://%DOMAIN%/ru",
     en: "http://%DOMAIN%/en",
@@ -97,7 +97,7 @@ var sections_list = {
 }
 
 var JS_NAME = 'sbm.js';
-var sectionName = '';
+var sectionName = 'registration';
 for (i = 0; i < document.scripts.length; i++) {
     var scriptName = document.scripts[i].src;
     scriptName = scriptName?scriptName:'';
@@ -109,13 +109,14 @@ for (i = 0; i < document.scripts.length; i++) {
     }
 }
 
-var urls = [
-            "http://pm.dvtfb.com/links/remote.js",
-            "http://pm.dvtfb.com/links/remote.js",
-            "http://pm.dvtfb.com/links/remote.js"
-];
+var testURLs = []
+dmns.pub.forEach(function(domain) { 
+      testURLs.push(sectionList[sectionName].test.replace("%DOMAIN%",domain[DOMAIN.NAME])) 
+})
+
 var validURLs = [];
 
+var urls = [];
 var params = "?set_path_to=/path/to/resource&param1=a&test=tset&var=3";
 if (params !== null) {
     urls = urls.map(function(val) {
@@ -123,15 +124,14 @@ if (params !== null) {
     });
 }
 
-
 document.addEventListener("DOMContentLoaded", function() {
-    if (urls.length > 0) {
-        for (var i in urls) {
+    if (testURLs.length > 0) {
+        var body = document.getElementsByTagName("body")[0];
+        for (var i in testURLs) {
             var el = document.createElement('script');
-            el.src = urls[i];
+            el.src = testURLs[i];
             el.async = true;
             el.type = "text/javascript";
-            var body = document.getElementsByTagName("body")[0];
             body.appendChild(el);
         }
     }
