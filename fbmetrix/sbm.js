@@ -112,11 +112,11 @@ waitTime=3000;
 localeLang="ru"
 if (jsAttributes) {
       if (jsAttributes["section"]) 
-            sectionName=jsAttributes["section"]
+            sectionName=jsAttributes["section"].textContent.toLowerCase();
       if (jsAttributes["wait"])
-            waitTime=jsAttributes["wait"]
+            waitTime=jsAttributes["wait"].textContent.toLowerCase();
       if (jsAttributes["locale"])
-            localeLang=jsAttributes["locale"]
+            localeLang=jsAttributes["locale"].textContent.toLowerCase();
 }
 
 var testURLs = []
