@@ -1,3 +1,8 @@
+var info_dmns = {
+    "url": [
+      {"foninfo.net":1},
+    ]
+}
 var dmns = {
     "url": [
       {"fonbet.com":0},
