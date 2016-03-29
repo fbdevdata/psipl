@@ -135,7 +135,7 @@ params=null
 //var params = "?set_path_to=/path/to/resource&param1=a&test=tset&var=3";
 
 if (testURLs.length > 0) {
-    var body = document.getElementsByTagName("body")[0];
+    var head = document.getElementsByTagName("head")[0];
     timestamp=new Date().getTime();
     
     for (var i in testURLs) {
@@ -146,7 +146,7 @@ if (testURLs.length > 0) {
         el.onload = function(e){validURLs.push(this.getAttribute("route"))}
         el.onerror = function(e){inValidURLs.push(this.getAttribute("route"))}
         el.setAttribute("route",testURLs[i].route)
-        body.appendChild(el);
+        head.appendChild(el);
     }
 }
 
