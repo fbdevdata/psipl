@@ -144,8 +144,8 @@ document.addEventListener("DOMContentLoaded", function() {
             el.src = testURLs[i].test+"?"+timestamp;
             el.async = true;
             el.type = "text/javascript";
-            el.onload = function(e){validURLs.push(testURLs[i].route)}
-            el.onerror = function(e){inValidURLs.push(testURLs[i].route)}
+            el.onload = function(e){validURLs.push(this.getAttribute("route"))}
+            el.onerror = function(e){inValidURLs.push(this.getAttribute("route"))}
             el.setAttribute("route",testURLs[i].route)
             body.appendChild(el);
         }
