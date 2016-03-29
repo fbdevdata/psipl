@@ -131,9 +131,6 @@ var validURLs = [];
 var inValidURLs = [];
 
 var urls = [];
-params=null
-//var params = "?set_path_to=/path/to/resource&param1=a&test=tset&var=3";
-
 if (testURLs.length > 0) {
     var head = document.getElementsByTagName("head")[0];
     timestamp=new Date().getTime();
@@ -150,14 +147,16 @@ if (testURLs.length > 0) {
     }
 }
 
-var params=[]
-if (window.location.href.indexOf("?")) {
-    var params = window.location.href.split("?")[1].split("&");
+var params=[];
+var currentURL=window.location.href;
+var destURL=sectionList[sectionName][localeLang];
+if (currentURL.indexOf("?")) {
+    params = currentURL.split("?")[1].split("&");
 }
-if (sectionList[sectionName][localeLang].indexOf("?")) {
-  params = sectionList[sectionName][localeLang].split("?")[1].split("&").concat(params);
-  link=link.split("?")[0]
+if (destURL.indexOf("?")) {
+    params = destURL.split("?")[1].split("&").concat(params);
 }
+
 var ignoredParams = ["set_path_to"];
 var cleanParams   = [];
 for (var i in params) {
