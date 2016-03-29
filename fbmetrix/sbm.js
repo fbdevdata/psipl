@@ -9,7 +9,7 @@ var dmns = {
     ],
     access:[
         ["http://acfbc.info/",1]
-    ]
+    ],
     pub:[
         ["fonbet.com",0],
         ["bkfonbet.com",0],
