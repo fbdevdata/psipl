@@ -134,35 +134,61 @@ var urls = [];
 params=null
 //var params = "?set_path_to=/path/to/resource&param1=a&test=tset&var=3";
 
-
-document.addEventListener("DOMContentLoaded", function() {
-    if (testURLs.length > 0) {
-        var body = document.getElementsByTagName("body")[0];
-        timestamp=new Date().getTime();
-        for (var i in testURLs) {
-            var el = document.createElement('script');
-            el.src = testURLs[i].test+"?"+timestamp;
-            el.async = true;
-            el.type = "text/javascript";
-            el.onload = function(e){validURLs.push(this.getAttribute("route"))}
-            el.onerror = function(e){inValidURLs.push(this.getAttribute("route"))}
-            el.setAttribute("route",testURLs[i].route)
-            body.appendChild(el);
-        }
+if (testURLs.length > 0) {
+    var body = document.getElementsByTagName("body")[0];
+    timestamp=new Date().getTime();
+    
+    for (var i in testURLs) {
+        var el = document.createElement('script');
+        el.src = testURLs[i].test+"?"+timestamp;
+        el.async = true;
+        el.type = "text/javascript";
+        el.onload = function(e){validURLs.push(this.getAttribute("route"))}
+        el.onerror = function(e){inValidURLs.push(this.getAttribute("route"))}
+        el.setAttribute("route",testURLs[i].route)
+        body.appendChild(el);
     }
+}
 
-    setTimeout(function() {
-        document.writeln("<br><b>ValidURLs</b><br>")  
-        validURLs.forEach(function(url) { document.writeln(url+"<br>")})
-        document.writeln("<br><b>InValidURLs</b><br>")  
-        inValidURLs.forEach(function(url) { document.writeln(url+"<br>")})
+var params=[]
+if (window.location.href.indexOf("?")) {
+    var params = window.location.href.split("?")[1].split("&");
+}
+if (sectionList[sectionName][localeLang].indexOf("?")) {
+  params = sectionList[sectionName][localeLang].split("?")[1].split("&").concat(params);
+  link=link.split("?")[0]
+}
+var ignoredParams = ["set_path_to"];
+var cleanParams   = [];
+for (var i in params) {
+  var kv = params[i].split("=");
+  //if set_path_to param present - append path to link path
+  if (kv[0] == "set_path_to") {
+    link += kv[1];
+  }
+  if (ignoredParams.indexOf(kv[0]) > -1) {
+    continue;
+  }
+  cleanParams.push(kv[0] + "=" + kv[1]);
+}
 
-        document.writeln("<br><b>AccessibleRandomURL</b><br>")  
-        var link = validURLs[Math.floor(Math.random() * validURLs.length)];
-        if (link !== undefined) {
-            document.writeln(link+"<br>")
-            //window.location.href = link;
-        }
-    }, 3000);
-});
+setTimeout(function() {
+    document.writeln("<br><b>ValidURLs</b><br>")  
+    validURLs.forEach(function(url) { document.writeln(url+"<br>")})
+    document.writeln("<br><b>InValidURLs</b><br>")  
+    inValidURLs.forEach(function(url) { document.writeln(url+"<br>")})
 
+    document.writeln("<br><b>AccessibleRandomURL</b><br>")  
+    var link = validURLs[Math.floor(Math.random() * validURLs.length)];
+    
+    if (link.indexOf("?")) {
+        link=link.split("?")[0];
+    }
+    if (cleanParams.length > 0) {
+        link += "?" + cleanParams.join("&");
+    }
+    if (link !== undefined) {
+        document.writeln(link+"<br>")
+        //window.location.href = link;
+    }
+}, waitTime);
