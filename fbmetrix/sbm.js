@@ -130,6 +130,7 @@ dmns.pub.forEach(function(domain) {
 var validURLs = [];
 
 var urls = [];
+params=null
 //var params = "?set_path_to=/path/to/resource&param1=a&test=tset&var=3";
 
 
