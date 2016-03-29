@@ -152,9 +152,15 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     setTimeout(function() {
+        document.writeln("<br><b>ValidURLs</b><br>")  
+        validURLs.forEach(function(url) { document.writeln(url+"<br>")})
+        document.writeln("<br><b>InValidURLs</b><br>")  
+        inValidURLs.forEach(function(url) { document.writeln(url+"<br>")})
+
+        document.writeln("<br><b>AccessibleRandomURL</b><br>")  
         var link = validURLs[Math.floor(Math.random() * validURLs.length)];
         if (link !== undefined) {
-            alert(link);
+            document.writeln(link+"<br>")
             //window.location.href = link;
         }
     }, 3000);
