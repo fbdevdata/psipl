@@ -130,12 +130,8 @@ dmns.pub.forEach(function(domain) {
 var validURLs = [];
 
 var urls = [];
-var params = "?set_path_to=/path/to/resource&param1=a&test=tset&var=3";
-if (params !== null) {
-    urls = urls.map(function(val) {
-        return val + params;
-    });
-}
+//var params = "?set_path_to=/path/to/resource&param1=a&test=tset&var=3";
+
 
 document.addEventListener("DOMContentLoaded", function() {
     if (testURLs.length > 0) {
