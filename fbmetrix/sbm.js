@@ -1,8 +1,8 @@
+/* Data Structures */
 DOMAIN={
       NAME:0,
       PRIORITY:1
 }
-
 var dmns = {
     info:[
         ["foninfo.net",1]
@@ -17,7 +17,6 @@ var dmns = {
         ["fonsportsbet.com",1]
     ]
 }
-
 var sectionList = {
   mainPage: {
     ru: "http://%DOMAIN%/ru",
@@ -95,7 +94,7 @@ var sectionList = {
     test: "https://fivelevel.%DOMAIN%/Fivelevel/test_object.js"
   }
 }
-
+/* Get Script Attributes */
 var JS_NAME = 'sbm.js';
 var jsAttributes=null
 for (var i in document.scripts) {
@@ -119,38 +118,35 @@ if (jsAttributes) {
             localeLang=jsAttributes["locale"].textContent.toLowerCase();
 }
 
+/* Append test scripts */
 var testURLs = []
-dmns.pub.forEach(function(domain) { 
-      testURLs.push({
-            test: sectionList[sectionName]["test"].replace("%DOMAIN%",domain[DOMAIN.NAME]),
-            route: sectionList[sectionName][localeLang].replace("%DOMAIN%",domain[DOMAIN.NAME])
-      }) 
-})
-
 var validURLs = [];
 var inValidURLs = [];
 
-var urls = [];
-if (testURLs.length > 0) {
-    var head = document.getElementsByTagName("head")[0];
-    timestamp=new Date().getTime();
+var head = document.getElementsByTagName("head")[0];
+var timestamp=new Date().getTime();
     
-    for (var i in testURLs) {
-        var el = document.createElement('script');
-        el.src = testURLs[i].test+"?"+timestamp;
-        el.async = true;
-        el.type = "text/javascript";
-        el.onload = function(e){validURLs.push(this.getAttribute("route"))}
-        el.onerror = function(e){inValidURLs.push(this.getAttribute("route"))}
-        el.setAttribute("route",testURLs[i].route)
-        head.appendChild(el);
-    }
-}
+dmns.pub.forEach(function(domain) { 
+      testURL = sectionList[sectionName]["test"].replace("%DOMAIN%",domain[DOMAIN.NAME]);
+      routeURL = sectionList[sectionName][localeLang].replace("%DOMAIN%",domain[DOMAIN.NAME]);
+      testURLs.push(testURL);
+      
+      var el = document.createElement('script');
+      el.src = testURL+"?"+timestamp;
+      el.onload = function(e){ validURLs.push(this.getAttribute("route"))}
+      el.onerror = function(e){ inValidURLs.push(this.getAttribute("route"))}
+      el.setAttribute("route",routeURL)
+      el.async = true;
+      el.type = "text/javascript";
+      head.appendChild(el);
+})
 
+/* Proccess Query Parameters */
 var params=[];
-console.log(params);
 var currentURL=window.location.href;
 var destURL=sectionList[sectionName][localeLang];
+
+//gather all parameters togather (to params)
 if (currentURL.indexOf("?")) {
     params = currentURL.split("?")[1].split("&");
 }
@@ -158,9 +154,9 @@ if (destURL.indexOf("?")) {
     params = destURL.split("?")[1].split("&").concat(params);
 }
 
+//process control parameters
 var ignoredParams = ["set_path_to"];
 var cleanParams   = [];
-console.log(params);
 for (var i in params) {
   var kv = params[i].split("=");
   //if set_path_to param present - append path to link path
@@ -173,6 +169,7 @@ for (var i in params) {
   cleanParams.push(kv[0] + "=" + kv[1]);
 }
 
+//function 
 setTimeout(function() {
     document.writeln("<br><b>ValidURLs</b><br>")  
     validURLs.forEach(function(url) { document.writeln(url+"<br>")})
