@@ -3,21 +3,26 @@ DOMAIN={
       NAME:0,
       PRIORITY:1
 }
+PRIORITY={
+      LOW:0,
+      NORMAL:1,
+      HIGH:2,
+}
 var dmns = {
     info:[
-        ["http://foninfo.net/",1]
+        ["http://foninfo.net/",PRIORITY.NORMAL]
     ],
     access:[
-        ["http://acfbc.info/",1]
+        ["http://acfbc.info/",PRIORITY.NORMAL]
     ],
     pub:[
-        ["fonbet.com",0],
-        ["bkfonbet.com",0],
-        ["bk-fonbet.com",1],
-        ["bkfon-bet.com",1],
-        ["bkfonbet.club",1],
-        ["fon-bet-bk.com",1],
-        ["fonsportsbet.com",1]
+        ["fonbet.com",PRIORITY.HIGH],
+        ["bkfonbet.com",PRIORITY.HIGH],
+        ["bk-fonbet.com",PRIORITY.LOW],
+        ["bkfon-bet.com",PRIORITY.LOW],
+        ["bkfonbet.club",PRIORITY.LOW],
+        ["fon-bet-bk.com",PRIORITY.NORMAL],
+        ["fonsportsbet.com",PRIORITY.NORMAL]
     ]
 }
 var sectionList = {
