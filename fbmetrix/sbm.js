@@ -148,7 +148,7 @@ if (testURLs.length > 0) {
 }
 
 var params=[];
-cosnsole.log(params);
+console.log(params);
 var currentURL=window.location.href;
 var destURL=sectionList[sectionName][localeLang];
 if (currentURL.indexOf("?")) {
@@ -160,7 +160,7 @@ if (destURL.indexOf("?")) {
 
 var ignoredParams = ["set_path_to"];
 var cleanParams   = [];
-cosnsole.log(params);
+console.log(params);
 for (var i in params) {
   var kv = params[i].split("=");
   //if set_path_to param present - append path to link path
