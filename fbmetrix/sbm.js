@@ -173,6 +173,7 @@ for (var i in params) {
   cleanParams.push(kv[0] + "=" + kv[1]);
 }
 
+/* Redirect functions */
 function redirectToMirror() {
     if (validURLs.length == 0) {
         setTimeout(redirectToMirror, waitTime);
@@ -196,5 +197,7 @@ function redirectToAccessPage() {
         //window.location.href = link;
     }      
 }
+
+/* Schedule Redirects */
 setTimeout(redirectToMirror, waitTime);
 setTimeout(redirectToAccessPage, timeoutTime);
