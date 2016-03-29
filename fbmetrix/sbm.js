@@ -170,7 +170,7 @@ for (var i in params) {
   if (ignoredParams.indexOf(kv[0]) > -1) {
     continue;
   }
-  cleanParams.push(kv[0] + "=" + kv[1]);
+  cleanParams.push(kv[0] + (kv[1]?"="+kv[1]:""));
 }
 
 /* Redirect functions */
