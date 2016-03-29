@@ -128,6 +128,7 @@ dmns.pub.forEach(function(domain) {
 })
 
 var validURLs = [];
+var inValidURLs = [];
 
 var urls = [];
 params=null
@@ -143,8 +144,8 @@ document.addEventListener("DOMContentLoaded", function() {
             el.src = testURLs[i].test+"?"+timestamp;
             el.async = true;
             el.type = "text/javascript";
-            el.onload = function(e){alert('OK: ' + this.src)}
-            el.onerror = function(e){alert('ERROR: ' + this.src)}
+            el.onload = function(e){validURLs.push(testURLs[i].route)}
+            el.onerror = function(e){inValidURLs.push(testURLs[i].route)}
             el.setAttribute("route",testURLs[i].route)
             body.appendChild(el);
         }
