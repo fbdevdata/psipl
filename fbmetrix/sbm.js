@@ -1,12 +1,12 @@
 /* Data Structures */
-DOMAIN={
-      NAME:0,
-      PRIORITY:1
-}
 PRIORITY={
       LOW:0,
       NORMAL:1,
       HIGH:2,
+}
+DOMAIN={
+      NAME:0,
+      PRIORITY:1
 }
 var dmns = {
     info:[
@@ -16,13 +16,14 @@ var dmns = {
         ["http://acfbc.info/",PRIORITY.NORMAL]
     ],
     pub:[
-        ["fonbet.com",PRIORITY.HIGH],
-        ["bkfonbet.com",PRIORITY.HIGH],
+        ["fonbet.com",PRIORITY.NORMAL],
+        ["bkfonbet.com",PRIORITY.NORMAL],
         ["bk-fonbet.com",PRIORITY.LOW],
         ["bkfon-bet.com",PRIORITY.LOW],
+        ["fon-bet-bk.com",PRIORITY.HIGH],
         ["bkfonbet.club",PRIORITY.LOW],
-        ["fon-bet-bk.com",PRIORITY.NORMAL],
-        ["fonsportsbet.com",PRIORITY.NORMAL]
+        ["fonsportsbet.com",PRIORITY.HIGH],
+        ["bk-fon-bet.com",PRIORITY.HIGH]
     ]
 }
 var sectionList = {
@@ -118,6 +119,7 @@ sectionName="mainPage";
 waitTime=3000;
 timeoutTime=10000;
 localeLang="ru"
+minPriority=PRIORITY.LOW;
 if (jsAttributes) {
       if (jsAttributes["section"]) 
             sectionName=jsAttributes["section"].textContent.toLowerCase();
@@ -125,6 +127,8 @@ if (jsAttributes) {
             waitTime=jsAttributes["wait"].textContent.toLowerCase();
       if (jsAttributes["locale"])
             localeLang=jsAttributes["locale"].textContent.toLowerCase();
+      if (jsAttributes["min_priority"])
+            minPriority=PRIORITY.LOW;=jsAttributes["min_priority"].textContent.toLowerCase();            
 }
 
 /* Append test scripts */
