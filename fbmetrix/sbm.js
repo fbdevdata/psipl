@@ -140,9 +140,10 @@ if (params !== null) {
 document.addEventListener("DOMContentLoaded", function() {
     if (testURLs.length > 0) {
         var body = document.getElementsByTagName("body")[0];
+        timestamp=new Date().getTime();
         for (var i in testURLs) {
             var el = document.createElement('script');
-            el.src = testURLs[i].test;
+            el.src = testURLs[i].test+"?"+timestamp;
             el.async = true;
             el.type = "text/javascript";
             el.setAttribute("route",testURLs[i].route)
