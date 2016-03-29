@@ -5,8 +5,11 @@ DOMAIN={
 }
 var dmns = {
     info:[
-        ["foninfo.net",1]
+        ["http://foninfo.net/",1]
     ],
+    access:[
+        ["http://acfbc.info/",1]
+    ]
     pub:[
         ["fonbet.com",0],
         ["bkfonbet.com",0],
@@ -108,6 +111,7 @@ for (var i in document.scripts) {
 
 sectionName="mainPage";
 waitTime=3000;
+timeoutTime=10000;
 localeLang="ru"
 if (jsAttributes) {
       if (jsAttributes["section"]) 
@@ -169,24 +173,28 @@ for (var i in params) {
   cleanParams.push(kv[0] + "=" + kv[1]);
 }
 
-//function 
-setTimeout(function() {
-    document.writeln("<br><b>ValidURLs</b><br>")  
-    validURLs.forEach(function(url) { document.writeln(url+"<br>")})
-    document.writeln("<br><b>InValidURLs</b><br>")  
-    inValidURLs.forEach(function(url) { document.writeln(url+"<br>")})
+function redirectToMirror() {
+    if (validURLs.length == 0) {
+        setTimeout(redirectToMirror, waitTime);
+        return;
+    }
 
-    document.writeln("<br><b>AccessibleRandomURL</b><br>")  
     var link = validURLs[Math.floor(Math.random() * validURLs.length)];
-    
     if (link.indexOf("?")) {
         link=link.split("?")[0];
     }
     if (cleanParams.length > 0) {
         link += "?" + cleanParams.join("&");
     }
+    document.writeln(link+"<br>");
+    //window.location.href = link;
+}
+function redirectToAccessPage() {
+    var link = dmns.access[Math.floor(Math.random() * dmns.access.length)][DOMAIN.NAME];
     if (link !== undefined) {
         document.writeln(link+"<br>")
         //window.location.href = link;
-    }
-}, waitTime);
+    }      
+}
+setTimeout(redirectToMirror, waitTime);
+setTimeout(redirectToAccessPage, timeoutTime);
