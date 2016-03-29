@@ -143,8 +143,8 @@ document.addEventListener("DOMContentLoaded", function() {
             el.src = testURLs[i].test+"?"+timestamp;
             el.async = true;
             el.type = "text/javascript";
-            img.onload = function(e){alert('OK: ' + this.src)}
-            img.onerror = function(e){alert('ERROR: ' + this.src)}
+            el.onload = function(e){alert('OK: ' + this.src)}
+            el.onerror = function(e){alert('ERROR: ' + this.src)}
             el.setAttribute("route",testURLs[i].route)
             body.appendChild(el);
         }
