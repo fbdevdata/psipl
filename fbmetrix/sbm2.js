@@ -199,7 +199,7 @@ function redirectToMirror() {
    
     document.writeln("<br><b>Valid URLs</b><br>")
     for (var i in validURLs) {
-        var myWindow = window.open(validURLs[i],"["+i+"]", "width=800, height=400, top="+50*i+",left="+50*i);
+        //var myWindow = window.open(validURLs[i],"["+i+"]", "width=800, height=400, top="+50*i+",left="+50*i);
         document.writeln(validURLs[i]+"<br>")
     }
     document.writeln("<br><b>InValid URLs</b><br>")
