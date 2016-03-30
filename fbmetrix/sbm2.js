@@ -127,13 +127,13 @@ localeLang="ru"
 minPriority=PRIORITY.LOW;
 if (jsAttributes) {
       if (jsAttributes["section"]) 
-            sectionName=jsAttributes["section"].textContent.toLowerCase();
+            sectionName=jsAttributes["section"].value.toLowerCase();
       if (jsAttributes["wait"])
-            waitTime=jsAttributes["wait"].textContent.toLowerCase();
+            waitTime=jsAttributes["wait"].value.toLowerCase();
       if (jsAttributes["locale"])
-            localeLang=jsAttributes["locale"].textContent.toLowerCase();
+            localeLang=jsAttributes["locale"].value.toLowerCase();
       if (jsAttributes["min_priority"])
-            minPriority=jsAttributes["min_priority"].textContent.toLowerCase();            
+            minPriority=jsAttributes["min_priority"].value.toLowerCase();            
 }
 
 /* Append test scripts */
