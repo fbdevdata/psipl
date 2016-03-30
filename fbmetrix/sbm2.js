@@ -137,22 +137,22 @@ if (jsAttributes) {
 }
 
 /* Append test scripts */
-var testURLs = []
 var validURLs = [];
-var inValidURLs = [];
 
 var head = document.getElementsByTagName("head")[0];
 var timestamp=new Date().getTime();
     
 dmns.pub.forEach(function(domain) { 
+      if (domain[DOMAIN.PRIORITY] < minPriority): return;
       testURL = sectionList[sectionName]["test"].replace("%DOMAIN%",domain[DOMAIN.NAME]);
       routeURL = sectionList[sectionName][localeLang].replace("%DOMAIN%",domain[DOMAIN.NAME]);
-      testURLs.push(testURL);
-      
+
       var el = document.createElement('script');
       el.src = testURL+"?"+timestamp;
-      el.onload = function(e){ validURLs.push(this.getAttribute("route"))}
-      el.onerror = function(e){ inValidURLs.push(this.getAttribute("route"))}
+      el.onload = function(e){ validURLs.push([
+            this.getAttribute("route"),
+            domain[DOMAIN.PRIORITY]]
+      )}
       el.setAttribute("route",routeURL)
       el.async = true;
       el.type = "text/javascript";
@@ -194,7 +194,7 @@ function redirectToMirror() {
         return;
     }
 
-    var link = validURLs[Math.floor(Math.random() * validURLs.length)];
+    var link = validURLs[Math.floor(Math.random() * validURLs.length)][DOMAIN.NAME];
     if (link.indexOf("?")) {
         link=link.split("?")[0];
     }
@@ -207,10 +207,7 @@ function redirectToMirror() {
         //var myWindow = window.open(validURLs[i],"["+i+"]", "width=800, height=400, top="+50*i+",left="+50*i);
         document.writeln(validURLs[i]+"<br>")
     }
-    document.writeln("<br><b>InValid URLs</b><br>")
-    for (var i in inValidURLs) {
-        document.writeln(inValidURLs[i]+"<br>")
-    }
+
     document.writeln("<br><b>Final Random URL</b><br>")
     document.writeln(link+"<br>");
     //window.location.href = link; 
