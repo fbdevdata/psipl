@@ -27,6 +27,11 @@ var dmns = {
     ]
 }
 var sectionList = {
+  www: {
+    ru: "http://www.%DOMAIN%/ru",
+    en: "http://www.%DOMAIN%/en",
+    test: "http://www.%DOMAIN%/test_object.js"
+  },
   mainPage: {
     ru: "http://%DOMAIN%/ru",
     en: "http://%DOMAIN%/en",
