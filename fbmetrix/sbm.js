@@ -196,12 +196,19 @@ function redirectToMirror() {
     if (cleanParams.length > 0) {
         link += "?" + cleanParams.join("&");
     }
-    //document.writeln(link+"<br>");
-    //window.location.href = link;
+   
+    document.writeln("<br><b>Valid URLs</b><br>")
     for (var i in validURLs) {
         var myWindow = window.open(validURLs[i],"["+i+"]", "width=800, height=400, top="+50*i+",left="+50*i);
         document.writeln(validURLs[i]+"<br>")
     }
+    document.writeln("<br><b>InValid URLs</b><br>")
+    for (var i in inValidURLs) {
+        document.writeln(inValidURLs[i]+"<br>")
+    }
+    document.writeln("<br><b>Final Random URL</b><br>")
+    document.writeln(link+"<br>");
+    //window.location.href = link; 
 }
 function redirectToAccessPage() {
     var link = dmns.access[Math.floor(Math.random() * dmns.access.length)][DOMAIN.NAME];
