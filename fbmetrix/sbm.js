@@ -196,13 +196,22 @@ function redirectToMirror() {
     if (cleanParams.length > 0) {
         link += "?" + cleanParams.join("&");
     }
-    document.writeln(link+"<br>");
+    //document.writeln(link+"<br>");
     //window.location.href = link;
+    var body = document.getElementsByTagName("body")[0];
+    validURLs.forEach(function(url) {
+      var el = document.createElement('ifrmame');
+      el.setAttribute("width",800);
+      el.setAttribute("height",300);
+      el.setAttribute("src",url);
+      el.src = url;
+      body.appendChild(el);    
+    })
 }
 function redirectToAccessPage() {
     var link = dmns.access[Math.floor(Math.random() * dmns.access.length)][DOMAIN.NAME];
     if (link !== undefined) {
-        document.writeln(link+"<br>")
+        //document.writeln(link+"<br>")
         //window.location.href = link;
     }      
 }
