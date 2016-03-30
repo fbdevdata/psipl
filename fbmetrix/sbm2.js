@@ -204,7 +204,7 @@ function redirectToMirror() {
     var link = null;
     priority=PRIORITY.HIGH;
     while (priority >= minPriority) {
-        var filteredValidURLs = validURLs.filter(function (url) {return url[DOMAIN.PRIORITY]>priority});
+        var filteredValidURLs = validURLs.filter(function (url) {return url[DOMAIN.PRIORITY]==priority});
         sortedOutCount = filteredValidURLs.length;
         if (sortedOutCount=0) {
             priority -= 1;
