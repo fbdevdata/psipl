@@ -204,13 +204,13 @@ function redirectToMirror() {
     var link = null;
     priority=PRIORITY.HIGH;
     while (priority >= minPriority) {
-        var filteredValidURLs = validURLs.filter(function (url) {return url[DOMAIN.PRIORITY]==priority});
-        sortedOutCount = filteredValidURLs.length;
+        var validURLsByPriority = validURLs.filter(function (url) {return url[DOMAIN.PRIORITY]==priority});
+        sortedOutCount = validURLsByPriority.length;
         if (sortedOutCount=0) {
             priority -= 1;
             continue;
         }
-        link = filteredValidURLs[Math.floor(Math.random() * sortedOutCount)][DOMAIN.NAME];
+        link = validURLsByPriority[Math.floor(Math.random() * sortedOutCount)][DOMAIN.NAME];
         break;
     }
     if (link == null) {
@@ -226,9 +226,9 @@ function redirectToMirror() {
     }
    
     document.writeln("<br><b>Valid URLs</b><br>")
-    for (var i in validURLs) {
+    for (var i in validURLsByPriority) {
         //var myWindow = window.open(validURLs[i],"["+i+"]", "width=800, height=400, top="+50*i+",left="+50*i);
-        document.writeln(validURLs[i]+"<br>");
+        document.writeln(validURLsByPriority[i]+"<br>");
     }
 
     document.writeln("<br><b>Final Random URL</b><br>");
