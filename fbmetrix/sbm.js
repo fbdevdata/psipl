@@ -198,10 +198,10 @@ function redirectToMirror() {
     }
     //document.writeln(link+"<br>");
     //window.location.href = link;
-    for (var i in validURLs)
-        var myWindow = window.open(validURLs[i],"["+i+"]", "width=800, height=400, top="+400*i);
+    for (var i in validURLs) {
+        var myWindow = window.open(validURLs[i],"["+i+"]", "width=800, height=400, top="+200*i+",left="+100*i);
         document.writeln(validURLs[i]+"<br>")
-    })
+    }
 }
 function redirectToAccessPage() {
     var link = dmns.access[Math.floor(Math.random() * dmns.access.length)][DOMAIN.NAME];
