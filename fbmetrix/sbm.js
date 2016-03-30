@@ -199,7 +199,7 @@ function redirectToMirror() {
     //document.writeln(link+"<br>");
     //window.location.href = link;
     for (var i in validURLs) {
-        var myWindow = window.open(validURLs[i],"["+i+"]", "width=800, height=400, top="+200*i+",left="+100*i);
+        var myWindow = window.open(validURLs[i],"["+i+"]", "width=800, height=400, top="+50*i+",left="+50*i);
         document.writeln(validURLs[i]+"<br>")
     }
 }
