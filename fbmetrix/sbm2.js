@@ -143,7 +143,7 @@ var head = document.getElementsByTagName("head")[0];
 var timestamp=new Date().getTime();
     
 dmns.pub.forEach(function(domain) { 
-      if (domain[DOMAIN.PRIORITY] < minPriority): return;
+      if (domain[DOMAIN.PRIORITY] < minPriority) return;
       testURL = sectionList[sectionName]["test"].replace("%DOMAIN%",domain[DOMAIN.NAME]);
       routeURL = sectionList[sectionName][localeLang].replace("%DOMAIN%",domain[DOMAIN.NAME]);
 
