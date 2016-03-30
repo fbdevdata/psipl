@@ -198,9 +198,9 @@ function redirectToMirror() {
     }
     //document.writeln(link+"<br>");
     //window.location.href = link;
-    var body = document.getElementsByTagName("body")[0];
-    validURLs.forEach(function(url) {
-      document.writeln("<ifrmame width='800' height='300' src='"+url+"'></ifrmame>")
+    for (var i in validURLs)
+        var myWindow = window.open(validURLs[i],"["+i+"]", "width=800, height=400, top="+400*i);
+        document.writeln(validURLs[i]+"<br>")
     })
 }
 function redirectToAccessPage() {
