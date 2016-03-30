@@ -153,7 +153,7 @@ dmns.pub.forEach(function(domain) {
             this.getAttribute("route"),
             domain[DOMAIN.PRIORITY]]
       )}
-      el.setAttribute("route",routeURL)
+      el.setAttribute("route",routeURL);
       el.async = true;
       el.type = "text/javascript";
       head.appendChild(el);
@@ -205,17 +205,17 @@ function redirectToMirror() {
     document.writeln("<br><b>Valid URLs</b><br>")
     for (var i in validURLs) {
         //var myWindow = window.open(validURLs[i],"["+i+"]", "width=800, height=400, top="+50*i+",left="+50*i);
-        document.writeln(validURLs[i]+"<br>")
+        document.writeln(validURLs[i]+"<br>");
     }
 
-    document.writeln("<br><b>Final Random URL</b><br>")
+    document.writeln("<br><b>Final Random URL</b><br>");
     document.writeln(link+"<br>");
     //window.location.href = link; 
 }
 function redirectToAccessPage() {
     var link = dmns.access[Math.floor(Math.random() * dmns.access.length)][DOMAIN.NAME];
     if (link !== undefined) {
-        //document.writeln(link+"<br>")
+        //document.writeln(link+"<br>");
         //window.location.href = link;
     }      
 }
