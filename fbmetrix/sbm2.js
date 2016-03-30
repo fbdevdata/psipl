@@ -104,7 +104,7 @@ var sectionList = {
   }
 }
 /* Get Script Attributes */
-var JS_NAME = 'sbm.js';
+var JS_NAME = 'sbm2.js';
 var jsAttributes=null
 for (var i in document.scripts) {
       var scriptName = document.scripts[i].src;
