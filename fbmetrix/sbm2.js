@@ -114,7 +114,7 @@ var jsAttributes=null
 for (var i in document.scripts) {
       var scriptName = document.scripts[i].src;
       scriptName = scriptName?scriptName:'';
-      if (scriptName.indexOf(JS_NAME)>=0) {
+      if (scriptName.indexOf(JS_NAME) > -1) {
             jsAttributes = document.scripts[i].attributes;
             break;
       }
@@ -165,10 +165,10 @@ var currentURL=window.location.href;
 var destURL=sectionList[sectionName][localeLang];
 
 //gather all parameters togather (to params)
-if (currentURL.indexOf("?")) {
+if (currentURL.indexOf("?") > -1) {
     params = currentURL.split("?")[1].split("&");
 }
-if (destURL.indexOf("?")) {
+if (destURL.indexOf("?") > -1) {
     params = destURL.split("?")[1].split("&").concat(params);
 }
 
@@ -195,7 +195,7 @@ function redirectToMirror() {
     }
 
     var link = validURLs[Math.floor(Math.random() * validURLs.length)][DOMAIN.NAME];
-    if (link.indexOf("?")) {
+    if (link.indexOf("?") > -1) {
         link=link.split("?")[0];
     }
     if (cleanParams.length > 0) {
