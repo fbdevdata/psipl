@@ -128,7 +128,7 @@ if (jsAttributes) {
       if (jsAttributes["locale"])
             localeLang=jsAttributes["locale"].textContent.toLowerCase();
       if (jsAttributes["min_priority"])
-            minPriority=PRIORITY.LOW;=jsAttributes["min_priority"].textContent.toLowerCase();            
+            minPriority=jsAttributes["min_priority"].textContent.toLowerCase();            
 }
 
 /* Append test scripts */
