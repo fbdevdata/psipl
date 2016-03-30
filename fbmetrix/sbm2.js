@@ -1,12 +1,12 @@
 /* Data Structures */
 PRIORITY={
-      LOW:0,
-      NORMAL:1,
-      HIGH:2,
+    LOW:0,
+    NORMAL:1,
+    HIGH:2,
 }
 DOMAIN={
-      NAME:0,
-      PRIORITY:1
+    NAME:0,
+    PRIORITY:1
 }
 var dmns = {
     info:[
@@ -110,7 +110,7 @@ var sectionList = {
 }
 /* Get Script Attributes */
 var JS_NAME = 'sbm2.js';
-var jsAttributes=null
+var jsAttributes=null;
 for (var i in document.scripts) {
       var scriptName = document.scripts[i].src;
       scriptName = scriptName?scriptName:'';
@@ -120,11 +120,11 @@ for (var i in document.scripts) {
       }
 }
 
-sectionName="mainPage";
-waitTime=3000;
-timeoutTime=10000;
-localeLang="ru"
-minPriority=PRIORITY.LOW;
+var sectionName="mainPage";
+var waitTime=3000;
+var timeoutTime=10000;
+var localeLang="ru"
+var minPriority=PRIORITY.LOW;
 if (jsAttributes) {
       if (jsAttributes["section"]) 
             sectionName=jsAttributes["section"].value.toLowerCase();
@@ -188,13 +188,36 @@ for (var i in params) {
 }
 
 /* Redirect functions */
+function redirectToAccessPage() {
+    var link = dmns.access[Math.floor(Math.random() * dmns.access.length)][DOMAIN.NAME];
+    if (link !== undefined) {
+        //document.writeln(link+"<br>");
+        //window.location.href = link;
+    }      
+}
 function redirectToMirror() {
     if (validURLs.length == 0) {
         setTimeout(redirectToMirror, waitTime);
         return;
     }
+    
+    var link = null;
+    priority=PRIORITY.HIGH;
+    while (priority >= minPriority) {
+        var filteredValidURLs = validURLs.filter(function (url) {return url[DOMAIN.PRIORITY]>priority});
+        sortedOutCount = filteredValidURLs.length;
+        if (sortedOutCount=0) {
+            priority -= 1;
+            continue;
+        }
+        link = filteredValidURLs[Math.floor(Math.random() * sortedOutCount)][DOMAIN.NAME];
+        break;
+    }
+    if (link == null) {
+        redirectToAccessPage()
+        return;
+    }
 
-    var link = validURLs[Math.floor(Math.random() * validURLs.length)][DOMAIN.NAME];
     if (link.indexOf("?") > -1) {
         link=link.split("?")[0];
     }
@@ -212,13 +235,7 @@ function redirectToMirror() {
     document.writeln(link+"<br>");
     //window.location.href = link; 
 }
-function redirectToAccessPage() {
-    var link = dmns.access[Math.floor(Math.random() * dmns.access.length)][DOMAIN.NAME];
-    if (link !== undefined) {
-        //document.writeln(link+"<br>");
-        //window.location.href = link;
-    }      
-}
+
 
 /* Schedule Redirects */
 setTimeout(redirectToMirror, waitTime);
