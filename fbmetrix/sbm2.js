@@ -197,8 +197,8 @@ for (var i in params) {
 function redirectToAccessPage() {
     var link = dmns.access[Math.floor(Math.random() * dmns.access.length)][DOMAIN.NAME];
     if (link !== undefined) {
-        //document.writeln(link+"<br>");
-        window.location.href = link;
+        document.writeln(link+"<br>");
+        //window.location.href = link;
     }      
 }
 function redirectToMirror() {
@@ -230,7 +230,7 @@ function redirectToMirror() {
     if (cleanParams.length > 0) {
         link += "?" + cleanParams.join("&");
     }
-    /*
+    
     document.writeln("<br><b>Valid URLs</b><br>")
     for (var i in validURLsByPriority) {
         //var myWindow = window.open(validURLs[i],"["+i+"]", "width=800, height=400, top="+50*i+",left="+50*i);
@@ -240,8 +240,8 @@ function redirectToMirror() {
     document.writeln("<br><b>Final Random URL</b><br>");
     
     document.writeln(link+"<br>");
-    */
-    window.location.href = link; 
+    
+    //window.location.href = link; 
 }
 
 
