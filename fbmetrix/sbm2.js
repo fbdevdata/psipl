@@ -138,7 +138,7 @@ if (jsAttributes) {
       if (jsAttributes["min_priority"])
             minPriority=jsAttributes["min_priority"].value.toLowerCase();            
       if (jsAttributes["max_priority"])
-            minPriority=jsAttributes["max_priority"].value.toLowerCase();            
+            maxPriority=jsAttributes["max_priority"].value.toLowerCase();            
 }
 
 /* Append test scripts */
