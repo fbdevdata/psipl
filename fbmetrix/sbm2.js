@@ -3,8 +3,8 @@ PRIORITY={
     VERY_LOW:0,
     LOW:1,
     NORMAL:2,
-    HIGH:3
-    VERY_HIGH:4,
+    HIGH:3,
+    VERY_HIGH:4
 }
 DOMAIN={
     NAME:0,
