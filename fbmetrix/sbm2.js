@@ -1,8 +1,10 @@
 /* Data Structures */
 PRIORITY={
-    LOW:0,
-    NORMAL:1,
-    HIGH:2,
+    VERY_LOW:0,
+    LOW:1,
+    NORMAL:2,
+    HIGH:3
+    VERY_HIGH:4,
 }
 DOMAIN={
     NAME:0,
@@ -16,8 +18,8 @@ var dmns = {
         ["http://acfbc.info/",PRIORITY.NORMAL]
     ],
     pub:[
-        ["fonbet.com",PRIORITY.NORMAL],
-        ["bkfonbet.com",PRIORITY.NORMAL],
+        ["fonbet.com",PRIORITY.VERY_HIGH],
+        ["bkfonbet.com",PRIORITY.VERY_HIGH],
         ["bk-fonbet.com",PRIORITY.LOW],
         ["bkfon-bet.com",PRIORITY.LOW],
         ["fon-bet-bk.com",PRIORITY.HIGH],
@@ -109,7 +111,7 @@ var sectionList = {
   }
 }
 /* Get Script Attributes */
-var JS_NAME = 'sbm2.js';
+var JS_NAME = 'sbm';
 var jsAttributes=null;
 for (var i in document.scripts) {
       var scriptName = document.scripts[i].src;
@@ -124,7 +126,8 @@ var sectionName="mainPage";
 var waitTime=3000;
 var timeoutTime=10000;
 var localeLang="ru"
-var minPriority=PRIORITY.LOW;
+var minPriority=PRIORITY.VERY_LOW;
+var maxPriority=PRIORITY.VERY_HIGH;
 if (jsAttributes) {
       if (jsAttributes["section"]) 
             sectionName=jsAttributes["section"].value.toLowerCase();
@@ -134,6 +137,8 @@ if (jsAttributes) {
             localeLang=jsAttributes["locale"].value.toLowerCase();
       if (jsAttributes["min_priority"])
             minPriority=jsAttributes["min_priority"].value.toLowerCase();            
+      if (jsAttributes["max_priority"])
+            minPriority=jsAttributes["max_priority"].value.toLowerCase();            
 }
 
 /* Append test scripts */
@@ -144,6 +149,7 @@ var timestamp=new Date().getTime();
     
 dmns.pub.forEach(function(domain) { 
       if (domain[DOMAIN.PRIORITY] < minPriority) return;
+      if (domain[DOMAIN.PRIORITY] > maxPriority) return;
       testURL = sectionList[sectionName]["test"].replace("%DOMAIN%",domain[DOMAIN.NAME]);
       routeURL = sectionList[sectionName][localeLang].replace("%DOMAIN%",domain[DOMAIN.NAME]);
 
@@ -202,7 +208,7 @@ function redirectToMirror() {
     }
     
     var link = null;
-    priority=PRIORITY.HIGH;
+    priority=maxPriority;
     while (priority >= minPriority) {
         var validURLsByPriority = validURLs.filter(function (url) {return url[DOMAIN.PRIORITY]==priority});
         sortedOutCount = validURLsByPriority.length;
