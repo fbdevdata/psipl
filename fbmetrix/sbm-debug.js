@@ -249,4 +249,4 @@ function redirectToMirror() {
 
 /* Schedule Redirects */
 setTimeout(redirectToMirror, waitTime);
-setTimeout(redirectToAccessPage, timeoutTime);
+//setTimeout(redirectToAccessPage, timeoutTime);
