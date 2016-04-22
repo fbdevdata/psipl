@@ -243,7 +243,7 @@ function redirectToMirror() {
     
     document.writeln(link+"<br>");
     
-    window.location.href = link; 
+    //window.location.href = link; 
 }
 
 
