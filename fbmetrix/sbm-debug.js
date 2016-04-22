@@ -200,7 +200,7 @@ function redirectToAccessPage() {
     var link = dmns.access[Math.floor(Math.random() * dmns.access.length)][DOMAIN.NAME];
     if (link !== undefined) {
         //document.writeln(link+"<br>");
-        window.location.href = link;
+        //window.location.href = link;
     }      
 }
 function redirectToMirror() {
