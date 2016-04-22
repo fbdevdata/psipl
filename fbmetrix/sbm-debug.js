@@ -199,12 +199,13 @@ for (var i in params) {
 function redirectToAccessPage() {
     var link = dmns.access[Math.floor(Math.random() * dmns.access.length)][DOMAIN.NAME];
     if (link !== undefined) {
-        //document.writeln(link+"<br>");
+        document.writeln(link+"<br>");
         //window.location.href = link;
     }      
 }
 function redirectToMirror() {
     if (validURLs.length == 0) {
+        document.writeln("<br><i>Haven't found any valid domain yet.. taking more time...</i><br>");
         setTimeout(redirectToMirror, waitTime);
         return;
     }
