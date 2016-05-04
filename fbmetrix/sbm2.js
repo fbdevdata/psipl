@@ -22,21 +22,23 @@ var dmns = {
         ["bkfonbet.com",PRIORITY.VERY_HIGH],
         ["bk-fonbet.com",PRIORITY.LOW],
         ["bkfon-bet.com",PRIORITY.LOW],
-        ["fon-bet-bk.com",PRIORITY.HIGH],
+        ["fon-bet-bk.com",PRIORITY.LOW],
         ["bkfonbet.club",PRIORITY.LOW],
-        ["fonsportsbet.com",PRIORITY.HIGH],
-        ["bk-fon-bet.com",PRIORITY.HIGH]
+        ["fonsportsbet.com",PRIORITY.LOW],
+        ["bk-fon-bet.com",PRIORITY.LOW],
+        ["fonsportbets.com",PRIORITY.HIGH],
+        ["fon-sportsbet.com",PRIORITY.HIGH]
     ]
 }
 var sectionList = {
   www: {
-    ru: "http://www.%DOMAIN%/ru",
-    en: "http://www.%DOMAIN%/en",
+    ru: "http://www.%DOMAIN%/ru/",
+    en: "http://www.%DOMAIN%/en/",
     test: "http://www.%DOMAIN%/test_object.js"
   },
-  mainPage: {
-    ru: "http://%DOMAIN%/ru",
-    en: "http://%DOMAIN%/en",
+  mainpage: {
+    ru: "http://%DOMAIN%/ru/",
+    en: "http://%DOMAIN%/en/",
     test: "http://%DOMAIN%/test_object.js"
   },
   registration: {
@@ -44,24 +46,24 @@ var sectionList = {
     en: "https://reg.%DOMAIN%/users/en/registration.html",
     test: "https://reg.%DOMAIN%/users/test_object.js"
   },
-  lostPass: {
+  lostpass: {
     ru: "https://reg.%DOMAIN%/users/ru/lostpass.html",
     en: "https://reg.%DOMAIN%/users/en/lostpass.html",
     test: "https://reg.%DOMAIN%/users/test_object.js"
   },
   rules: {
-    ru: "http://%DOMAIN%/ru/rules",
-    en: "http://%DOMAIN%/en/rules-en",
+    ru: "http://%DOMAIN%/ru/rules/",
+    en: "http://%DOMAIN%/en/rules-en/",
     test: "http://%DOMAIN%/test_object.js"
   },
   mobile: {
-    ru: "http://%DOMAIN%/ru/mobi",
-    en: "http://%DOMAIN%/en/mobile-en",
+    ru: "http://%DOMAIN%/ru/mobi/",
+    en: "http://%DOMAIN%/en/mobile-en/",
     test: "http://%DOMAIN%/test_object.js"
   },
   winclient: {
-    ru: "http://%DOMAIN%/ru/winclient",
-    en: "http://%DOMAIN%/en/winclient-en",
+    ru: "http://%DOMAIN%/ru/winclient/",
+    en: "http://%DOMAIN%/en/winclient-en/",
     test: "http://%DOMAIN%/test_object.js"
   },
   myaccount: {
@@ -70,8 +72,8 @@ var sectionList = {
     test: "https://account.%DOMAIN%/MyAccount/test_object.js"
   },
   payments: {
-    ru: "http://%DOMAIN%/ru/payments",
-    en: "http://%DOMAIN%/en/payments-eng",
+    ru: "http://%DOMAIN%/ru/payments/",
+    en: "http://%DOMAIN%/en/payments-eng/",
     test: "http://%DOMAIN%/test_object.js"
   },
   results: {
@@ -122,12 +124,14 @@ for (var i in document.scripts) {
       }
 }
 
-var sectionName="mainPage";
+var sectionName="mainpage";
 var waitTime=3000;
 var timeoutTime=10000;
 var localeLang="ru"
 var minPriority=PRIORITY.VERY_LOW;
 var maxPriority=PRIORITY.VERY_HIGH;
+var auxPath="";
+
 if (jsAttributes) {
       if (jsAttributes["section"]) 
             sectionName=jsAttributes["section"].value.toLowerCase();
@@ -185,7 +189,7 @@ for (var i in params) {
   var kv = params[i].split("=");
   //if set_path_to param present - append path to link path
   if (kv[0] == "set_path_to") {
-    link += kv[1];
+    auxPath = kv[1];
   }
   if (ignoredParams.indexOf(kv[0]) > -1) {
     continue;
@@ -227,6 +231,7 @@ function redirectToMirror() {
     if (link.indexOf("?") > -1) {
         link=link.split("?")[0];
     }
+    link += auxPath;
     if (cleanParams.length > 0) {
         link += "?" + cleanParams.join("&");
     }
