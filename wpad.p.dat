@@ -10,7 +10,7 @@ function FindProxyForURL(url, host) {
     debugPAC +="Plain Hostname: " + plainHost + "\n";
     debugPAC +="Domain Levels: " + dnsDomainLevels(host) + "\n";
     debugPAC +="URL: " + url + "\n";
-    console.log("PAC:"+debugPAC);
+    if (!shExpMatch(url,"*.(js|xml|ico|gif|png|jpg|jpeg|css|swf)*")) {alert(debugPAC);}
 	if (
 		(host == "fonbet.com") || dnsDomainIs(host, ".fonbet.com") ||
 		(host == "bkfonbet.com") || dnsDomainIs(host, ".bkfonbet.com")
