@@ -1,4 +1,4 @@
-service;ip/domain;comment;ban
+#service;ip/domain;comment;ban
 fbps01;188.42.137.188;;
 fbps01;185.82.210.0;;
 fbps01;185.82.210.1;;
