@@ -1,18 +1,6 @@
 function FindProxyForURL(url, host) {
-    debugPAC ="PAC Debug Information\n";
-    debugPAC +="-----------------------------------\n";
-    debugPAC +="Machine IP: " + myIpAddress() + "\n";
-    debugPAC +="Hostname: " + host + "\n";
-    if (isResolvable(host)) {resolvableHost = "True"} else {resolvableHost = "False"};
-    debugPAC +="Host Resolvable: " + resolvableHost + "\n";
-    debugPAC +="Hostname IP: " + dnsResolve(host) + "\n";
-    if (isPlainHostName(host)) {plainHost = "True"} else {plainHost = "False"};
-    debugPAC +="Plain Hostname: " + plainHost + "\n";
-    debugPAC +="Domain Levels: " + dnsDomainLevels(host) + "\n";
-    debugPAC +="URL: " + url + "\n";
-    if (!shExpMatch(url,"*.(js|xml|ico|gif|png|jpg|jpeg|css|swf)*")) {alert(debugPAC);}
 	if (
-		(host == "fonbet.com") || dnsDomainIs(host, ".fonbet.com") ||
+		(host == "2ip.ru") || (host == "fonbet.com") || dnsDomainIs(host, ".fonbet.com") ||
 		(host == "bkfonbet.com") || dnsDomainIs(host, ".bkfonbet.com")
 	) {
 		var proxies = [
@@ -40,7 +28,6 @@ function FindProxyForURL(url, host) {
 			result += proxiesRnd.shift()+"; ";
 		}
 		result += "DIRECT";
-		console.log("PAC:"+result);
 		return result;
 	}
 	return "DIRECT";
