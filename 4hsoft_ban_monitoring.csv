@@ -1,4 +1,4 @@
-#server/service;ip/domain
+#server/service;check_link
 mobile_clients_connection;https://m.fbappdn.com:9444/showToto
 mobile_clients_connection;https://m1.fbappdn.com:9444/showToto
 mobile_clients_connection;https://m2.fbappdn.com:9444/showToto
