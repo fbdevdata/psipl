@@ -1,4 +1,4 @@
-#service;url;validate;service_caption;host_caption
+# service;url;validate;service_caption;host_caption
 mobile_clients_connection;https://m.fbappdn.com:9444/showToto;http/json;Подключение мобильных клиентов;
 mobile_clients_connection;https://m1.fbappdn.com:9444/showToto;http/json;Подключение мобильных клиентов;
 mobile_clients_connection;https://m2.fbappdn.com:9444/showToto;http/json;Подключение мобильных клиентов;
