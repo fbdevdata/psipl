@@ -2,27 +2,27 @@
 mobile_clients_connection;https://m.fbappdn.com:9444/showToto;http/json;Подключение мобильных клиентов;
 mobile_clients_connection;https://m1.fbappdn.com:9444/showToto;http/json;Подключение мобильных клиентов;
 mobile_clients_connection;https://m2.fbappdn.com:9444/showToto;http/json;Подключение мобильных клиентов;
-android_client_proxy_list;http://androiddevdata.github.io/psipl/an.json;http/json;Список прокси для мобильных клиентов Andriod;
-ios_client_proxy_list;http://fbdevdata.github.io/psipl/mps_v2.json;http/json;Список прокси для мобильных клиентов iOS;
-jme_client_proxy_list;http://fbdevdata.github.io/psipl/jme.list;http;Список прокси для мобильных клиентов jme;
-jme_client_proxy_list;https://jmedevdata.github.io/psipl/jme.list;http;Список прокси для мобильных клиентов jme;
-android_cipl_[fbandroid01];4f988ef7c9e3da176a.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;
-android_cipl_[fbandroid02];455f21cce6198b4db5.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;
-android_cipl_[fbandroid03];e82f1e5a1ff3e40dc4.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;
-android_cipl_[fbandroid04];744af4203480f135bc.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;
-android_cipl_[fbandroid05];f6cbc803166a50544c.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;
-android_cipl_[fbandroid06];70906527caf0430799.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;
-android_cipl_[fbandroid07];d2a374eed8a8601b43.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;
-android_cipl_[fbandroid08];8f09557122d4b6e63c.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;
-android_cipl_[fbandroid09];e2c8ae784c802e90ba.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;
-android_cipl_[fbandroid10];c73e93f0db2e0e849e.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;
-ios_cipl_[fbios01];5c8dae8d0599e3068dea.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;
-ios_cipl_[fbios02];fbc4450c7966fc6d37db.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;
-ios_cipl_[fbios03];12b46d995a4826939a43.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;
-ios_cipl_[fbios04];68e652faf7b597e9a597.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;
-ios_cipl_[fbios05];774f86f83842299b2104.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;
-ios_cipl_[fbios06];da42ea8654970a24c063.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;
-ios_cipl_[fbios07];89f62ba47ab96535b03e.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;
-ios_cipl_[fbios08];1907f73a166077fb3f11.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;
-ios_cipl_[fbios09];b260f1ce6df31b3a1b98.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;
-ios_cipl_[fbios10];896f69826523155d1755.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;
+android_client_proxy_list;http://androiddevdata.github.io/psipl/an.json;http/json/iplist;Список прокси для мобильных клиентов Andriod;
+ios_client_proxy_list;http://fbdevdata.github.io/psipl/mps_v2.json;http/json/iplist;Список прокси для мобильных клиентов iOS;
+jme_client_proxy_list;http://fbdevdata.github.io/psipl/jme.list;http/iplist;Список прокси для мобильных клиентов jme;
+jme_client_proxy_list;https://jmedevdata.github.io/psipl/jme.list;http/iplist;Список прокси для мобильных клиентов jme;
+android_cipl;4f988ef7c9e3da176a.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbandroid01
+android_cipl;455f21cce6198b4db5.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbandroid02
+android_cipl;e82f1e5a1ff3e40dc4.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbandroid03
+android_cipl;744af4203480f135bc.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbandroid04
+android_cipl;f6cbc803166a50544c.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbandroid05
+android_cipl;70906527caf0430799.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbandroid06
+android_cipl;d2a374eed8a8601b43.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbandroid07
+android_cipl;8f09557122d4b6e63c.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbandroid08
+android_cipl;e2c8ae784c802e90ba.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbandroid09
+android_cipl;c73e93f0db2e0e849e.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbandroid10
+ios_cipl;5c8dae8d0599e3068dea.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbios01
+ios_cipl;fbc4450c7966fc6d37db.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbios02
+ios_cipl;12b46d995a4826939a43.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbios03
+ios_cipl;68e652faf7b597e9a597.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbios04
+ios_cipl;774f86f83842299b2104.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbios05
+ios_cipl;da42ea8654970a24c063.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbios06
+ios_cipl;89f62ba47ab96535b03e.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbios07
+ios_cipl;1907f73a166077fb3f11.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbios08
+ios_cipl;b260f1ce6df31b3a1b98.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbios09
+ios_cipl;896f69826523155d1755.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbios10
