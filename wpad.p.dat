@@ -4,8 +4,7 @@ function FindProxyForURL(url, host) {
 		(host == "bkfonbet.com") || dnsDomainIs(host, ".bkfonbet.com")
 	) {
 		var proxies = [
-			"SOCKS 185.82.210.8:1080",
-			"SOCKS 185.82.210.238:1080"
+			"SOCKS 185.82.210.8:1080"
 		];
 		var maxProxies = Math.min(proxies.length, 3);
 		function shuffle(array) {
