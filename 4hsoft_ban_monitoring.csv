@@ -6,23 +6,48 @@ android_client_proxy_list;http://androiddevdata.github.io/psipl/an.json;http/jso
 ios_client_proxy_list;http://fbdevdata.github.io/psipl/mps_v2.json;http/json/iplist;Список прокси для мобильных клиентов iOS;
 jme_client_proxy_list;http://fbdevdata.github.io/psipl/jme.list;http/iplist;Список прокси для мобильных клиентов jme;
 jme_client_proxy_list;https://jmedevdata.github.io/psipl/jme.list;http/iplist;Список прокси для мобильных клиентов jme;
-android_cipl;4f988ef7c9e3da176a.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbandroid01
-android_cipl;455f21cce6198b4db5.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbandroid02
-android_cipl;e82f1e5a1ff3e40dc4.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbandroid03
-android_cipl;744af4203480f135bc.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbandroid04
-android_cipl;f6cbc803166a50544c.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbandroid05
-android_cipl;70906527caf0430799.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbandroid06
-android_cipl;d2a374eed8a8601b43.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbandroid07
-android_cipl;8f09557122d4b6e63c.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbandroid08
-android_cipl;e2c8ae784c802e90ba.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbandroid09
-android_cipl;c73e93f0db2e0e849e.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbandroid10
-ios_cipl;5c8dae8d0599e3068dea.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbios01
-ios_cipl;fbc4450c7966fc6d37db.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbios02
-ios_cipl;12b46d995a4826939a43.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbios03
-ios_cipl;68e652faf7b597e9a597.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbios04
-ios_cipl;774f86f83842299b2104.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbios05
-ios_cipl;da42ea8654970a24c063.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbios06
-ios_cipl;89f62ba47ab96535b03e.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbios07
-ios_cipl;1907f73a166077fb3f11.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbios08
-ios_cipl;b260f1ce6df31b3a1b98.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbios09
-ios_cipl;896f69826523155d1755.xyz/cipl/test_object.js;http;Домен для списков прокси Android, iOS, Winclient;fbios10
+android_cipl;4f988ef7c9e3da176a.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid01
+android_cipl;455f21cce6198b4db5.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid02
+android_cipl;e82f1e5a1ff3e40dc4.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid03
+android_cipl;744af4203480f135bc.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid04
+android_cipl;f6cbc803166a50544c.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid05
+android_cipl;70906527caf0430799.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid06
+android_cipl;d2a374eed8a8601b43.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid07
+android_cipl;8f09557122d4b6e63c.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid08
+android_cipl;e2c8ae784c802e90ba.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid09
+android_cipl;c73e93f0db2e0e849e.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid10
+ios_cipl;5c8dae8d0599e3068dea.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios01
+ios_cipl;fbc4450c7966fc6d37db.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios02
+ios_cipl;12b46d995a4826939a43.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios03
+ios_cipl;68e652faf7b597e9a597.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios04
+ios_cipl;774f86f83842299b2104.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios05
+ios_cipl;da42ea8654970a24c063.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios06
+ios_cipl;89f62ba47ab96535b03e.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios07
+ios_cipl;1907f73a166077fb3f11.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios08
+ios_cipl;b260f1ce6df31b3a1b98.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios09
+ios_cipl;896f69826523155d1755.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios10
+line;https://line.fbwebdn.net/servertime;http/json;line.fb*dn;
+line;https://line.fbwebdn.com/servertime;http/json;line.fb*dn;
+line;https://line.fbappdn.com/servertime;http/json;line.fb*dn;
+account;https://a.fbappdn.com/MyAccount/img/ru.png;http;аккаунт;
+reg;https://reg.fbappdn.com/users/assets/images/favicon.ico;http;reg.fb*dn;
+fbla;https://fbla01-01.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla01-01
+fbla;https://fbla01-02.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla01-02
+fbla;https://fbla01-03.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla01-03
+fbla;https://fbla01-04.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla01-04
+fbla;https://fbla01-05.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla01-05
+fbla;https://fbla01-06.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla01-06
+fbla;https://fbla01-07.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla01-07
+fbla;https://fbla01-08.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla01-08
+fbla;https://fbla01-09.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla01-09
+fbla;https://fbla01-10.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla01-10
+fbla;https://fbla02-01.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-01
+fbla;https://fbla02-02.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-02
+fbla;https://fbla02-03.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-03
+fbla;https://fbla02-04.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-04
+fbla;https://fbla02-05.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-05
+fbla;https://fbla02-06.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-06
+fbla;https://fbla02-07.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-07
+fbla;https://fbla02-08.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-08
+fbla;https://fbla02-09.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-09
+fbla;https://fbla02-10.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-10
