@@ -9,7 +9,7 @@ fbps01;188.42.196.54;;fbandroid17_4e69a4b7b67f21123d.xyz
 fbps01;188.42.196.55;;fbandroid18_af99fa0326cff55127.xyz
 fbps01;188.42.196.56;;fbandroid19_1a3fa73e2e48ac0797.xyz
 fbps01;188.42.196.57;;fbandroid20_090da834fae5f25087.xyz
-fbas01;185.49.69.1;;landing
+fbas01;185.49.69.1;1;landing
 fbps01;188.42.196.58;;fbios11_8ac24309f039b75e651f.xyz
 fbps01;188.42.196.59;;fbios12_eccb2bb0dbd5ffd06d9b.xyz
 fbps01;188.42.196.60;;fbios13_bf647a4df84568bdd9dc.xyz
@@ -64,8 +64,8 @@ fbls01;188.42.196.142;;127d71ae223f19895e.xyz
 fbls01;188.42.196.143;;9d2e5d3a4b13649409.xyz
 fbls01;188.42.196.144;;af89497a9b0a915af6.xyz
 fbls01;188.42.196.145;;fba4814cdfa70e4453.xyz
-fbls01;188.42.196.92;;4f988ef7c9e3da176a.xyz
-fbls01;188.42.196.93;;455f21cce6198b4db5.xyz
+fbls01;188.42.196.92;1;4f988ef7c9e3da176a.xyz
+fbls01;188.42.196.93;1;455f21cce6198b4db5.xyz
 fbls01;188.42.196.94;;e82f1e5a1ff3e40dc4.xyz
 fbls01;188.42.196.95;;744af4203480f135bc.xyz
 fbls01;188.42.196.96;;f6cbc803166a50544c.xyz
@@ -87,7 +87,7 @@ fbpr01;185.82.210.187;;
 fbpr01;185.82.210.225;;
 fbpr01;185.82.210.226;;
 fbpr01;185.82.210.227;;
-fbpr01;185.82.210.23;;proxy-zerkal
+fbpr01;185.82.210.23;1;proxy-zerkal
 fbpr01;185.82.210.239;;
 fbpr01;185.82.210.240;;
 fbpr01;185.82.210.241;;
@@ -135,19 +135,19 @@ fbpr02;188.42.196.29;;
 fbpr02;188.42.196.30;;
 fbpr02;188.42.196.31;;
 fbpr02;188.42.198.12;;service ip
-fbps01;185.82.210.0;;
-fbps01;185.82.210.1;;
+fbps01;185.82.210.0;1;
+fbps01;185.82.210.1;1;
 fbps01;185.82.210.2;;
-fbps01;185.82.210.20;;
-fbps01;185.82.210.21;;
-fbps01;185.82.210.22;;
+fbps01;185.82.210.20;1;
+fbps01;185.82.210.21;1;
+fbps01;185.82.210.22;1;
 fbps01;185.82.210.228;;
 fbps01;185.82.210.229;;
 fbps01;185.82.210.230;;
 fbps01;185.82.210.231;;231.210.82.[1-3]85.IN-ADDR.DIRECT
-fbps01;185.82.210.232;;232.210.82.[1-3]85.IN-ADDR.DIRECT
-fbps01;185.82.210.233;;233.210.82.[1-3]85.IN-ADDR.DIRECT
-fbps01;185.82.210.234;;234.210.82.[1-3]85.IN-ADDR.DIRECT
+fbps01;185.82.210.232;1;232.210.82.[1-3]85.IN-ADDR.DIRECT
+fbps01;185.82.210.233;1;233.210.82.[1-3]85.IN-ADDR.DIRECT
+fbps01;185.82.210.234;1;234.210.82.[1-3]85.IN-ADDR.DIRECT
 fbps01;185.82.210.235;;
 fbps01;185.82.210.236;;
 fbps01;185.82.210.237;;
@@ -157,19 +157,19 @@ fbps01;185.82.210.44;;
 fbps01;185.82.210.8;;
 fbps01;188.42.137.188;;
 fbps31 ;95.211.203.115;;
-fbps31 ;95.211.203.116;;
+fbps31 ;95.211.203.116;1;
 fbps31 ;95.211.203.117;;
-fbps32;91.109.22.131;;
+fbps32;91.109.22.131;1;
 fbps32;91.109.22.132;;
 fbps32;91.109.22.133;;
-fbps32;91.109.22.134;;
-fbps33;144.76.160.225;;proxy for android-client
-fbps33;144.76.160.226;;proxy for android-client
+fbps32;91.109.22.134;1;
+fbps33;144.76.160.225;1;proxy for android-client
+fbps33;144.76.160.226;1;proxy for android-client
 fbps33;144.76.160.227;;proxy for jme-client
 fbps33;144.76.160.228;;proxy for jme-client
 fbps33;144.76.160.229;;proxy for ios-client
 fbps33;144.76.160.230;;proxy for ios-client
-fbps33;148.251.235.136;;proxy for winclient
+fbps33;148.251.235.136;1;proxy for winclient
 fbsr01;188.42.196.146;;
 fbsr01;188.42.196.147;;
 fbsr01;188.42.196.148;;
@@ -198,7 +198,7 @@ fbsr01;188.42.198.28;;service ip
 ;bet-in-fon.net;;public
 ;bet-in-fon.org;;public
 ;bets.bkfon-bet.com;;
-;bets.bk-fonbet.com;;
+;bets.bk-fonbet.com;1;
 ;bets.bk-fon-bet.com;;
 ;bets.fonbetbk.com;;
 ;bets.fon-bet-bk.com;;
@@ -296,20 +296,20 @@ fbsr01;188.42.198.28;;service ip
 ;stat.fbappdn.com;;
 ;upd.fbappdn.com;;
 ;acfbc.info;;
-;ap-01.acfbc.info;;
-;ap-01.acfbc.net;;
-;ap-02.acfbc.info;;
-;ap-02.acfbc.net;;
-;ap-03.acfbc.info;;
-;ap-03.acfbc.net;;
+;ap-01.acfbc.info;1;
+;ap-01.acfbc.net;1;
+;ap-02.acfbc.info;1;
+;ap-02.acfbc.net;1;
+;ap-03.acfbc.info;1;
+;ap-03.acfbc.net;1;
 ;accessfonbet.com;;
-;ap-01.accessfonbet.net;;
-;ap-02.accessfonbet.net;;
-;ap-03.accessfonbet.net;;
-;bets.bet-in-fon.com;;
-;fivelevel.bet-in-fon.com;;
-;live.bet-in-fon.com;;
-;racing.bet-in-fon.com;;
-;toto.bet-in-fon.com;;
-;virtualsports.bet-in-fon.com;;
+;ap-01.accessfonbet.net;1;
+;ap-02.accessfonbet.net;1;
+;ap-03.accessfonbet.net;1;
+;bets.bet-in-fon.com;1;
+;fivelevel.bet-in-fon.com;1;
+;live.bet-in-fon.com;1;
+;racing.bet-in-fon.com;1;
+;toto.bet-in-fon.com;1;
+;virtualsports.bet-in-fon.com;1;
 ;bets.fonsportbet.org;;
