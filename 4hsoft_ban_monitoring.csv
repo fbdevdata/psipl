@@ -51,13 +51,13 @@ fbla;https://fbla02-07.fbwebdn.net/servertime;http/json;LineAgent сервер;f
 fbla;https://fbla02-08.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-08
 fbla;https://fbla02-09.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-09
 fbla;https://fbla02-10.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-10
-winclient_cipl;188.42.196.112/cipl/test_object.js;http;Домен для списков прокси;
-winclient_cipl;188.42.196.113/cipl/test_object.js;http;Домен для списков прокси;
-winclient_cipl;188.42.196.114/cipl/test_object.js;http;Домен для списков прокси;
-winclient_cipl;188.42.196.139/cipl/test_object.js;http;Домен для списков прокси;
-winclient_cipl;188.42.196.140/cipl/test_object.js;http;Домен для списков прокси;
-winclient_cipl;188.42.196.141/cipl/test_object.js;http;Домен для списков прокси;
-winclient_cipl;188.42.196.142/cipl/test_object.js;http;Домен для списков прокси;
-winclient_cipl;188.42.196.143/cipl/test_object.js;http;Домен для списков прокси;
-winclient_cipl;188.42.196.144/cipl/test_object.js;http;Домен для списков прокси;
-winclient_cipl;188.42.196.145/cipl/test_object.js;http;Домен для списков прокси;
+winclient_cipl;http://188.42.196.112/cipl/test_object.js;http;Домен для списков прокси;
+winclient_cipl;http://188.42.196.113/cipl/test_object.js;http;Домен для списков прокси;
+winclient_cipl;http://188.42.196.114/cipl/test_object.js;http;Домен для списков прокси;
+winclient_cipl;http://188.42.196.139/cipl/test_object.js;http;Домен для списков прокси;
+winclient_cipl;http://188.42.196.140/cipl/test_object.js;http;Домен для списков прокси;
+winclient_cipl;http://188.42.196.141/cipl/test_object.js;http;Домен для списков прокси;
+winclient_cipl;http://188.42.196.142/cipl/test_object.js;http;Домен для списков прокси;
+winclient_cipl;http://188.42.196.143/cipl/test_object.js;http;Домен для списков прокси;
+winclient_cipl;http://188.42.196.144/cipl/test_object.js;http;Домен для списков прокси;
+winclient_cipl;http://188.42.196.145/cipl/test_object.js;http;Домен для списков прокси;
