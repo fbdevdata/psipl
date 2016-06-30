@@ -31,6 +31,7 @@ line;https://line.fbwebdn.com/servertime;http/json;line.fb*dn;
 line;https://line.fbappdn.com/servertime;http/json;line.fb*dn;
 account;https://a.fbappdn.com/MyAccount/img/ru.png;http;аккаунт;
 reg;https://reg.fbappdn.com/users/assets/images/favicon.ico;http;reg.fb*dn;
+reg;https://reg.fbwebdn.com/users/assets/images/favicon.ico;http;reg.fb*dn;
 fbla;https://fbla01-01.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla01-01
 fbla;https://fbla01-02.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla01-02
 fbla;https://fbla01-03.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla01-03
@@ -61,3 +62,54 @@ winclient_cipl;http://188.42.196.142/cipl/test_object.js;http;Домен для 
 winclient_cipl;http://188.42.196.143/cipl/test_object.js;http;Домен для списков прокси;
 winclient_cipl;http://188.42.196.144/cipl/test_object.js;http;Домен для списков прокси;
 winclient_cipl;http://188.42.196.145/cipl/test_object.js;http;Домен для списков прокси;
+fbpr;185.82.210.23;;fbpr01;
+fbpr;185.82.210.42;;fbpr01;
+fbpr;185.82.210.43;;fbpr01;
+fbpr;185.82.210.77;;fbpr01;
+fbpr;185.82.210.78;;fbpr01;
+fbpr;185.82.210.79;;fbpr01;
+fbpr;185.82.210.84;;fbpr01;
+fbpr;185.82.210.85;;fbpr01;
+fbpr;185.82.210.86;;fbpr01;
+fbpr;185.82.210.149;;fbpr01;
+fbpr;185.82.210.150;;fbpr01;
+fbpr;185.82.210.151;;fbpr01;
+fbpr;185.82.210.152;;fbpr01;
+fbpr;185.82.210.166;;fbpr01;
+fbpr;185.82.210.167;;fbpr01;
+fbpr;185.82.210.168;;fbpr01;
+fbpr;185.82.210.169;;fbpr01;
+fbpr;185.82.210.185;;fbpr01;
+fbpr;185.82.210.186;;fbpr01;
+fbpr;185.82.210.187;;fbpr01;
+fbpr;185.82.210.225;;fbpr01;
+fbpr;185.82.210.226;;fbpr01;
+fbpr;185.82.210.227;;fbpr01;
+fbpr;185.82.210.239;;fbpr01;
+fbpr;185.82.210.240;;fbpr01;
+fbpr;185.82.210.241;;fbpr01;
+fbpr;185.82.210.242;;fbpr01;
+fbpr;185.82.210.248;;fbpr01;
+fbpr;185.82.210.249;;fbpr01;
+fbpr;185.82.210.250;;fbpr01;
+android_cipl;6d60d18b8c95480ae4.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid11
+android_cipl;a156963ae7bb58071a.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid12
+android_cipl;0b4851d27acff5fda0.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid13
+android_cipl;d89eeabfb53977fa6b.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid14
+android_cipl;e35c503a3816fcc3c0.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid15
+android_cipl;9dc1fd688d758d2b30.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid16
+android_cipl;4e69a4b7b67f21123d.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid17
+android_cipl;af99fa0326cff55127.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid18
+android_cipl;1a3fa73e2e48ac0797.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid19
+android_cipl;090da834fae5f25087.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid20
+ios_cipl;8ac24309f039b75e651f.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios11
+ios_cipl;eccb2bb0dbd5ffd06d9b.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios12
+ios_cipl;bf647a4df84568bdd9dc.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios13
+ios_cipl;ce15a267864479babaf1.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios14
+ios_cipl;c1d5c02650070df55f45.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios15
+ios_cipl;c84a565b209bf7c75855.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios16
+ios_cipl;e2bf18fc048276077900.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios17
+ios_cipl;d4dbded416bd1af9b84b.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios18
+ios_cipl;fa45696947feba801d65.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios19
+ios_cipl;b73f7ea87e2af6d89175.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios20
+kladr;185.79.117.35/getobjects?value=тьмутаракань;http;KLADR;kladr@mskdc
