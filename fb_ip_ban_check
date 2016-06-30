@@ -1,4 +1,4 @@
-# service;ip/domain;banned;comment;
+# service;ip/domain;banned;comment;https://github.com/fbdevdata/psipl/edit/gh-pages/fb_ip_ban_check
 fbps01;188.42.196.48;1;fbandroid11_6d60d18b8c95480ae4.xyz;
 fbps01;188.42.196.49;1;fbandroid12_a156963ae7bb58071a.xyz;
 fbps01;188.42.196.50;1;fbandroid13_0b4851d27acff5fda0.xyz;
@@ -385,12 +385,12 @@ fonsport.bet;stat.fonsport.bet;;;
 fonsport.bet;toto.fonsport.bet;;;
 fonsport.bet;www.fonsport.bet;;;
 kladr;185.79.117.35;;kladr@mskdc;
-;fonclient.com;;;
+;fonclient.com;1;;
 ;accessfonbet.net;;;
 ;acfbc.net;;;
-;fon-adw.com;;;
-;fon-bet.info;;;
+;fon-adw.com;1;;
+;fon-bet.info;1;;
 ;foninfo.mobi;;;
 ;ios-foninfo.mobi;;;
-;fbmetrix.click;;;
+;fbmetrix.click;1;;
 ;forumfonbet.com;;;
