@@ -94,7 +94,7 @@ fbpr;185.82.210.250;;fbpr01;;
 ios_client_proxy_list;http://fbdevdata.github.io/psipl/mps_v2.json;http/json/iplist;Список прокси для мобильных клиентов iOS;;
 jme_client_proxy_list;http://fbdevdata.github.io/psipl/jme.list;http/iplist;Список прокси для мобильных клиентов jme;;
 jme_client_proxy_list;https://jmedevdata.github.io/psipl/jme.list;http/iplist;Список прокси для мобильных клиентов jme;;
-kladr;185.79.117.35/getobjects?value=тьмутаракань;xml;KLADR;kladr@mskdc;
+kladr;185.79.117.35/getobjects?value=дербенёвская;xml;KLADR;kladr@mskdc;
 line;https://line.fbwebdn.net/servertime;http/json;line.fb*dn;;
 line;https://line.fbwebdn.com/servertime;http/json;line.fb*dn;;
 line;https://line.fbappdn.com/servertime;http/json;line.fb*dn;;
