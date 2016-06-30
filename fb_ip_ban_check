@@ -1,5 +1,5 @@
 # service;ip/domain;banned;comment;
-fbps01;188.42.196.48;;fbandroid11_6d60d18b8c95480ae4.xyz;
+fbps01;188.42.196.48;1;fbandroid11_6d60d18b8c95480ae4.xyz;
 fbps01;188.42.196.49;1;fbandroid12_a156963ae7bb58071a.xyz;
 fbps01;188.42.196.50;1;fbandroid13_0b4851d27acff5fda0.xyz;
 fbps01;188.42.196.51;1;fbandroid14_d89eeabfb53977fa6b.xyz;
@@ -9,7 +9,7 @@ fbps01;188.42.196.54;1;fbandroid17_4e69a4b7b67f21123d.xyz;
 fbps01;188.42.196.55;1;fbandroid18_af99fa0326cff55127.xyz;
 fbps01;188.42.196.56;1;fbandroid19_1a3fa73e2e48ac0797.xyz;
 fbps01;188.42.196.57;1;fbandroid20_090da834fae5f25087.xyz;
-fbas01;185.49.69.1;;landing;
+fbas01;185.49.69.1;1;landing;
 fbps01;188.42.196.58;;fbios11_8ac24309f039b75e651f.xyz;
 fbps01;188.42.196.59;;fbios12_eccb2bb0dbd5ffd06d9b.xyz;
 fbps01;188.42.196.60;;fbios13_bf647a4df84568bdd9dc.xyz;
