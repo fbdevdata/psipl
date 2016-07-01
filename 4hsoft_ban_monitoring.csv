@@ -1,401 +1,115 @@
-# service;ip/domain;banned;comment;https://github.com/fbdevdata/psipl/edit/gh-pages/fb_ip_ban_check
-betfon.net;betfon.net;;;
-betfon.net;account.betfon.net;;;
-betfon.net;bets.betfon.net;;;
-betfon.net;fivelevel.betfon.net;;;
-betfon.net;live.betfon.net;;;
-betfon.net;racing.betfon.net;;;
-betfon.net;reg.betfon.net;;;
-betfon.net;register.betfon.net;;;
-betfon.net;results.betfon.net;;;
-betfon.net;stat.betfon.net;;;
-betfon.net;toto.betfon.net;;;
-betfon.net;www.betfon.net;;;
-betfon.org;betfon.org;;;
-betfon.org;account.betfon.org;;;
-betfon.org;bets.betfon.org;;;
-betfon.org;fivelevel.betfon.org;;;
-betfon.org;live.betfon.org;;;
-betfon.org;racing.betfon.org;;;
-betfon.org;reg.betfon.org;;;
-betfon.org;register.betfon.org;;;
-betfon.org;results.betfon.org;;;
-betfon.org;stat.betfon.org;;;
-betfon.org;toto.betfon.org;;;
-betfon.org;www.betfon.org;;;
-bet-in-fon.net;bet-in-fon.net;;;
-bet-in-fon.net;account.bet-in-fon.net;;;
-bet-in-fon.net;bets.bet-in-fon.net;;;
-bet-in-fon.net;fivelevel.bet-in-fon.net;;;
-bet-in-fon.net;live.bet-in-fon.net;;;
-bet-in-fon.net;racing.bet-in-fon.net;;;
-bet-in-fon.net;reg.bet-in-fon.net;;;
-bet-in-fon.net;register.bet-in-fon.net;;;
-bet-in-fon.net;results.bet-in-fon.net;;;
-bet-in-fon.net;stat.bet-in-fon.net;;;
-bet-in-fon.net;toto.bet-in-fon.net;;;
-bet-in-fon.net;www.bet-in-fon.net;;;
-bet-in-fon.org;bet-in-fon.org;;;
-bet-in-fon.org;account.bet-in-fon.org;;;
-bet-in-fon.org;bets.bet-in-fon.org;;;
-bet-in-fon.org;fivelevel.bet-in-fon.org;;;
-bet-in-fon.org;live.bet-in-fon.org;;;
-bet-in-fon.org;racing.bet-in-fon.org;;;
-bet-in-fon.org;reg.bet-in-fon.org;;;
-bet-in-fon.org;register.bet-in-fon.org;;;
-bet-in-fon.org;results.bet-in-fon.org;;;
-bet-in-fon.org;stat.bet-in-fon.org;;;
-bet-in-fon.org;toto.bet-in-fon.org;;;
-bet-in-fon.org;www.bet-in-fon.org;;;
-betsfon.com;betsfon.com;;;
-betsfon.com;account.betsfon.com;;;
-betsfon.com;bets.betsfon.com;;;
-betsfon.com;fivelevel.betsfon.com;;;
-betsfon.com;live.betsfon.com;;;
-betsfon.com;racing.betsfon.com;;;
-betsfon.com;reg.betsfon.com;;;
-betsfon.com;register.betsfon.com;;;
-betsfon.com;results.betsfon.com;;;
-betsfon.com;stat.betsfon.com;;;
-betsfon.com;toto.betsfon.com;;;
-betsfon.com;www.betsfon.com;;;
-betsfon.net;betsfon.net;;;
-betsfon.net;account.betsfon.net;;;
-betsfon.net;bets.betsfon.net;;;
-betsfon.net;fivelevel.betsfon.net;;;
-betsfon.net;live.betsfon.net;;;
-betsfon.net;racing.betsfon.net;;;
-betsfon.net;reg.betsfon.net;;;
-betsfon.net;register.betsfon.net;;;
-betsfon.net;results.betsfon.net;;;
-betsfon.net;stat.betsfon.net;;;
-betsfon.net;toto.betsfon.net;;;
-betsfon.net;www.betsfon.net;;;
-betsfon.org;betsfon.org;;;
-betsfon.org;account.betsfon.org;;;
-betsfon.org;bets.betsfon.org;;;
-betsfon.org;fivelevel.betsfon.org;;;
-betsfon.org;live.betsfon.org;;;
-betsfon.org;racing.betsfon.org;;;
-betsfon.org;reg.betsfon.org;;;
-betsfon.org;register.betsfon.org;;;
-betsfon.org;results.betsfon.org;;;
-betsfon.org;stat.betsfon.org;;;
-betsfon.org;toto.betsfon.org;;;
-betsfon.org;www.betsfon.org;;;
-bkfonbet.bet;bkfonbet.bet;;;
-bkfonbet.bet;account.bkfonbet.bet;;;
-bkfonbet.bet;bets.bkfonbet.bet;;;
-bkfonbet.bet;fivelevel.bkfonbet.bet;;;
-bkfonbet.bet;live.bkfonbet.bet;;;
-bkfonbet.bet;racing.bkfonbet.bet;;;
-bkfonbet.bet;reg.bkfonbet.bet;;;
-bkfonbet.bet;register.bkfonbet.bet;;;
-bkfonbet.bet;results.bkfonbet.bet;;;
-bkfonbet.bet;stat.bkfonbet.bet;;;
-bkfonbet.bet;toto.bkfonbet.bet;;;
-bkfonbet.bet;www.bkfonbet.bet;;;
-bkfonbet.pro;bkfonbet.pro;;;
-bkfonbet.pro;account.bkfonbet.pro;;;
-bkfonbet.pro;bets.bkfonbet.pro;;;
-bkfonbet.pro;fivelevel.bkfonbet.pro;;;
-bkfonbet.pro;live.bkfonbet.pro;;;
-bkfonbet.pro;racing.bkfonbet.pro;;;
-bkfonbet.pro;reg.bkfonbet.pro;;;
-bkfonbet.pro;register.bkfonbet.pro;;;
-bkfonbet.pro;results.bkfonbet.pro;;;
-bkfonbet.pro;stat.bkfonbet.pro;;;
-bkfonbet.pro;toto.bkfonbet.pro;;;
-bkfonbet.pro;www.bkfonbet.pro;;;
-bkfonbetpay.com;bkfonbetpay.com;;;
-bkfonbetpay.com;account.bkfonbetpay.com;;;
-bkfonbetpay.com;bets.bkfonbetpay.com;;;
-bkfonbetpay.com;fivelevel.bkfonbetpay.com;;;
-bkfonbetpay.com;live.bkfonbetpay.com;;;
-bkfonbetpay.com;racing.bkfonbetpay.com;;;
-bkfonbetpay.com;reg.bkfonbetpay.com;;;
-bkfonbetpay.com;register.bkfonbetpay.com;;;
-bkfonbetpay.com;results.bkfonbetpay.com;;;
-bkfonbetpay.com;stat.bkfonbetpay.com;;;
-bkfonbetpay.com;toto.bkfonbetpay.com;;;
-bkfonbetpay.com;www.bkfonbetpay.com;;;
-fbas01;185.49.69.1;1;landing;
-fbla01;188.42.198.4;;service ip;
-fbla01;188.42.196.191;;;
-fbla01;188.42.196.192;;;
-fbla01;188.42.196.193;;;
-fbla01;188.42.196.194;;;
-fbla01;188.42.196.195;;;
-fbla01;188.42.196.196;;;
-fbla01;188.42.196.197;;;
-fbla01;188.42.196.198;;;
-fbla01;188.42.196.199;;;
-fbla01;188.42.196.200;;;
-fbla02;188.42.131.244;;service ip;
-fbla02;185.82.210.10;;;
-fbla02;185.82.210.100;;;
-fbla02;185.82.210.11;;;
-fbla02;185.82.210.119;;;
-fbla02;185.82.210.120;;;
-fbla02;185.82.210.121;;;
-fbla02;185.82.210.9;;;
-fbla02;185.82.210.97;;;
-fbla02;185.82.210.98;;;
-fbla02;185.82.210.99;;;
-fbls01;188.42.196.92;1;fbandroid01;4f988ef7c9e3da176a.xyz
-fbls01;188.42.196.93;1;fbandroid02;455f21cce6198b4db5.xyz
-fbls01;188.42.196.94;1;fbandroid03;e82f1e5a1ff3e40dc4.xyz
-fbls01;188.42.196.95;1;fbandroid04;744af4203480f135bc.xyz
-fbls01;188.42.196.96;1;fbandroid05;f6cbc803166a50544c.xyz
-fbls01;188.42.196.97;1;fbandroid06;70906527caf0430799.xyz
-fbls01;188.42.196.98;1;fbandroid07;d2a374eed8a8601b43.xyz
-fbls01;188.42.196.99;1;fbandroid08;8f09557122d4b6e63c.xyz
-fbls01;188.42.196.100;1;fbandroid09;e2c8ae784c802e90ba.xyz
-fbls01;188.42.196.101;1;fbandroid10;c73e93f0db2e0e849e.xyz
-fbls01;188.42.196.48;1;fbandroid11;6d60d18b8c95480ae4.xyz
-fbls01;188.42.196.49;1;fbandroid12;a156963ae7bb58071a.xyz
-fbls01;188.42.196.50;1;fbandroid13;0b4851d27acff5fda0.xyz
-fbls01;188.42.196.51;1;fbandroid14;d89eeabfb53977fa6b.xyz
-fbls01;188.42.196.52;1;fbandroid15;e35c503a3816fcc3c0.xyz
-fbls01;188.42.196.53;1;fbandroid16;9dc1fd688d758d2b30.xyz
-fbls01;188.42.196.54;1;fbandroid17;4e69a4b7b67f21123d.xyz
-fbls01;188.42.196.55;1;fbandroid18;af99fa0326cff55127.xyz
-fbls01;188.42.196.56;1;fbandroid19;1a3fa73e2e48ac0797.xyz
-fbls01;188.42.196.57;1;fbandroid20;090da834fae5f25087.xyz
-fbls01;188.42.196.102;1;fbios01;5c8dae8d0599e3068dea.xyz
-fbls01;188.42.196.103;1;fbios02;fbc4450c7966fc6d37db.xyz
-fbls01;188.42.196.104;1;fbios03;12b46d995a4826939a43.xyz
-fbls01;188.42.196.105;1;fbios04;68e652faf7b597e9a597.xyz
-fbls01;188.42.196.106;1;fbios05;774f86f83842299b2104.xyz
-fbls01;188.42.196.107;1;fbios06;da42ea8654970a24c063.xyz
-fbls01;188.42.196.108;1;fbios07;89f62ba47ab96535b03e.xyz
-fbls01;188.42.196.109;1;fbios08;1907f73a166077fb3f11.xyz
-fbls01;188.42.196.110;1;fbios09;b260f1ce6df31b3a1b98.xyz
-fbls01;188.42.196.111;1;fbios10;896f69826523155d1755.xyz
-fbls01;188.42.196.58;;fbios11;8ac24309f039b75e651f.xyz
-fbls01;188.42.196.59;;fbios12;eccb2bb0dbd5ffd06d9b.xyz
-fbls01;188.42.196.60;;fbios13;bf647a4df84568bdd9dc.xyz
-fbls01;188.42.196.61;;fbios14;ce15a267864479babaf1.xyz
-fbls01;188.42.196.62;;fbios15;c1d5c02650070df55f45.xyz
-fbls01;188.42.196.63;;fbios16;c84a565b209bf7c75855.xyz
-fbls01;188.42.196.175;;fbios17;e2bf18fc048276077900.xyz
-fbls01;188.42.196.176;;fbios18;d4dbded416bd1af9b84b.xyz
-fbls01;188.42.196.177;;fbios19;fa45696947feba801d65.xyz
-fbls01;188.42.196.178;;fbios20;b73f7ea87e2af6d89175.xyz
-fbls01;188.42.198.20;;service ip;
-fbls01;188.42.196.112;;;2fbc290e853d50433f.xyz
-fbls01;188.42.196.113;;;49b284d08e4d0e79c3.xyz
-fbls01;188.42.196.114;;;c77ef98f2482144ea1.xyz
-fbls01;188.42.196.139;;;0e42f70423087d0d11.xyz
-fbls01;188.42.196.140;;;3297dae7db62f74d1c.xyz
-fbls01;188.42.196.141;;;ba8f3597ddb92e1082.xyz
-fbls01;188.42.196.142;;;127d71ae223f19895e.xyz
-fbls01;188.42.196.143;;;9d2e5d3a4b13649409.xyz
-fbls01;188.42.196.144;;;af89497a9b0a915af6.xyz
-fbls01;188.42.196.145;;;fba4814cdfa70e4453.xyz
-fbpproxy;5.9.111.165;;fbpproxy;
-fbpr01;185.82.210.23;1;proxy-zerkal;
-fbpr01;188.42.137.196;;service ip;
-fbpr01;185.82.210.149;1;;
-fbpr01;185.82.210.150;;;
-fbpr01;185.82.210.151;;;
-fbpr01;185.82.210.152;;;
-fbpr01;185.82.210.166;;;
-fbpr01;185.82.210.167;;;
-fbpr01;185.82.210.168;;;
-fbpr01;185.82.210.169;;;
-fbpr01;185.82.210.185;;;
-fbpr01;185.82.210.186;;;
-fbpr01;185.82.210.187;;;
-fbpr01;185.82.210.225;;;
-fbpr01;185.82.210.226;;;
-fbpr01;185.82.210.227;;;
-fbpr01;185.82.210.239;;;
-fbpr01;185.82.210.240;;;
-fbpr01;185.82.210.241;;;
-fbpr01;185.82.210.242;;;
-fbpr01;185.82.210.248;;;
-fbpr01;185.82.210.249;;;
-fbpr01;185.82.210.250;;;
-fbpr01;185.82.210.42;;;
-fbpr01;185.82.210.43;;;
-fbpr01;185.82.210.77;;;
-fbpr01;185.82.210.78;;;
-fbpr01;185.82.210.79;;;
-fbpr01;185.82.210.84;;;
-fbpr01;185.82.210.85;;;
-fbpr01;185.82.210.86;;;
-fbpr02;188.42.198.12;;service ip;
-fbpr02;188.42.196.16;;;
-fbpr02;188.42.196.17;;;
-fbpr02;188.42.196.18;;;
-fbpr02;188.42.196.19;;;
-fbpr02;188.42.196.20;;;
-fbpr02;188.42.196.201;;;
-fbpr02;188.42.196.202;;;
-fbpr02;188.42.196.203;;;
-fbpr02;188.42.196.204;;;
-fbpr02;188.42.196.205;;;
-fbpr02;188.42.196.206;;;
-fbpr02;188.42.196.207;;;
-fbpr02;188.42.196.208;;;
-fbpr02;188.42.196.209;;;
-fbpr02;188.42.196.21;;;
-fbpr02;188.42.196.210;;;
-fbpr02;188.42.196.211;;;
-fbpr02;188.42.196.212;;;
-fbpr02;188.42.196.213;;;
-fbpr02;188.42.196.214;;;
-fbpr02;188.42.196.22;;;
-fbpr02;188.42.196.23;;;
-fbpr02;188.42.196.24;;;
-fbpr02;188.42.196.25;;;
-fbpr02;188.42.196.26;;;
-fbpr02;188.42.196.27;;;
-fbpr02;188.42.196.28;;;
-fbpr02;188.42.196.29;;;
-fbpr02;188.42.196.30;;;
-fbpr02;188.42.196.31;;;
-fbps01;185.82.210.231;;231.210.82.[1-3]85.IN-ADDR.DIRECT;
-fbps01;185.82.210.232;1;232.210.82.[1-3]85.IN-ADDR.DIRECT;
-fbps01;185.82.210.233;1;233.210.82.[1-3]85.IN-ADDR.DIRECT;
-fbps01;185.82.210.234;1;234.210.82.[1-3]85.IN-ADDR.DIRECT;
-fbps01;188.42.137.188;;fbps01-service-ip;
-fbps01;185.82.210.228;1;jme;
-fbps01;185.82.210.0;1;;
-fbps01;185.82.210.1;1;;
-fbps01;185.82.210.20;1;;
-fbps01;185.82.210.21;1;;
-fbps01;185.82.210.22;1;;
-fbps01;185.82.210.122;;;
-fbps01;185.82.210.2;;;
-fbps01;185.82.210.229;;;
-fbps01;185.82.210.230;;;
-fbps01;185.82.210.235;;;
-fbps01;185.82.210.236;;;
-fbps01;185.82.210.237;;;
-fbps01;185.82.210.238;;;
-fbps01;185.82.210.3;;;
-fbps01;185.82.210.44;;;
-fbps01;185.82.210.8;;;
-fbps01;185.82.210.80;;;
-fbps01;185.82.210.81;;;
-fbps01;185.82.210.82;;;
-fbps01;185.82.210.83;;;
-fbps31 ;95.211.203.116;1;;
-fbps31 ;95.211.203.115;;;
-fbps31 ;95.211.203.117;;;
-fbps32;91.109.22.131;1;;
-fbps32;91.109.22.134;1;;
-fbps32;91.109.22.132;;;
-fbps32;91.109.22.133;;;
-fbps33;144.76.160.225;1;proxy for android-client;
-fbps33;144.76.160.226;1;proxy for android-client;
-fbps33;144.76.160.229;;proxy for ios-client;
-fbps33;144.76.160.230;;proxy for ios-client;
-fbps33;144.76.160.227;;proxy for jme-client;
-fbps33;144.76.160.228;;proxy for jme-client;
-fbps33;148.251.235.136;1;proxy for winclient;
-fbsr01;188.42.198.28;;service ip;
-fbsr01;188.42.196.146;;;
-fbsr01;188.42.196.147;;;
-fbsr01;188.42.196.148;;;
-fbsr01;188.42.196.149;;;
-fbsr01;188.42.196.150;;;
-fbsr01;188.42.196.151;;;
-fbsr01;188.42.196.152;;;
-fbsr01;188.42.196.153;;;
-fbsr01;188.42.196.154;;;
-fbsr01;188.42.196.155;;;
-fbsr01;188.42.196.156;;;
-fbsr01;188.42.196.157;;;
-fbsr01;188.42.196.158;;;
-fbsr01;188.42.196.159;;;
-fbsr01;188.42.196.160;;;
-fbsr01;188.42.196.161;;;
-fbsr01;188.42.196.187;;;
-fbsr01;188.42.196.188;;;
-fbsr01;188.42.196.189;;;
-fbsr01;188.42.196.190;;;
-fonbet.bet;fonbet.bet;;;
-fonbet.bet;account.fonbet.bet;;;
-fonbet.bet;bets.fonbet.bet;;;
-fonbet.bet;fivelevel.fonbet.bet;;;
-fonbet.bet;live.fonbet.bet;;;
-fonbet.bet;racing.fonbet.bet;;;
-fonbet.bet;reg.fonbet.bet;;;
-fonbet.bet;register.fonbet.bet;;;
-fonbet.bet;results.fonbet.bet;;;
-fonbet.bet;stat.fonbet.bet;;;
-fonbet.bet;toto.fonbet.bet;;;
-fonbet.bet;www.fonbet.bet;;;
-fonbet.bid;fonbet.bid;;;
-fonbet.bid;account.fonbet.bid;;;
-fonbet.bid;bets.fonbet.bid;;;
-fonbet.bid;fivelevel.fonbet.bid;;;
-fonbet.bid;live.fonbet.bid;;;
-fonbet.bid;racing.fonbet.bid;;;
-fonbet.bid;reg.fonbet.bid;;;
-fonbet.bid;register.fonbet.bid;;;
-fonbet.bid;results.fonbet.bid;;;
-fonbet.bid;stat.fonbet.bid;;;
-fonbet.bid;toto.fonbet.bid;;;
-fonbet.bid;www.fonbet.bid;;;
-fonbet.black;fonbet.black;;;
-fonbet.black;account.fonbet.black;;;
-fonbet.black;bets.fonbet.black;;;
-fonbet.black;fivelevel.fonbet.black;;;
-fonbet.black;live.fonbet.black;;;
-fonbet.black;racing.fonbet.black;;;
-fonbet.black;reg.fonbet.black;;;
-fonbet.black;register.fonbet.black;;;
-fonbet.black;results.fonbet.black;;;
-fonbet.black;stat.fonbet.black;;;
-fonbet.black;toto.fonbet.black;;;
-fonbet.black;www.fonbet.black;;;
-fonbet.blue;fonbet.blue;;;
-fonbet.blue;account.fonbet.blue;;;
-fonbet.blue;bets.fonbet.blue;;;
-fonbet.blue;fivelevel.fonbet.blue;;;
-fonbet.blue;live.fonbet.blue;;;
-fonbet.blue;racing.fonbet.blue;;;
-fonbet.blue;reg.fonbet.blue;;;
-fonbet.blue;register.fonbet.blue;;;
-fonbet.blue;results.fonbet.blue;;;
-fonbet.blue;stat.fonbet.blue;;;
-fonbet.blue;toto.fonbet.blue;;;
-fonbet.blue;www.fonbet.blue;;;
-fonbet.cc;fonbet.cc;;;
-fonbet.cc;account.fonbet.cc;;;
-fonbet.cc;bets.fonbet.cc;;;
-fonbet.cc;fivelevel.fonbet.cc;;;
-fonbet.cc;live.fonbet.cc;;;
-fonbet.cc;racing.fonbet.cc;;;
-fonbet.cc;reg.fonbet.cc;;;
-fonbet.cc;register.fonbet.cc;;;
-fonbet.cc;results.fonbet.cc;;;
-fonbet.cc;stat.fonbet.cc;;;
-fonbet.cc;toto.fonbet.cc;;;
-fonbet.cc;www.fonbet.cc;;;
-fonsport.bet;fonsport.bet;;;
-fonsport.bet;account.fonsport.bet;;;
-fonsport.bet;bets.fonsport.bet;;;
-fonsport.bet;fivelevel.fonsport.bet;;;
-fonsport.bet;live.fonsport.bet;;;
-fonsport.bet;racing.fonsport.bet;;;
-fonsport.bet;reg.fonsport.bet;;;
-fonsport.bet;register.fonsport.bet;;;
-fonsport.bet;results.fonsport.bet;;;
-fonsport.bet;stat.fonsport.bet;;;
-fonsport.bet;toto.fonsport.bet;;;
-fonsport.bet;www.fonsport.bet;;;
-kladr;185.79.117.35;;kladr@mskdc;
-;fonclient.com;1;;
-;fon-adw.com;1;;
-;fon-bet.info;1;;
-;fbmetrix.click;1;;
-;accessfonbet.net;;;
-;acfbc.net;;;
-;foninfo.mobi;;;
-;ios-foninfo.mobi;;;
-;forumfonbet.com;;;
+# service;url;validate;service_caption;host_caption;
+account;https://a.fbappdn.com/MyAccount/img/ru.png;http;аккаунт;;
+android_client_proxy_list;http://androiddevdata.github.io/psipl/an.json;http/json/iplist;Список прокси для мобильных клиентов Andriod;;
+cipl_android;4f988ef7c9e3da176a.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid01;
+cipl_android;455f21cce6198b4db5.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid02;
+cipl_android;e82f1e5a1ff3e40dc4.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid03;
+cipl_android;744af4203480f135bc.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid04;
+cipl_android;f6cbc803166a50544c.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid05;
+cipl_android;70906527caf0430799.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid06;
+cipl_android;d2a374eed8a8601b43.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid07;
+cipl_android;8f09557122d4b6e63c.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid08;
+cipl_android;e2c8ae784c802e90ba.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid09;
+cipl_android;c73e93f0db2e0e849e.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid10;
+cipl_android;6d60d18b8c95480ae4.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid11;
+cipl_android;a156963ae7bb58071a.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid12;
+cipl_android;0b4851d27acff5fda0.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid13;
+cipl_android;d89eeabfb53977fa6b.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid14;
+cipl_android;e35c503a3816fcc3c0.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid15;
+cipl_android;9dc1fd688d758d2b30.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid16;
+cipl_android;4e69a4b7b67f21123d.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid17;
+cipl_android;af99fa0326cff55127.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid18;
+cipl_android;1a3fa73e2e48ac0797.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid19;
+cipl_android;090da834fae5f25087.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid20;
+cipl_ios;5c8dae8d0599e3068dea.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios01;
+cipl_ios;fbc4450c7966fc6d37db.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios02;
+cipl_ios;12b46d995a4826939a43.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios03;
+cipl_ios;68e652faf7b597e9a597.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios04;
+cipl_ios;774f86f83842299b2104.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios05;
+cipl_ios;da42ea8654970a24c063.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios06;
+cipl_ios;89f62ba47ab96535b03e.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios07;
+cipl_ios;1907f73a166077fb3f11.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios08;
+cipl_ios;b260f1ce6df31b3a1b98.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios09;
+cipl_ios;896f69826523155d1755.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios10;
+cipl_ios;8ac24309f039b75e651f.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios11;
+cipl_ios;eccb2bb0dbd5ffd06d9b.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios12;
+cipl_ios;bf647a4df84568bdd9dc.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios13;
+cipl_ios;ce15a267864479babaf1.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios14;
+cipl_ios;c1d5c02650070df55f45.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios15;
+cipl_ios;c84a565b209bf7c75855.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios16;
+cipl_ios;e2bf18fc048276077900.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios17;
+cipl_ios;d4dbded416bd1af9b84b.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios18;
+cipl_ios;fa45696947feba801d65.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios19;
+cipl_ios;b73f7ea87e2af6d89175.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios20;
+fbla;https://fbla01-01.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla01-01;
+fbla;https://fbla01-02.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla01-02;
+fbla;https://fbla01-03.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla01-03;
+fbla;https://fbla01-04.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla01-04;
+fbla;https://fbla01-05.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla01-05;
+fbla;https://fbla01-06.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla01-06;
+fbla;https://fbla01-07.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla01-07;
+fbla;https://fbla01-08.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla01-08;
+fbla;https://fbla01-09.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla01-09;
+fbla;https://fbla01-10.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla01-10;
+fbla;https://fbla02-01.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-01;
+fbla;https://fbla02-02.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-02;
+fbla;https://fbla02-03.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-03;
+fbla;https://fbla02-04.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-04;
+fbla;https://fbla02-05.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-05;
+fbla;https://fbla02-06.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-06;
+fbla;https://fbla02-07.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-07;
+fbla;https://fbla02-08.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-08;
+fbla;https://fbla02-09.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-09;
+fbla;https://fbla02-10.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-10;
+fbpr;http://185.82.210.23/test_object.js;http;fbpr01;;
+fbpr;http://185.82.210.42/test_object.js;http;fbpr01;;
+fbpr;http://185.82.210.43/test_object.js;http;fbpr01;;
+fbpr;http://185.82.210.77/test_object.js;http;fbpr01;;
+fbpr;http://185.82.210.78/test_object.js;http;fbpr01;;
+fbpr;http://185.82.210.79/test_object.js;http;fbpr01;;
+fbpr;http://185.82.210.84/test_object.js;http;fbpr01;;
+fbpr;http://185.82.210.85/test_object.js;http;fbpr01;;
+fbpr;http://185.82.210.86/test_object.js;http;fbpr01;;
+fbpr;http://185.82.210.149/test_object.js;http;fbpr01;;
+fbpr;http://185.82.210.150/test_object.js;http;fbpr01;;
+fbpr;http://185.82.210.151/test_object.js;http;fbpr01;;
+fbpr;http://185.82.210.152/test_object.js;http;fbpr01;;
+fbpr;http://185.82.210.166/test_object.js;http;fbpr01;;
+fbpr;http://185.82.210.167/test_object.js;http;fbpr01;;
+fbpr;http://185.82.210.168/test_object.js;http;fbpr01;;
+fbpr;http://185.82.210.169/test_object.js;http;fbpr01;;
+fbpr;http://185.82.210.185/test_object.js;http;fbpr01;;
+fbpr;http://185.82.210.186/test_object.js;http;fbpr01;;
+fbpr;http://185.82.210.187/test_object.js;http;fbpr01;;
+fbpr;http://185.82.210.225/test_object.js;http;fbpr01;;
+fbpr;http://185.82.210.226/test_object.js;http;fbpr01;;
+fbpr;http://185.82.210.227/test_object.js;http;fbpr01;;
+fbpr;http://185.82.210.239/test_object.js;http;fbpr01;;
+fbpr;http://185.82.210.240/test_object.js;http;fbpr01;;
+fbpr;http://185.82.210.241/test_object.js;http;fbpr01;;
+fbpr;http://185.82.210.242/test_object.js;http;fbpr01;;
+fbpr;http://185.82.210.248/test_object.js;http;fbpr01;;
+fbpr;http://185.82.210.249/test_object.js;http;fbpr01;;
+fbpr;http://185.82.210.250/test_object.js;http;fbpr01;;
+ios_client_proxy_list;http://fbdevdata.github.io/psipl/mps_v2.json;http/json/iplist;Список прокси для мобильных клиентов iOS;;
+jme_client_proxy_list;http://fbdevdata.github.io/psipl/jme.list;http/iplist;Список прокси для мобильных клиентов jme;;
+jme_client_proxy_list;https://jmedevdata.github.io/psipl/jme.list;http/iplist;Список прокси для мобильных клиентов jme;;
+kladr;http://185.79.117.35/getobjects?value=дербеневская;xml;KLADR;kladr@mskdc;
+line;https://line.fbwebdn.net/servertime;http/json;line.fb*dn;;
+line;https://line.fbwebdn.com/servertime;http/json;line.fb*dn;;
+line;https://line.fbappdn.com/servertime;http/json;line.fb*dn;;
+mobile_clients_connection;https://m.fbappdn.com:9444/showToto;http/json;Подключение мобильных клиентов;;
+mobile_clients_connection;https://m1.fbappdn.com:9444/showToto;http/json;Подключение мобильных клиентов;;
+mobile_clients_connection;https://m2.fbappdn.com:9444/showToto;http/json;Подключение мобильных клиентов;;
+reg;https://reg.fbappdn.com/users/assets/images/favicon.ico;http;reg.fb*dn;;
+reg;https://reg.fbwebdn.com/users/assets/images/favicon.ico;http;reg.fb*dn;;
+winclient_cipl;http://188.42.196.112/cipl/test_object.js;http;Домен для списков прокси;;
+winclient_cipl;http://188.42.196.113/cipl/test_object.js;http;Домен для списков прокси;;
+winclient_cipl;http://188.42.196.114/cipl/test_object.js;http;Домен для списков прокси;;
+winclient_cipl;http://188.42.196.139/cipl/test_object.js;http;Домен для списков прокси;;
+winclient_cipl;http://188.42.196.140/cipl/test_object.js;http;Домен для списков прокси;;
+winclient_cipl;http://188.42.196.141/cipl/test_object.js;http;Домен для списков прокси;;
+winclient_cipl;http://188.42.196.142/cipl/test_object.js;http;Домен для списков прокси;;
+winclient_cipl;http://188.42.196.143/cipl/test_object.js;http;Домен для списков прокси;;
+winclient_cipl;http://188.42.196.144/cipl/test_object.js;http;Домен для списков прокси;;
+winclient_cipl;http://188.42.196.145/cipl/test_object.js;http;Домен для списков прокси;;
