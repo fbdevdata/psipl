@@ -56,8 +56,6 @@ fbla;https://fbla02-07.fbwebdn.net/servertime;http/json;LineAgent сервер;f
 fbla;https://fbla02-08.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-08;
 fbla;https://fbla02-09.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-09;
 fbla;https://fbla02-10.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-10;
-;;;;;
-;;;;;
 android_client_proxy_list;http://androiddevdata.github.io/psipl/an.json;http/json/iplist;Домен для списков прокси;;
 cipl_android;4f988ef7c9e3da176a.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid01;
 cipl_android;455f21cce6198b4db5.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid02;
