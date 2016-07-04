@@ -1,5 +1,7 @@
 # service;url;validate;service_caption;host_caption;
-account;https://a.fbappdn.com/MyAccount/img/ru.png;http;Account;;
+fbappdn_account;https://a.fbappdn.com/MyAccount/img/ru.png;http;Account;;
+fbappdn_registration;https://reg.fbappdn.com/users/assets/images/favicon.ico;http;Registration;;
+fbwebdn_registration;https://reg.fbwebdn.com/users/assets/images/favicon.ico;http;Registration;;
 fbpr;http://185.82.210.23/test_object.js;http;fbpr01;;
 fbpr;http://185.82.210.42/test_object.js;http;fbpr01;;
 fbpr;http://185.82.210.43/test_object.js;http;fbpr01;;
@@ -54,8 +56,8 @@ fbla;https://fbla02-07.fbwebdn.net/servertime;http/json;LineAgent сервер;f
 fbla;https://fbla02-08.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-08;
 fbla;https://fbla02-09.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-09;
 fbla;https://fbla02-10.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-10;
-registration;https://reg.fbappdn.com/users/assets/images/favicon.ico;http;Registration;;
-registration;https://reg.fbwebdn.com/users/assets/images/favicon.ico;http;Registration;;
+;;;;;
+;;;;;
 android_client_proxy_list;http://androiddevdata.github.io/psipl/an.json;http/json/iplist;Домен для списков прокси;;
 cipl_android;4f988ef7c9e3da176a.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid01;
 cipl_android;455f21cce6198b4db5.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid02;
@@ -128,7 +130,7 @@ fon_bet_com;https://live.fon-bet.com/test_object.js;http;Вэб зеркала /
 fon_bet_com;https://toto.fon-bet.com/test_object.js;http;Вэб зеркала / fon-bet.com;;
 fon_bet_com;https://racing.fon-bet.com/test_object.js;http;Вэб зеркала / fon-bet.com;;
 fon_bet_com;https://fivelevel.fon-bet.com/test_object.js;http;Вэб зеркала / fon-bet.com;;
-fon_bet_com;http://toto-info.fon-bet.com/test_object.js;http/json;Вэб зеркала / fon-bet.com;;
+fon_bet_com;http://toto-info.fon-bet.com/test_object.js;http;Вэб зеркала / fon-bet.com;;
 fonsport_bet;http://fonsport.bet/test_object.js;http;Вэб зеркала / fonsport.bet;;
 fonsport_bet;http://www.fonsport.bet/test_object.js;http;Вэб зеркала / fonsport.bet;;
 fonsport_bet;https://register.fonsport.bet/reg/test_object.js;http;Вэб зеркала / fonsport.bet;;
@@ -143,3 +145,17 @@ fonsport_bet;https://racing.fonsport.bet/test_object.js;http;Вэб зеркал
 fonsport_bet;https://fivelevel.fonsport.bet/test_object.js;http;Вэб зеркала / fonsport.bet;;
 fonsport_bet;https://virtualsports.fonsport.bet/test_object.js;http;Вэб зеркала / fonsport.bet;;
 fonsport_bet;https://toto-info.fonsport.bet/test_object.js;http;Вэб зеркала / fonsport.bet;;
+betsfon_com;http://betsfon.com/test_object.js;http;Вэб зеркала / betsfon.com;;
+betsfon_com;http://www.betsfon.com/test_object.js;http;Вэб зеркала / betsfon.com;;
+betsfon_com;https://register.betsfon.com/reg/test_object.js;http;Вэб зеркала / betsfon.com;;
+betsfon_com;https://reg.betsfon.com/users/test_object.js;http;Вэб зеркала / betsfon.com;;
+betsfon_com;https://account.betsfon.com/MyAccount/test_object.js;http;Вэб зеркала / betsfon.com;;
+betsfon_com;http://results.betsfon.com/test_object.js;http;Вэб зеркала / betsfon.com;;
+betsfon_com;http://stat.betsfon.com/test_object.js;http;Вэб зеркала / betsfon.com;;
+betsfon_com;https://bets.betsfon.com/test_object.js;http;Вэб зеркала / betsfon.com;;
+betsfon_com;https://live.betsfon.com/test_object.js;http;Вэб зеркала / betsfon.com;;
+betsfon_com;https://toto.betsfon.com/test_object.js;http;Вэб зеркала / betsfon.com;;
+betsfon_com;https://racing.betsfon.com/test_object.js;http;Вэб зеркала / betsfon.com;;
+betsfon_com;https://fivelevel.betsfon.com/test_object.js;http;Вэб зеркала / betsfon.com;;
+betsfon_com;https://virtualsports.betsfon.com/test_object.js;http;Вэб зеркала / betsfon.com;;
+betsfon_com;https://toto-info.betsfon.com/test_object.js;http;Вэб зеркала / betsfon.com;;
