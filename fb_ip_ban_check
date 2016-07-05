@@ -142,6 +142,8 @@ fbla02;185.82.210.9;;;
 fbla02;185.82.210.97;;;
 fbla02;185.82.210.98;;;
 fbla02;185.82.210.99;;;
+fbls01;188.42.196.92;1;fbandroid01;4f988ef7c9e3da176a.xyz
+fbls01;188.42.196.93;1;fbandroid02;455f21cce6198b4db5.xyz
 fbls01;188.42.196.94;1;fbandroid03;e82f1e5a1ff3e40dc4.xyz
 fbls01;188.42.196.95;1;fbandroid04;744af4203480f135bc.xyz
 fbls01;188.42.196.96;1;fbandroid05;f6cbc803166a50544c.xyz
@@ -179,10 +181,8 @@ fbls01;188.42.196.63;;fbios16;c84a565b209bf7c75855.xyz
 fbls01;188.42.196.175;;fbios17;e2bf18fc048276077900.xyz
 fbls01;188.42.196.176;;fbios18;d4dbded416bd1af9b84b.xyz
 fbls01;188.42.196.177;;fbios19;fa45696947feba801d65.xyz
-fbls01;188.42.196.178;;fbios20;b73f7ea87e2af6d89175.xyz
+fbls01;188.42.196.178;1;fbios20;b73f7ea87e2af6d89175.xyz
 fbls01;188.42.198.20;;service ip;
-fbls01;188.42.196.92;1;;4f988ef7c9e3da176a.xyz
-fbls01;188.42.196.93;1;;455f21cce6198b4db5.xyz
 fbls01;188.42.196.112;;;2fbc290e853d50433f.xyz
 fbls01;188.42.196.113;;;49b284d08e4d0e79c3.xyz
 fbls01;188.42.196.114;;;c77ef98f2482144ea1.xyz
@@ -197,7 +197,7 @@ fbpproxy;5.9.111.165;;fbpproxy;
 fbpr01;185.82.210.23;1;proxy-zerkal;
 fbpr01;188.42.137.196;;service ip;
 fbpr01;185.82.210.149;1;;
-fbpr01;185.82.210.150;;;
+fbpr01;185.82.210.150;1;;
 fbpr01;185.82.210.151;;;
 fbpr01;185.82.210.152;;;
 fbpr01;185.82.210.166;;;
@@ -268,10 +268,10 @@ fbps01;185.82.210.20;1;;
 fbps01;185.82.210.21;1;;
 fbps01;185.82.210.22;1;;
 fbps01;185.82.210.122;;;
-fbps01;185.82.210.2;;;
+fbps01;185.82.210.2;1;;
 fbps01;185.82.210.229;;;
 fbps01;185.82.210.230;;;
-fbps01;185.82.210.235;;;
+fbps01;185.82.210.235;1;;
 fbps01;185.82.210.236;;;
 fbps01;185.82.210.237;;;
 fbps01;185.82.210.238;;;
@@ -287,12 +287,12 @@ fbps31 ;95.211.203.115;;;
 fbps31 ;95.211.203.117;;;
 fbps32;91.109.22.131;1;;
 fbps32;91.109.22.134;1;;
-fbps32;91.109.22.132;;;
+fbps32;91.109.22.132;1;;
 fbps32;91.109.22.133;;;
 fbps33;144.76.160.225;1;proxy for android-client;
 fbps33;144.76.160.226;1;proxy for android-client;
-fbps33;144.76.160.229;;proxy for ios-client;
-fbps33;144.76.160.230;;proxy for ios-client;
+fbps33;144.76.160.229;1;proxy for ios-client;
+fbps33;144.76.160.230;1;proxy for ios-client;
 fbps33;144.76.160.227;;proxy for jme-client;
 fbps33;144.76.160.228;;proxy for jme-client;
 fbps33;148.251.235.136;1;proxy for winclient;
@@ -394,8 +394,23 @@ kladr;185.79.117.35;;kladr@mskdc;
 ;fon-adw.com;1;;
 ;fon-bet.info;1;;
 ;fbmetrix.click;1;;
-;accessfonbet.net;;;
+;accessfonbet.net;1;;
+;ap-01.accessfonbet.net;1;;
+;ap-02.accessfonbet.net;1;;
+;ap-03.accessfonbet.net;1;;
+;ap-04.accessfonbet.net;1;;
 ;acfbc.net;;;
 ;foninfo.mobi;;;
 ;ios-foninfo.mobi;;;
 ;forumfonbet.com;;;
+;account.dvtfb.com;1;;
+;live.dvtfb.com;1;;
+;reg.dvtfb.com;1;;
+;bets.fonsportsbet.com;1;;
+;live.fonsportsbet.com;1;;
+;toto.fonsportsbet.com;1;;
+;www.fonsportsbet.com;1;;
+;ap-01.acfbc.net;1;;
+;ap-02.acfbc.net;1;;
+;ap-03.acfbc.net;1;;
+;ap-04.acfbc.net;1;;
