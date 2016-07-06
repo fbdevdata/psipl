@@ -32,7 +32,7 @@ fbpr;http://185.82.210.242/test_object.js;http;fbpr01;;
 fbpr;http://185.82.210.248/test_object.js;http;fbpr01;;
 fbpr;http://185.82.210.249/test_object.js;http;fbpr01;;
 fbpr;http://185.82.210.250/test_object.js;http;fbpr01;;
-kladr;http://185.79.117.35/getobjects?value=%D0%B4%D0%B5%D1%80%D0%B1%D0%B5%D0%BD%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F;xml;KLADR;kladr@mskdc;
+kladr;http://185.79.117.35/getobjects?value=%D0%B4%D0%B5%D1%80%D0%B1%D0%B5%D0%BD%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F;http;KLADR;kladr@mskdc;
 line;https://line.fbwebdn.net/servertime;http/json;line.fb*dn;;
 line;https://line.fbwebdn.com/servertime;http/json;line.fb*dn;;
 line;https://line.fbappdn.com/servertime;http/json;line.fb*dn;;
