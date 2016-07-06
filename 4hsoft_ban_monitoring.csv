@@ -115,7 +115,7 @@ mobile_clients_connection;https://m1.fbappdn.com:9444/showToto;http/json;Под�
 mobile_clients_connection;https://m2.fbappdn.com:9444/showToto;http/json;Подключение мобильных клиентов;;
 access;accessfonbet.info/test_object.js;http;Access sites;;
 fbmetrix;fbmetrix.click/test_object.js;http;fbmetrix;;
-landing;fonbet2.info/lend/test_object.js;http;landing;;
+landing;fonbet3.info/lend/test_object.js;http;landing;;
 fon_bet_com;http://fon-bet.com/test_object.js;http;Вэб зеркала / fon-bet.com;;
 fon_bet_com;http://www.fon-bet.com/test_object.js;http;Вэб зеркала / fon-bet.com;;
 fon_bet_com;https://register.fon-bet.com/reg/test_object.js;http;Вэб зеркала / fon-bet.com;;
