@@ -157,7 +157,7 @@ betsfon_com;https://racing.betsfon.com/test_object.js;http;Вэб зеркала
 betsfon_com;https://fivelevel.betsfon.com/test_object.js;http;Вэб зеркала / betsfon.com;;
 betsfon_com;https://virtualsports.betsfon.com/test_object.js;http;Вэб зеркала / betsfon.com;;
 betsfon_com;https://toto-info.betsfon.com/test_object.js;http;Вэб зеркала / betsfon.com;;
-devtest;https://js.dvtfb.com/serverTime;http/json;devtest;;
+devtest;https://js.dvtfb.com/serverTime;http/json;;devtest-js;
 fbps;https://185.82.210.231:9444/showToto;http/json;fbps01;;
 fbps;https://185.82.210.232:9444/showToto;http/json;fbps01;;
 fbps;https://185.82.210.233:9444/showToto;http/json;fbps01;;
