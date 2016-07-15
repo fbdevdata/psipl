@@ -1,4 +1,4 @@
-# service;ip/domain;banned;comment;https://github.com/fbdevdata/psipl/edit/gh-pages/fb_ip_ban_check
+#service;ip/domain;banned;comment;https://github.com/fbdevdata/psipl/edit/gh-pages/fb_ip_ban_check
 betfon.net;betfon.net;;;
 betfon.net;account.betfon.net;;;
 betfon.net;bets.betfon.net;;;
@@ -47,18 +47,18 @@ bet-in-fon.org;results.bet-in-fon.org;;;
 bet-in-fon.org;stat.bet-in-fon.org;;;
 bet-in-fon.org;toto.bet-in-fon.org;;;
 bet-in-fon.org;www.bet-in-fon.org;;;
-betsfon.com;betsfon.com;;;
-betsfon.com;account.betsfon.com;;;
-betsfon.com;bets.betsfon.com;;;
-betsfon.com;fivelevel.betsfon.com;;;
-betsfon.com;live.betsfon.com;;;
-betsfon.com;racing.betsfon.com;;;
-betsfon.com;reg.betsfon.com;;;
-betsfon.com;register.betsfon.com;;;
-betsfon.com;results.betsfon.com;;;
-betsfon.com;stat.betsfon.com;;;
-betsfon.com;toto.betsfon.com;;;
-betsfon.com;www.betsfon.com;;;
+#betsfon.com;betsfon.com;;;
+#betsfon.com;account.betsfon.com;;;
+#betsfon.com;bets.betsfon.com;;;
+#betsfon.com;fivelevel.betsfon.com;;;
+#betsfon.com;live.betsfon.com;;;
+#betsfon.com;racing.betsfon.com;;;
+#betsfon.com;reg.betsfon.com;;;
+#betsfon.com;register.betsfon.com;;;
+#betsfon.com;results.betsfon.com;;;
+#betsfon.com;stat.betsfon.com;;;
+#betsfon.com;toto.betsfon.com;;;
+#betsfon.com;www.betsfon.com;;;
 betsfon.net;betsfon.net;;;
 betsfon.net;account.betsfon.net;;;
 betsfon.net;bets.betsfon.net;;;
@@ -184,8 +184,8 @@ fbls01;188.42.196.177;;fbios19;fa45696947feba801d65.xyz
 fbls01;188.42.196.178;1;fbios20;b73f7ea87e2af6d89175.xyz
 fbls01;188.42.198.20;;service ip;
 fbls01;188.42.196.112;1;winclient-ls-01;2fbc290e853d50433f.xyz
-fbls01;188.42.196.113;;winclient-ls-02;49b284d08e4d0e79c3.xyz
-fbls01;188.42.196.114;;winclient-ls-03;c77ef98f2482144ea1.xyz
+fbls01;188.42.196.113;1;winclient-ls-02;49b284d08e4d0e79c3.xyz
+fbls01;188.42.196.114;1;winclient-ls-03;c77ef98f2482144ea1.xyz
 fbls01;188.42.196.139;;winclient-ls-04;0e42f70423087d0d11.xyz
 fbls01;188.42.196.140;;winclient-ls-05;3297dae7db62f74d1c.xyz
 fbls01;188.42.196.141;;winclient-ls-06;ba8f3597ddb92e1082.xyz
@@ -277,7 +277,7 @@ fbps01;185.82.210.237;1;;
 fbps01;185.82.210.238;1;;
 fbps01;185.82.210.3;;;
 fbps01;185.82.210.44;;;
-fbps01;185.82.210.8;;;
+fbps01;185.82.210.8;1;;
 fbps01;185.82.210.80;;;
 fbps01;185.82.210.81;;;
 fbps01;185.82.210.82;;mobil;
