@@ -176,8 +176,8 @@ fbls01;188.42.196.108;1;fbios07;89f62ba47ab96535b03e.xyz
 fbls01;188.42.196.109;1;fbios08;1907f73a166077fb3f11.xyz
 fbls01;188.42.196.110;1;fbios09;b260f1ce6df31b3a1b98.xyz
 fbls01;188.42.196.111;1;fbios10;896f69826523155d1755.xyz
-fbls01;188.42.196.58;;fbios11;8ac24309f039b75e651f.xyz
-fbls01;188.42.196.59;;fbios12;eccb2bb0dbd5ffd06d9b.xyz
+fbls01;188.42.196.58;1;fbios11;8ac24309f039b75e651f.xyz
+fbls01;188.42.196.59;1;fbios12;eccb2bb0dbd5ffd06d9b.xyz
 fbls01;188.42.196.60;;fbios13;bf647a4df84568bdd9dc.xyz
 fbls01;188.42.196.61;;fbios14;ce15a267864479babaf1.xyz
 fbls01;188.42.196.62;;fbios15;c1d5c02650070df55f45.xyz
@@ -192,9 +192,9 @@ fbls01;188.42.196.113;1;winclient-ls-02;49b284d08e4d0e79c3.xyz
 fbls01;188.42.196.114;1;winclient-ls-03;c77ef98f2482144ea1.xyz
 fbls01;188.42.196.139;;winclient-ls-04;0e42f70423087d0d11.xyz
 fbls01;188.42.196.140;;winclient-ls-05;3297dae7db62f74d1c.xyz
-fbls01;188.42.196.141;;winclient-ls-06;ba8f3597ddb92e1082.xyz
-fbls01;188.42.196.142;;winclient-ls-07;127d71ae223f19895e.xyz
-fbls01;188.42.196.143;;winclient-ls-08;9d2e5d3a4b13649409.xyz
+fbls01;188.42.196.141;1;winclient-ls-06;ba8f3597ddb92e1082.xyz
+fbls01;188.42.196.142;1;winclient-ls-07;127d71ae223f19895e.xyz
+fbls01;188.42.196.143;1;winclient-ls-08;9d2e5d3a4b13649409.xyz
 fbls01;188.42.196.144;;winclient-ls-09;af89497a9b0a915af6.xyz
 fbls01;188.42.196.145;;winclient-ls-10;fba4814cdfa70e4453.xyz
 fbpproxy;5.9.111.165;;fbpproxy;
@@ -271,7 +271,7 @@ fbps01;185.82.210.1;1;;
 fbps01;185.82.210.20;1;;
 fbps01;185.82.210.21;1;;
 fbps01;185.82.210.22;1;;
-fbps01;185.82.210.122;;;
+fbps01;185.82.210.122;1;;
 fbps01;185.82.210.2;1;;
 fbps01;185.82.210.229;;;
 fbps01;185.82.210.230;;;
@@ -286,7 +286,7 @@ fbps01;185.82.210.80;;;
 fbps01;185.82.210.81;;;
 fbps01;185.82.210.82;1;mobil;
 fbps01;185.82.210.83;;mobil;
-fbps02;185.82.210.17;;mobil;
+fbps02;185.82.210.17;1;mobil;
 fbps03;185.82.210.18;;;
 fbps04;185.82.210.195;;;
 fbps05;185.82.210.196;;;
@@ -312,7 +312,7 @@ fbps33;144.76.160.228;;proxy for jme-client;
 fbps33;148.251.235.136;1;proxy for winclient;
 fbsr01;188.42.198.28;;service ip;
 fbsr01;188.42.196.146;1;;
-fbsr01;188.42.196.147;;;
+fbsr01;188.42.196.147;1;;
 fbsr01;188.42.196.148;;;
 fbsr01;188.42.196.149;;;
 fbsr01;188.42.196.150;;;
