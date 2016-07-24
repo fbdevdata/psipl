@@ -197,6 +197,20 @@ fbls01;188.42.196.142;1;winclient-ls-07;127d71ae223f19895e.xyz
 fbls01;188.42.196.143;1;winclient-ls-08;9d2e5d3a4b13649409.xyz
 fbls01;188.42.196.144;;winclient-ls-09;af89497a9b0a915af6.xyz
 fbls01;188.42.196.145;;winclient-ls-10;fba4814cdfa70e4453.xyz
+fbls01;188.42.196.4;;fbls_year|2016|andr;bc59a8.55643cdd7b6dc190e1.xyz
+fbls01;188.42.196.5;;fbls_year|2016|ios;595181.55643cdd7b6dc190e1.xyz
+fbls01;188.42.196.6;;fbls_year|2016|wc;eee2bd.55643cdd7b6dc190e1.xyz
+fbls01;188.42.196.87;;fbls_month|201607|andr;832c2f.1116fa0f8d83960dc0.xyz
+fbls01;188.42.196.88;;fbls_month|201607|ios;458fe4.1116fa0f8d83960dc0.xyz
+fbls01;188.42.196.89;;fbls_month|201607|wc;d2d7dc.1116fa0f8d83960dc0.xyz
+fbls01;188.42.196.90;;;
+fbls01;188.42.196.91;;;
+fbls01;188.42.196.121;;fbls_day|201607|andr;*.c2ef25.f8fcf86b2683cf6fe0.xyz
+fbls01;188.42.196.122;;fbls_day|201607|ios;*.9025e6.f8fcf86b2683cf6fe0.xyz
+fbls01;188.42.196.123;;fbls_day|201607|wc;*.f8250b.f8fcf86b2683cf6fe0.xyz
+fbls01;188.42.196.124;;;
+fbls01;188.42.196.125;;;
+fbls01;188.42.196.126;;;
 fbpproxy;5.9.111.165;;fbpproxy;
 fbpr01;185.82.210.23;1;proxy-zerkal;
 fbpr01;188.42.137.196;;service ip;
