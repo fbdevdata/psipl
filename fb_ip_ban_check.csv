@@ -190,7 +190,7 @@ fbls01;188.42.198.20;;service ip;
 fbls01;188.42.196.112;1;winclient-ls-01;2fbc290e853d50433f.xyz
 fbls01;188.42.196.113;1;winclient-ls-02;49b284d08e4d0e79c3.xyz
 fbls01;188.42.196.114;1;winclient-ls-03;c77ef98f2482144ea1.xyz
-fbls01;188.42.196.139;;winclient-ls-04;0e42f70423087d0d11.xyz
+fbls01;188.42.196.139;1;winclient-ls-04;0e42f70423087d0d11.xyz
 fbls01;188.42.196.140;;winclient-ls-05;3297dae7db62f74d1c.xyz
 fbls01;188.42.196.141;1;winclient-ls-06;ba8f3597ddb92e1082.xyz
 fbls01;188.42.196.142;1;winclient-ls-07;127d71ae223f19895e.xyz
@@ -302,7 +302,7 @@ fbps01;185.82.210.82;1;mobil;
 fbps01;185.82.210.83;;mobil;
 fbps02;185.82.210.17;1;mobil;
 fbps03;185.82.210.18;;;
-fbps04;185.82.210.195;;;
+fbps04;185.82.210.195;1;;
 fbps05;185.82.210.196;;;
 fbps06;185.82.210.197;;;
 fbps07;185.82.210.198;;;
@@ -344,7 +344,7 @@ fbsr01;188.42.196.161;;;
 fbsr01;188.42.196.187;;;
 fbsr01;188.42.196.188;;;
 fbsr01;188.42.196.189;;;
-fbsr01;188.42.196.190;;;
+fbsr01;188.42.196.190;1;;
 fonbet.bet;fonbet.bet;;;
 fonbet.bet;account.fonbet.bet;;;
 fonbet.bet;bets.fonbet.bet;;;
