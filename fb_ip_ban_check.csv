@@ -195,7 +195,7 @@ fbls01;188.42.196.140;1;winclient-ls-05;3297dae7db62f74d1c.xyz
 fbls01;188.42.196.141;1;winclient-ls-06;ba8f3597ddb92e1082.xyz
 fbls01;188.42.196.142;1;winclient-ls-07;127d71ae223f19895e.xyz
 fbls01;188.42.196.143;1;winclient-ls-08;9d2e5d3a4b13649409.xyz
-fbls01;188.42.196.144;;winclient-ls-09;af89497a9b0a915af6.xyz
+fbls01;188.42.196.144;1;winclient-ls-09;af89497a9b0a915af6.xyz
 fbls01;188.42.196.145;1;winclient-ls-10;fba4814cdfa70e4453.xyz
 fbls01;188.42.196.4;;fbls_year|2016|andr;bc59a8.55643cdd7b6dc190e1.xyz
 fbls01;188.42.196.5;;fbls_year|2016|ios;595181.55643cdd7b6dc190e1.xyz
@@ -307,7 +307,7 @@ fbps05;185.82.210.196;1;;
 fbps06;185.82.210.197;;;
 fbps07;185.82.210.198;1;;
 fbps08;185.82.210.221;1;;
-fbps09;185.82.210.222;;m2.fonbet.com;
+fbps09;185.82.210.222;1;m2.fonbet.com;
 fbps10;185.82.210.223;;m1.fonbet.com;
 fbps11;185.82.210.224;;m0.fonbet.com;
 fbps31 ;95.211.203.116;1;;
@@ -340,7 +340,7 @@ fbsr01;188.42.196.157;;;
 fbsr01;188.42.196.158;;;
 fbsr01;188.42.196.159;;;
 fbsr01;188.42.196.160;;;
-fbsr01;188.42.196.161;;;
+fbsr01;188.42.196.161;1;;
 fbsr01;188.42.196.187;1;;
 fbsr01;188.42.196.188;1;;
 fbsr01;188.42.196.189;1;;
