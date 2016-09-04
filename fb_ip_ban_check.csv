@@ -1,9 +1,9 @@
 #service;ip/domain;banned;comment;https://github.com/fbdevdata/psipl/edit/gh-pages/fb_ip_ban_check
 access_page;ap-03.accessfonbet.click;;;
-landing_page;lp-02.infoinbet.info/lend;;;
-metrix_page «int»;mp-04.smartdirectroute.club;;;
+landing_page;lp-03.infoinbet.info;;;
+metrix_page «int»;mp-05.smartdirectroute.club;;;
 metrix_page «for all»;mp-03.smartdirectroute.xyz;;;
-metrix_page «adv»;mp-02.smartdirectroute.info;;;
+metrix_page «adv»;mp-03.smartdirectroute.info;;;
 #bet-in-fon.org;bet-in-fon.org;;;
 #bet-in-fon.org;account.bet-in-fon.org;;;
 #bet-in-fon.org;bets.bet-in-fon.org;;;
