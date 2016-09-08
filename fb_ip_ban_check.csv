@@ -120,7 +120,7 @@ fbls01;188.42.196.6;;fbls_year|2016|wc;eee2bd.55643cdd7b6dc190e1.xyz
 fbls01;188.42.196.87;;fbls_month|201607|andr;832c2f.1116fa0f8d83960dc0.xyz
 fbls01;188.42.196.88;;fbls_month|201607|ios;458fe4.1116fa0f8d83960dc0.xyz
 fbls01;188.42.196.89;;fbls_month|201607|wc;d2d7dc.1116fa0f8d83960dc0.xyz
-fbls01;188.42.196.122;;fbls_day|201607|ios;*.9025e6.f8fcf86b2683cf6fe0.xyz
+fbls01;188.42.196.122;1;fbls_day|201607|ios;*.9025e6.f8fcf86b2683cf6fe0.xyz
 fbls01;188.42.196.123;;fbls_day|201607|wc;*.f8250b.f8fcf86b2683cf6fe0.xyz
 fbpproxy;5.9.111.165;;fbpproxy;
 fbpr01;188.42.137.196;;service ip;
@@ -390,7 +390,7 @@ stavki-info.pro;stavki-info.pro;;;
 fonbet-about.me;fonbet-about.me;;;
 rufonbk.com;rufonbk.com;;;
 фонбет.su;фонбет.su;;;
-winclient/fbwebdn.net;188.42.189.211;;;
+winclient/fbwebdn.net;188.42.189.211;1;;
 winclient/fbwebdn.net;188.42.189.212;;;
 winclient/fbwebdn.net;188.42.189.213;;;
 winclient/fbwebdn.net;188.42.189.214;;;
