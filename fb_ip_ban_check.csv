@@ -1,7 +1,7 @@
 #service;ip/domain;banned;comment;https://github.com/fbdevdata/psipl/edit/gh-pages/fb_ip_ban_check
 access_page;ap-04.accessfonbet.click;;;
 landing_page;lp-04.infoinbet.info;;;
-metrix_page «int»;mp-05.smartdirectroute.club;;;
+metrix_page «int»;mp-01.smartdirectroute.biz;;;
 metrix_page «for all»;mp-04.smartdirectroute.xyz;;;
 metrix_page «adv»;mp-03.smartdirectroute.info;;;
 bkfonbet.bet;bkfonbet.bet;;;
