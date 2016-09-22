@@ -1,9 +1,9 @@
 #service;ip/domain;banned;comment;https://github.com/fbdevdata/psipl/edit/gh-pages/fb_ip_ban_check
 access_page;ap-01.accessfonbet.xyz;;;
-landing_page;lp-01.betinfo.info;;;
-metrix_page «int»;mp-02.smartdirectroute.biz;;;
-metrix_page «for all»;mp-05.smartdirectroute.xyz;1;;
-metrix_page «adv»;mp-05.smartdirectroute.info;;;
+landing_page;lp-02.betinfo.info;;;
+metrix_page «int»;mp-03.smartdirectroute.biz;;;
+metrix_page «for all»;mp-05.smartdirectroute.xyz;;;
+metrix_page «adv»;mp-01.smartdirectroute.net;;;
 bkfonbet.bet;bkfonbet.bet;;;
 bkfonbet.bet;account.bkfonbet.bet;;;
 bkfonbet.bet;bets.bkfonbet.bet;;;
