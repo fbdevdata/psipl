@@ -1,5 +1,5 @@
 #service;ip/domain;banned;comment;https://github.com/fbdevdata/psipl/edit/gh-pages/fb_ip_ban_check
-access_page;ap-01.accessfonbet.xyz;;;
+access_page;ap-02.accessfonbet.xyz;;;
 landing_page;lp-02.betinfo.info;;;
 metrix_page «int»;mp-03.smartdirectroute.biz;;;
 metrix_page «for all»;mp-02.smartdirectroute.com;;;
