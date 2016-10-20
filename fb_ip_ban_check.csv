@@ -118,7 +118,7 @@ fbps32;91.109.22.133;;;
 fbps33;144.76.160.227;;proxy for jme-client;
 fbps33;144.76.160.228;;proxy for jme-client;
 fbsr01;188.42.198.28;;service ip;
-fbsr01;188.42.196.148;;;
+fbsr01;188.42.196.148;1;;
 fbsr01;188.42.196.149;;;
 fbsr01;188.42.196.151;;;
 fonbet.bet;fonbet.bet;;;
