@@ -1,57 +1,46 @@
 # service [domain];url;validate;service_caption;host_caption [service]
+Google-dns-test;8.8.8.8:53;tcp;;
 5000-srv;81.198.186.9:5000;tcp;;5000a
 5000-srv;81.198.186.109:5000;tcp;;5000b
-betfon_org;http://betfon.org/test_object.js;http;Вэб зеркала / betfon.org;
-betfon_org;http://www.betfon.org/test_object.js;http;Вэб зеркала / betfon.org;
-betfon_org;https://register.betfon.org/reg/test_object.js;http;Вэб зеркала / betfon.org;
-betfon_org;https://reg.betfon.org/users/test_object.js;http;Вэб зеркала / betfon.org;
-betfon_org;https://account.betfon.org/MyAccount/test_object.js;http;Вэб зеркала / betfon.org;
-betfon_org;http://results.betfon.org/test_object.js;http;Вэб зеркала / betfon.org;
-betfon_org;http://stat.betfon.org/test_object.js;http;Вэб зеркала / betfon.org;
-betfon_org;https://bets.betfon.org/test_object.js;http;Вэб зеркала / betfon.org;
-betfon_org;https://live.betfon.org/test_object.js;http;Вэб зеркала / betfon.org;
-betfon_org;https://toto.betfon.org/test_object.js;http;Вэб зеркала / betfon.org;
-betfon_org;https://racing.betfon.org/test_object.js;http;Вэб зеркала / betfon.org;
-betfon_org;https://fivelevel.betfon.org/test_object.js;http;Вэб зеркала / betfon.org;
-betfon_org;https://virtualsports.betfon.org/test_object.js;http;Вэб зеркала / betfon.org;
-betfon_org;https://toto-info.betfon.org/test_object.js;http;Вэб зеркала / betfon.org;
-fbappdn_account;https://a.fbappdn.com/MyAccount/img/ru.png;http;Account;
-fbappdn_registration;https://reg.fbappdn.com/users/assets/images/favicon.ico;http;Registration;
-fbwebdn_registration;https://reg.fbwebdn.com/users/assets/images/favicon.ico;http;Registration;
-fbpr;http://185.82.210.23/test_object.js;http;fbpr01;
-fbpr;http://185.82.210.42/test_object.js;http;fbpr01;
-fbpr;http://185.82.210.43/test_object.js;http;fbpr01;
-fbpr;http://185.82.210.77/test_object.js;http;fbpr01;
-fbpr;http://185.82.210.78/test_object.js;http;fbpr01;
-fbpr;http://185.82.210.79/test_object.js;http;fbpr01;
-fbpr;http://185.82.210.84/test_object.js;http;fbpr01;
-fbpr;http://185.82.210.85/test_object.js;http;fbpr01;
-fbpr;http://185.82.210.86/test_object.js;http;fbpr01;
-fbpr;http://185.82.210.149/test_object.js;http;fbpr01;
-fbpr;http://185.82.210.150/test_object.js;http;fbpr01;
-fbpr;http://185.82.210.151/test_object.js;http;fbpr01;
-fbpr;http://185.82.210.152/test_object.js;http;fbpr01;
-fbpr;http://185.82.210.166/test_object.js;http;fbpr01;
-fbpr;http://185.82.210.167/test_object.js;http;fbpr01;
-fbpr;http://185.82.210.168/test_object.js;http;fbpr01;
-fbpr;http://185.82.210.169/test_object.js;http;fbpr01;
-fbpr;http://185.82.210.185/test_object.js;http;fbpr01;
-fbpr;http://185.82.210.186/test_object.js;http;fbpr01;
-fbpr;http://185.82.210.187/test_object.js;http;fbpr01;
-fbpr;http://185.82.210.225/test_object.js;http;fbpr01;
-fbpr;http://185.82.210.226/test_object.js;http;fbpr01;
-fbpr;http://185.82.210.227/test_object.js;http;fbpr01;
-fbpr;http://185.82.210.239/test_object.js;http;fbpr01;
-fbpr;http://185.82.210.240/test_object.js;http;fbpr01;
-fbpr;http://185.82.210.241/test_object.js;http;fbpr01;
-fbpr;http://185.82.210.242/test_object.js;http;fbpr01;
-fbpr;http://185.82.210.248/test_object.js;http;fbpr01;
-fbpr;http://185.82.210.249/test_object.js;http;fbpr01;
-fbpr;http://185.82.210.250/test_object.js;http;fbpr01;
+access_page;ap-05.accessfonbet.co/test_object.js;http;;access_page
+landing_page;lp-04.infofromfon.info/test_object.js;http;;landing_page
+metrix_page;mp-01.smartdirectroute.co/test_object.js;http;;metrix_page «int»
+metrix_page;mp-05.smartdirectroute.pro/test_object.js;http;;metrix_page «for all»
+metrix_page;mp-01.directsmartroute.co/test_object.js;http;;metrix_page «adv»
 kladr;http://185.79.117.35/getobjects?value=%D0%B4%D0%B5%D1%80%D0%B1%D0%B5%D0%BD%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F;http;KLADR;kladr@mskdc
+winclient_config;http://upd.fbwebdn.net/winclient/test_object.js;http;;upd-[].fbwebdn.net
+fbappdn_account;https://a.fbappdn.com/MyAccount/img/ru.png;http;Account;
+fbwebdn_registration;https://reg.fbwebdn.com/users/assets/images/favicon.ico;http;Registration;
 line;https://line.fbwebdn.net/servertime;http/json;line.fb*dn;
 line;https://line.fbwebdn.com/servertime;http/json;line.fb*dn;
-line;https://line.fbappdn.com/servertime;http/json;line.fb*dn;
+bksportfon_club;http://bksportfon.club/test_object.js;http;;
+bksportfon_club;https://m.bksportfon.club/favicons/manifest.json;http/json;;
+bksportfon_club;http://www.bksportfon.club/test_object.js;http;;
+bksportfon_club;https://account.bksportfon.club/MyAccount/test_object.js;http;;
+bksportfon_club;http://results.bksportfon.club/test_object.js;http;;
+bksportfon_club;http://stat.bksportfon.club/test_object.js;http;;
+bksportfon_club;https://bets.bksportfon.club/test_object.js;http;;
+bksportfon_club;https://live.bksportfon.club/test_object.js;http;;
+bksportfon_club;https://toto.bksportfon.club/test_object.js;http;;
+bksportfon_club;https://racing.bksportfon.club/test_object.js;http;;
+bksportfon_club;https://fivelevel.bksportfon.club/test_object.js;http;;
+bksportfon_club;https://virtualsports.bksportfon.club/test_object.js;http;;
+bksportfon_club;https://toto-info.bksportfon.club/test_object.js;http;;
+bksportfon_club;https://games.bksportfon.club/test_object.js;http;;
+#foninbet_club;http://foninbet.club/test_object.js;http;;
+#foninbet_club;https://m.foninbet.club/favicons/manifest.json;http/json;;
+#foninbet_club;http://www.foninbet.club/test_object.js;http;;
+#foninbet_club;https://account.foninbet.club/MyAccount/test_object.js;http;;
+#foninbet_club;http://results.foninbet.club/test_object.js;http;;
+#foninbet_club;http://stat.foninbet.club/test_object.js;http;;
+#foninbet_club;https://bets.foninbet.club/test_object.js;http;;
+#foninbet_club;https://live.foninbet.club/test_object.js;http;;
+#foninbet_club;https://toto.foninbet.club/test_object.js;http;;
+#foninbet_club;https://racing.foninbet.club/test_object.js;http;;
+#foninbet_club;https://fivelevel.foninbet.club/test_object.js;http;;
+#foninbet_club;https://virtualsports.foninbet.club/test_object.js;http;;
+#foninbet_club;https://toto-info.foninbet.club/test_object.js;http;;
+#foninbet_club;https://games.foninbet.club/test_object.js;http;;
 fbla;https://fbla01-01.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla01-01
 fbla;https://fbla01-02.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla01-02
 fbla;https://fbla01-03.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla01-03
@@ -72,176 +61,200 @@ fbla;https://fbla02-07.fbwebdn.net/servertime;http/json;LineAgent сервер;f
 fbla;https://fbla02-08.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-08
 fbla;https://fbla02-09.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-09
 fbla;https://fbla02-10.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-10
+#fbca;188.42.196.86:8078;tcp;ClienAgent server;fbca01-01
+#fbca;188.42.196.238:8078;tcp;ClienAgent server;fbca01-02
+#fbca;188.42.196.239:8078;tcp;ClienAgent server;fbca01-03
+#fbca;188.42.196.240:8078;tcp;ClienAgent server;fbca01-04
+#fbca;188.42.196.241:8078;tcp;ClienAgent server;fbca01-05
+#fbca;188.42.196.242:8078;tcp;ClienAgent server;fbca01-06
+#fbca;188.42.196.243:8078;tcp;ClienAgent server;fbca01-07
+#fbca;188.42.196.244:8078;tcp;ClienAgent server;fbca01-08
+#fbca;188.42.196.245:8078;tcp;ClienAgent server;fbca01-09
+#fbca;188.42.196.246:8078;tcp;ClienAgent server;fbca01-10
 android_client_proxy_list;http://androiddevdata.github.io/psipl/an.json;http/json/iplist;Домен для списков прокси;
-#cipl_android;4f988ef7c9e3da176a.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid01
-#cipl_android;455f21cce6198b4db5.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid02
-#cipl_android;e82f1e5a1ff3e40dc4.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid03
-#cipl_android;744af4203480f135bc.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid04
-#cipl_android;f6cbc803166a50544c.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid05
-#cipl_android;70906527caf0430799.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid06
-#cipl_android;d2a374eed8a8601b43.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid07
-#cipl_android;8f09557122d4b6e63c.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid08
-#cipl_android;e2c8ae784c802e90ba.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid09
-#cipl_android;c73e93f0db2e0e849e.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid10
-#cipl_android;6d60d18b8c95480ae4.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid11
-#cipl_android;a156963ae7bb58071a.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid12
-#cipl_android;0b4851d27acff5fda0.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid13
-#cipl_android;d89eeabfb53977fa6b.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid14
-#cipl_android;e35c503a3816fcc3c0.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid15
-#cipl_android;9dc1fd688d758d2b30.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid16
-#cipl_android;4e69a4b7b67f21123d.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid17
-#cipl_android;af99fa0326cff55127.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid18
-#cipl_android;1a3fa73e2e48ac0797.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid19
-#cipl_android;090da834fae5f25087.xyz/cipl/test_object.js;http;Домен для списков прокси;fbandroid20
-#cipl_ios;5c8dae8d0599e3068dea.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios01
-#cipl_ios;fbc4450c7966fc6d37db.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios02
-#cipl_ios;12b46d995a4826939a43.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios03
-#cipl_ios;68e652faf7b597e9a597.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios04
-#cipl_ios;774f86f83842299b2104.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios05
-#cipl_ios;da42ea8654970a24c063.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios06
-#cipl_ios;89f62ba47ab96535b03e.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios07
-#cipl_ios;1907f73a166077fb3f11.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios08
-#cipl_ios;b260f1ce6df31b3a1b98.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios09
-#cipl_ios;896f69826523155d1755.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios10
-cipl_ios;8ac24309f039b75e651f.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios11
-cipl_ios;eccb2bb0dbd5ffd06d9b.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios12
-cipl_ios;bf647a4df84568bdd9dc.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios13
-cipl_ios;ce15a267864479babaf1.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios14
-cipl_ios;c1d5c02650070df55f45.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios15
-cipl_ios;c84a565b209bf7c75855.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios16
 cipl_ios;e2bf18fc048276077900.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios17
 cipl_ios;d4dbded416bd1af9b84b.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios18
 cipl_ios;fa45696947feba801d65.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios19
-#cipl_ios;b73f7ea87e2af6d89175.xyz/cipl/test_object.js;http;Домен для списков прокси;fbios20
-#cipl_winclient;http://188.42.196.112/cipl/test_object.js;http;Домен для списков прокси;cipl_winclient_01
-#cipl_winclient;http://188.42.196.113/cipl/test_object.js;http;Домен для списков прокси;cipl_winclient_02
-#cipl_winclient;http://188.42.196.114/cipl/test_object.js;http;Домен для списков прокси;cipl_winclient_03
-cipl_winclient;http://188.42.196.139/cipl/test_object.js;http;Домен для списков прокси;cipl_winclient_04
-cipl_winclient;http://188.42.196.140/cipl/test_object.js;http;Домен для списков прокси;cipl_winclient_05
-cipl_winclient;http://188.42.196.141/cipl/test_object.js;http;Домен для списков прокси;cipl_winclient_06
-cipl_winclient;http://188.42.196.142/cipl/test_object.js;http;Домен для списков прокси;cipl_winclient_07
-cipl_winclient;http://188.42.196.143/cipl/test_object.js;http;Домен для списков прокси;cipl_winclient_08
-cipl_winclient;http://188.42.196.144/cipl/test_object.js;http;Домен для списков прокси;cipl_winclient_09
-cipl_winclient;http://188.42.196.145/cipl/test_object.js;http;Домен для списков прокси;cipl_winclient_10
+fbls01;188.42.196.4/cipl/test_object.js;http;Домен для списков прокси;fbls_year_2016_andr
+fbls01;188.42.196.5/cipl/test_object.js;http;Домен для списков прокси;fbls_year_2016_ios
+fbls01;188.42.196.6/cipl/test_object.js;http;Домен для списков прокси;fbls_year_2016_wc
+fbls01;188.42.196.87/cipl/test_object.js;http;Домен для списков прокси;fbls_month_201607_andr
+fbls01;188.42.196.88/cipl/test_object.js;http;Домен для списков прокси;fbls_month_201607_ios
+fbls01;188.42.196.89/cipl/test_object.js;http;Домен для списков прокси;fbls_month_201607_wc
+fbls01;188.42.196.90/cipl/test_object.js;http;Домен для списков прокси;fbls_reserv
+fbls01;188.42.196.122/cipl/test_object.js;http;Домен для списков прокси;fbls_day_201607_ios
+fbls01;188.42.196.123/cipl/test_object.js;http;Домен для списков прокси;fbls_day_201607_wc
+fbls01;188.42.196.124/cipl/test_object.js;http;Домен для списков прокси;andr ban 20160729
 ios_client_proxy_list;http://fbdevdata.github.io/psipl/mps_v2.json;http/json/iplist;Домен для списков прокси;
 jme_client_proxy_list;http://fbdevdata.github.io/psipl/jme.list;http/iplist;Домен для списков прокси;
 jme_client_proxy_list;https://jmedevdata.github.io/psipl/jme.list;http/iplist;Домен для списков прокси;
-#mobile_clients_connection;https://m.fbappdn.com:9444/showToto;http/json;Подключение мобильных клиентов;
-#mobile_clients_connection;https://m1.fbappdn.com:9444/showToto;http/json;Подключение мобильных клиентов;
-#mobile_clients_connection;https://m2.fbappdn.com:9444/showToto;http/json;Подключение мобильных клиентов;
-access;accessfonbet.info/test_object.js;http;Access sites;
-fbmetrix;fbmetrix.click/test_object.js;http;;fbmetrix.click
-fbmetrix;http://mp-03.fbmetrix.xyz/test_object.js;http;;mp-03.fbmetrix.xyz
-landing;fonbet3.info/lend/test_object.js;http;landing;
-#fon_bet_com;http://fon-bet.com/test_object.js;http;Вэб зеркала / fon-bet.com;
-#fon_bet_com;http://www.fon-bet.com/test_object.js;http;Вэб зеркала / fon-bet.com;
-#fon_bet_com;https://register.fon-bet.com/reg/test_object.js;http;Вэб зеркала / fon-bet.com;
-#fon_bet_com;https://reg.fon-bet.com/users/test_object.js;http;Вэб зеркала / fon-bet.com;
-#fon_bet_com;https://account.fon-bet.com/MyAccount/test_object.js;http;Вэб зеркала / fon-bet.com;
-#fon_bet_com;http://results.fon-bet.com/test_object.js;http;Вэб зеркала / fon-bet.com;
-#fon_bet_com;http://stat.fon-bet.com/test_object.js;http;Вэб зеркала / fon-bet.com;
-#fon_bet_com;https://bets.fon-bet.com/test_object.js;http;Вэб зеркала / fon-bet.com;
-#fon_bet_com;https://live.fon-bet.com/test_object.js;http;Вэб зеркала / fon-bet.com;
-#fon_bet_com;https://toto.fon-bet.com/test_object.js;http;Вэб зеркала / fon-bet.com;
-#fon_bet_com;https://racing.fon-bet.com/test_object.js;http;Вэб зеркала / fon-bet.com;
-#fon_bet_com;https://fivelevel.fon-bet.com/test_object.js;http;Вэб зеркала / fon-bet.com;
-#fon_bet_com;http://toto-info.fon-bet.com/test_object.js;http;Вэб зеркала / fon-bet.com;
-#fonsport_bet;http://fonsport.bet/test_object.js;http;Вэб зеркала / fonsport.bet;
-#fonsport_bet;http://www.fonsport.bet/test_object.js;http;Вэб зеркала / fonsport.bet;
-#fonsport_bet;https://register.fonsport.bet/reg/test_object.js;http;Вэб зеркала / fonsport.bet;
-#fonsport_bet;https://reg.fonsport.bet/users/test_object.js;http;Вэб зеркала / fonsport.bet;
-#fonsport_bet;https://account.fonsport.bet/MyAccount/test_object.js;http;Вэб зеркала / fonsport.bet;
-#fonsport_bet;http://results.fonsport.bet/test_object.js;http;Вэб зеркала / fonsport.bet;
-#fonsport_bet;http://stat.fonsport.bet/test_object.js;http;Вэб зеркала / fonsport.bet;
-#fonsport_bet;https://bets.fonsport.bet/test_object.js;http;Вэб зеркала / fonsport.bet;
-#fonsport_bet;https://live.fonsport.bet/test_object.js;http;Вэб зеркала / fonsport.bet;
-#fonsport_bet;https://toto.fonsport.bet/test_object.js;http;Вэб зеркала / fonsport.bet;
-#fonsport_bet;https://racing.fonsport.bet/test_object.js;http;Вэб зеркала / fonsport.bet;
-#fonsport_bet;https://fivelevel.fonsport.bet/test_object.js;http;Вэб зеркала / fonsport.bet;
-#fonsport_bet;https://virtualsports.fonsport.bet/test_object.js;http;Вэб зеркала / fonsport.bet;
-#fonsport_bet;https://toto-info.fonsport.bet/test_object.js;http;Вэб зеркала / fonsport.bet;
-#betsfon_com;http://betsfon.com/test_object.js;http;Вэб зеркала / betsfon.com;
-#betsfon_com;http://www.betsfon.com/test_object.js;http;Вэб зеркала / betsfon.com;
-#betsfon_com;https://register.betsfon.com/reg/test_object.js;http;Вэб зеркала / betsfon.com;
-#betsfon_com;https://reg.betsfon.com/users/test_object.js;http;Вэб зеркала / betsfon.com;
-#betsfon_com;https://account.betsfon.com/MyAccount/test_object.js;http;Вэб зеркала / betsfon.com;
-#betsfon_com;http://results.betsfon.com/test_object.js;http;Вэб зеркала / betsfon.com;
-#betsfon_com;http://stat.betsfon.com/test_object.js;http;Вэб зеркала / betsfon.com;
-#betsfon_com;https://bets.betsfon.com/test_object.js;http;Вэб зеркала / betsfon.com;
-#betsfon_com;https://live.betsfon.com/test_object.js;http;Вэб зеркала / betsfon.com;
-#betsfon_com;https://toto.betsfon.com/test_object.js;http;Вэб зеркала / betsfon.com;
-#betsfon_com;https://racing.betsfon.com/test_object.js;http;Вэб зеркала / betsfon.com;
-#betsfon_com;https://fivelevel.betsfon.com/test_object.js;http;Вэб зеркала / betsfon.com;
-#betsfon_com;https://virtualsports.betsfon.com/test_object.js;http;Вэб зеркала / betsfon.com;
-#betsfon_com;https://toto-info.betsfon.com/test_object.js;http;Вэб зеркала / betsfon.com;
 devtest;https://js.dvtfb.com/serverTime;http/json;;devtest-js
-fbps01;https://185.82.210.231:9444/showToto;http/json;;
-fbps01;https://185.82.210.232:9444/showToto;http/json;;
-#fbps01;https://185.82.210.233:9444/showToto;http/json;;
-#fbps01;https://185.82.210.234:9444/showToto;http/json;;
-fbps01;https://188.42.137.188:9444/showToto;http/json;;
-#fbps01;https://185.82.210.228:9444/showToto;http/json;;
-#fbps01;https://185.82.210.0:9444/showToto;http/json;;
-#fbps01;https://185.82.210.1:9444/showToto;http/json;;
-#fbps01;https://185.82.210.20:9444/showToto;http/json;;
-#fbps01;https://185.82.210.21:9444/showToto;http/json;;
-#fbps01;https://185.82.210.22:9444/showToto;http/json;;
-fbps01;https://185.82.210.122:9444/showToto;http/json;;
-#fbps01;https://185.82.210.2:9444/showToto;http/json;;
-fbps01;https://185.82.210.229:9444/showToto;http/json;;
-fbps01;https://185.82.210.230:9444/showToto;http/json;;
-#fbps01;https://185.82.210.235:9444/showToto;http/json;;
-fbps01;https://185.82.210.236:9444/showToto;http/json;;
-#fbps01;https://185.82.210.237:9444/showToto;http/json;;
-#fbps01;https://185.82.210.238:9444/showToto;http/json;;
-fbps01;https://185.82.210.3:9444/showToto;http/json;;
-fbps01;https://185.82.210.44:9444/showToto;http/json;;
-#fbps01;https://185.82.210.8:9444/showToto;http/json;;
-fbps01;https://185.82.210.80:9444/showToto;http/json;;
-fbps01;https://185.82.210.81:9444/showToto;http/json;;
-fbps01;https://185.82.210.82:9444/showToto;http/json;;
-fbps01;https://185.82.210.83:9444/showToto;http/json;;
-fbps01;https://185.82.210.17:9444/showToto;http/json;;
-fbps01;https://185.82.210.18:9444/showToto;http/json;;
-fbps01;https://185.82.210.195:9444/showToto;http/json;;
-fbps01;https://185.82.210.196:9444/showToto;http/json;;
-fbps01;https://185.82.210.197:9444/showToto;http/json;;
-fbps01;https://185.82.210.198:9444/showToto;http/json;;
-fbps01;https://185.82.210.221:9444/showToto;http/json;;
-fbps01;https://185.82.210.222:9444/showToto;http/json;;
-fbps01;https://185.82.210.223:9444/showToto;http/json;;
-fbps01;https://185.82.210.224:9444/showToto;http/json;;
-#fbps31 ;https://95.211.203.116:9444/showToto;http/json;;
-fbps31 ;https://95.211.203.115:9444/showToto;http/json;;
-fbps31 ;https://95.211.203.117:9444/showToto;http/json;;
-#fbps32;https://91.109.22.131:9444/showToto;http/json;;
-#fbps32;https://91.109.22.134:9444/showToto;http/json;;
-#fbps32;https://91.109.22.132:9444/showToto;http/json;;
-fbps32;https://91.109.22.133:9444/showToto;http/json;;
-#fbps33;https://144.76.160.225:9444/showToto;http/json;;
-#fbps33;https://144.76.160.226:9444/showToto;http/json;;
-#fbps33;https://144.76.160.229:9444/showToto;http/json;;
-#fbps33;https://144.76.160.230:9444/showToto;http/json;;
-fbps33;https://144.76.160.227:9444/showToto;http/json;;
-fbps33;https://144.76.160.228:9444/showToto;http/json;;
-#fbps33;https://148.251.235.136:9444/showToto;http/json;;
-fonbet2_com;http://fonbet2.com/test_object.js;http;Вэб зеркала / fonbet2.com;
-fonbet2_com;http://www.fonbet2.com/test_object.js;http;Вэб зеркала / fonbet2.com;
-fonbet2_com;https://register.fonbet2.com/reg/test_object.js;http;Вэб зеркала / fonbet2.com;
-fonbet2_com;https://reg.fonbet2.com/users/test_object.js;http;Вэб зеркала / fonbet2.com;
-fonbet2_com;https://account.fonbet2.com/MyAccount/test_object.js;http;Вэб зеркала / fonbet2.com;
-fonbet2_com;http://results.fonbet2.com/test_object.js;http;Вэб зеркала / fonbet2.com;
-fonbet2_com;http://stat.fonbet2.com/test_object.js;http;Вэб зеркала / fonbet2.com;
-fonbet2_com;https://bets.fonbet2.com/test_object.js;http;Вэб зеркала / fonbet2.com;
-fonbet2_com;https://live.fonbet2.com/test_object.js;http;Вэб зеркала / fonbet2.com;
-fonbet2_com;https://toto.fonbet2.com/test_object.js;http;Вэб зеркала / fonbet2.com;
-fonbet2_com;https://racing.fonbet2.com/test_object.js;http;Вэб зеркала / fonbet2.com;
-fonbet2_com;https://fivelevel.fonbet2.com/test_object.js;http;Вэб зеркала / fonbet2.com;
-fonbet2_com;https://virtualsports.fonbet2.com/test_object.js;http;Вэб зеркала / fonbet2.com;
-fonbet2_com;https://toto-info.fonbet2.com/test_object.js;http;Вэб зеркала / fonbet2.com;
+fbps01;https://185.82.210.231:9444/serverTime;http/json;;
+fbps01;https://185.82.210.232:9444/serverTime;http/json;;
+fbps01;https://188.42.137.188:9444/serverTime;http/json;;
+fbps01;https://185.82.210.236:9444/serverTime;http/json;;
+fbps31 ;https://95.211.203.115:9444/serverTime;http/json;;
+fbps31 ;https://95.211.203.117:9444/serverTime;http/json;;
+fbps32;https://91.109.22.133:9444/serverTime;http/json;;
+fbps33;https://144.76.160.227:9444/serverTime;http/json;;
+fbps33;https://144.76.160.228:9444/serverTime;http/json;;
+#fonbet4_com;http://fonbet4.com/test_object.js;http;;
+#fonbet4_com;https://m.fonbet4.com/favicons/manifest.json;http/json;;
+#fonbet4_com;http://www.fonbet4.com/test_object.js;http;;
+#fonbet4_com;https://account.fonbet4.com/MyAccount/test_object.js;http;;
+#fonbet4_com;http://results.fonbet4.com/test_object.js;http;;
+#fonbet4_com;http://stat.fonbet4.com/test_object.js;http;;
+#fonbet4_com;https://bets.fonbet4.com/test_object.js;http;;
+#fonbet4_com;https://live.fonbet4.com/test_object.js;http;;
+#fonbet4_com;https://toto.fonbet4.com/test_object.js;http;;
+#fonbet4_com;https://racing.fonbet4.com/test_object.js;http;;
+#fonbet4_com;https://fivelevel.fonbet4.com/test_object.js;http;;
+#fonbet4_com;https://virtualsports.fonbet4.com/test_object.js;http;;
+#fonbet4_com;https://toto-info.fonbet4.com/test_object.js;http;;
+#fonbet4_com;https://games.fonbet4.com/test_object.js;http;;
 xen_app;https://xa.fbsvc.bz/Citrix/XenApp/media/IcaComboAll.ico;http;;xen_app_lv
 xen_app;https://grs-xa.fbsvc.bz/Citrix/XenApp/media/IcaComboAll.ico;http;;xen_app_grs
 xen_app;https://dvt-xa.fbsvc.bz/Citrix/XenApp/media/IcaComboAll.ico;http;;xen_app_dvt
 xen_app;https://cor-xa.fbsvc.bz/Citrix/XenApp/media/IcaComboAll.ico;http;;xen_app_cor
 xen_app;https://bkfon-xa.fbsvc.bz/Citrix/XenApp/media/IcaComboAll.ico;http;;xen_app_bkfon
 xen_app;https://cuo-xa.fbsvc.bz/Citrix/XenApp/media/IcaComboAll.ico;http;;xen_app_cuo
+fonbet1_vip;http://fonbet1.vip/test_object.js;http;;
+fonbet1_vip;https://m.fonbet1.vip/favicons/manifest.json;http/json;;
+fonbet1_vip;http://www.fonbet1.vip/test_object.js;http;;
+fonbet1_vip;https://account.fonbet1.vip/MyAccount/test_object.js;http;;
+fonbet1_vip;http://results.fonbet1.vip/test_object.js;http;;
+fonbet1_vip;http://stat.fonbet1.vip/test_object.js;http;;
+fonbet1_vip;https://bets.fonbet1.vip/test_object.js;http;;
+fonbet1_vip;https://live.fonbet1.vip/test_object.js;http;;
+fonbet1_vip;https://toto.fonbet1.vip/test_object.js;http;;
+fonbet1_vip;https://racing.fonbet1.vip/test_object.js;http;;
+fonbet1_vip;https://fivelevel.fonbet1.vip/test_object.js;http;;
+fonbet1_vip;https://virtualsports.fonbet1.vip/test_object.js;http;;
+fonbet1_vip;https://toto-info.fonbet1.vip/test_object.js;http;;
+fonbet1_vip;https://games.fonbet1.vip/test_object.js;http;;
+#fonbet2_vip;http://fonbet2.vip/test_object.js;http;;
+#fonbet2_vip;https://m.fonbet2.vip/favicons/manifest.json;http/json;;
+#fonbet2_vip;http://www.fonbet2.vip/test_object.js;http;;
+#fonbet2_vip;https://account.fonbet2.vip/MyAccount/test_object.js;http;;
+#fonbet2_vip;http://results.fonbet2.vip/test_object.js;http;;
+#fonbet2_vip;http://stat.fonbet2.vip/test_object.js;http;;
+#fonbet2_vip;https://bets.fonbet2.vip/test_object.js;http;;
+#fonbet2_vip;https://live.fonbet2.vip/test_object.js;http;;
+#fonbet2_vip;https://toto.fonbet2.vip/test_object.js;http;;
+#fonbet2_vip;https://racing.fonbet2.vip/test_object.js;http;;
+#fonbet2_vip;https://fivelevel.fonbet2.vip/test_object.js;http;;
+#fonbet2_vip;https://virtualsports.fonbet2.vip/test_object.js;http;;
+#fonbet2_vip;https://toto-info.fonbet2.vip/test_object.js;http;;
+#fonbet2_vip;https://games.fonbet2.vip/test_object.js;http;;
+#fonbet3_vip;http://fonbet3.vip/test_object.js;http;;
+#fonbet3_vip;https://m.fonbet3.vip/favicons/manifest.json;http/json;;
+#fonbet3_vip;http://www.fonbet3.vip/test_object.js;http;;
+#fonbet3_vip;https://account.fonbet3.vip/MyAccount/test_object.js;http;;
+#fonbet3_vip;http://results.fonbet3.vip/test_object.js;http;;
+#fonbet3_vip;http://stat.fonbet3.vip/test_object.js;http;;
+#fonbet3_vip;https://bets.fonbet3.vip/test_object.js;http;;
+#fonbet3_vip;https://live.fonbet3.vip/test_object.js;http;;
+#fonbet3_vip;https://toto.fonbet3.vip/test_object.js;http;;
+#fonbet3_vip;https://racing.fonbet3.vip/test_object.js;http;;
+#fonbet3_vip;https://fivelevel.fonbet3.vip/test_object.js;http;;
+#fonbet3_vip;https://virtualsports.fonbet3.vip/test_object.js;http;;
+#fonbet3_vip;https://toto-info.fonbet3.vip/test_object.js;http;;
+#fonbet3_vip;https://games.fonbet3.vip/test_object.js;http;;
+#fonbet4_vip;http://fonbet4.vip/test_object.js;http;;
+#fonbet4_vip;https://m.fonbet4.vip/favicons/manifest.json;http/json;;
+#fonbet4_vip;http://www.fonbet4.vip/test_object.js;http;;
+#fonbet4_vip;https://account.fonbet4.vip/MyAccount/test_object.js;http;;
+#fonbet4_vip;http://results.fonbet4.vip/test_object.js;http;;
+#fonbet4_vip;http://stat.fonbet4.vip/test_object.js;http;;
+#fonbet4_vip;https://bets.fonbet4.vip/test_object.js;http;;
+#fonbet4_vip;https://live.fonbet4.vip/test_object.js;http;;
+#fonbet4_vip;https://toto.fonbet4.vip/test_object.js;http;;
+#fonbet4_vip;https://racing.fonbet4.vip/test_object.js;http;;
+#fonbet4_vip;https://fivelevel.fonbet4.vip/test_object.js;http;;
+#fonbet4_vip;https://virtualsports.fonbet4.vip/test_object.js;http;;
+#fonbet4_vip;https://toto-info.fonbet4.vip/test_object.js;http;;
+#fonbet4_vip;https://games.fonbet4.vip/test_object.js;http;;
+#fonbet5_vip;http://fonbet5.vip/test_object.js;http;;
+#fonbet5_vip;https://m.fonbet5.vip/favicons/manifest.json;http/json;;
+#fonbet5_vip;http://www.fonbet5.vip/test_object.js;http;;
+#fonbet5_vip;https://account.fonbet5.vip/MyAccount/test_object.js;http;;
+#fonbet5_vip;http://results.fonbet5.vip/test_object.js;http;;
+#fonbet5_vip;http://stat.fonbet5.vip/test_object.js;http;;
+#fonbet5_vip;https://bets.fonbet5.vip/test_object.js;http;;
+#fonbet5_vip;https://live.fonbet5.vip/test_object.js;http;;
+#fonbet5_vip;https://toto.fonbet5.vip/test_object.js;http;;
+#fonbet5_vip;https://racing.fonbet5.vip/test_object.js;http;;
+#fonbet5_vip;https://fivelevel.fonbet5.vip/test_object.js;http;;
+#fonbet5_vip;https://virtualsports.fonbet5.vip/test_object.js;http;;
+#fonbet5_vip;https://toto-info.fonbet5.vip/test_object.js;http;;
+#fonbet5_vip;https://games.fonbet5.vip/test_object.js;http;;
+#fonbet6_vip;http://fonbet6.vip/test_object.js;http;;
+#fonbet6_vip;https://m.fonbet6.vip/favicons/manifest.json;http/json;;
+#fonbet6_vip;http://www.fonbet6.vip/test_object.js;http;;
+#fonbet6_vip;https://account.fonbet6.vip/MyAccount/test_object.js;http;;
+#fonbet6_vip;http://results.fonbet6.vip/test_object.js;http;;
+#fonbet6_vip;http://stat.fonbet6.vip/test_object.js;http;;
+#fonbet6_vip;https://bets.fonbet6.vip/test_object.js;http;;
+#fonbet6_vip;https://live.fonbet6.vip/test_object.js;http;;
+#fonbet6_vip;https://toto.fonbet6.vip/test_object.js;http;;
+#fonbet6_vip;https://racing.fonbet6.vip/test_object.js;http;;
+#fonbet6_vip;https://fivelevel.fonbet6.vip/test_object.js;http;;
+#fonbet6_vip;https://virtualsports.fonbet6.vip/test_object.js;http;;
+#fonbet6_vip;https://toto-info.fonbet6.vip/test_object.js;http;;
+#fonbet6_vip;https://games.fonbet6.vip/test_object.js;http;;
+#fonbet7_vip;http://fonbet7.vip/test_object.js;http;;
+#fonbet7_vip;https://m.fonbet7.vip/favicons/manifest.json;http/json;;
+#fonbet7_vip;http://www.fonbet7.vip/test_object.js;http;;
+#fonbet7_vip;https://account.fonbet7.vip/MyAccount/test_object.js;http;;
+#fonbet7_vip;http://results.fonbet7.vip/test_object.js;http;;
+#fonbet7_vip;http://stat.fonbet7.vip/test_object.js;http;;
+#fonbet7_vip;https://bets.fonbet7.vip/test_object.js;http;;
+#fonbet7_vip;https://live.fonbet7.vip/test_object.js;http;;
+#fonbet7_vip;https://toto.fonbet7.vip/test_object.js;http;;
+#fonbet7_vip;https://racing.fonbet7.vip/test_object.js;http;;
+#fonbet7_vip;https://fivelevel.fonbet7.vip/test_object.js;http;;
+#fonbet7_vip;https://virtualsports.fonbet7.vip/test_object.js;http;;
+#fonbet7_vip;https://toto-info.fonbet7.vip/test_object.js;http;;
+#fonbet7_vip;https://games.fonbet7.vip/test_object.js;http;;
+#fonbet8_vip;http://fonbet8.vip/test_object.js;http;;
+#fonbet8_vip;https://m.fonbet8.vip/favicons/manifest.json;http/json;;
+#fonbet8_vip;http://www.fonbet8.vip/test_object.js;http;;
+#fonbet8_vip;https://account.fonbet8.vip/MyAccount/test_object.js;http;;
+#fonbet8_vip;http://results.fonbet8.vip/test_object.js;http;;
+#fonbet8_vip;http://stat.fonbet8.vip/test_object.js;http;;
+#fonbet8_vip;https://bets.fonbet8.vip/test_object.js;http;;
+#fonbet8_vip;https://live.fonbet8.vip/test_object.js;http;;
+#fonbet8_vip;https://toto.fonbet8.vip/test_object.js;http;;
+#fonbet8_vip;https://racing.fonbet8.vip/test_object.js;http;;
+#fonbet8_vip;https://fivelevel.fonbet8.vip/test_object.js;http;;
+#fonbet8_vip;https://virtualsports.fonbet8.vip/test_object.js;http;;
+#fonbet8_vip;https://toto-info.fonbet8.vip/test_object.js;http;;
+#fonbet8_vip;https://games.fonbet8.vip/test_object.js;http;;
+#fonbet9_vip;http://fonbet9.vip/test_object.js;http;;
+#fonbet9_vip;https://m.fonbet9.vip/favicons/manifest.json;http/json;;
+#fonbet9_vip;http://www.fonbet9.vip/test_object.js;http;;
+#fonbet9_vip;https://account.fonbet9.vip/MyAccount/test_object.js;http;;
+#fonbet9_vip;http://results.fonbet9.vip/test_object.js;http;;
+#fonbet9_vip;http://stat.fonbet9.vip/test_object.js;http;;
+#fonbet9_vip;https://bets.fonbet9.vip/test_object.js;http;;
+#fonbet9_vip;https://live.fonbet9.vip/test_object.js;http;;
+#fonbet9_vip;https://toto.fonbet9.vip/test_object.js;http;;
+#fonbet9_vip;https://racing.fonbet9.vip/test_object.js;http;;
+#fonbet9_vip;https://fivelevel.fonbet9.vip/test_object.js;http;;
+#fonbet9_vip;https://virtualsports.fonbet9.vip/test_object.js;http;;
+#fonbet9_vip;https://toto-info.fonbet9.vip/test_object.js;http;;
+#fonbet9_vip;https://games.fonbet9.vip/test_object.js;http;;
+#fonbet10_vip;http://fonbet10.vip/test_object.js;http;;
+#fonbet10_vip;https://m.fonbet10.vip/favicons/manifest.json;http/json;;
+#fonbet10_vip;http://www.fonbet10.vip/test_object.js;http;;
+#fonbet10_vip;https://account.fonbet10.vip/MyAccount/test_object.js;http;;
+#fonbet10_vip;http://results.fonbet10.vip/test_object.js;http;;
+#fonbet10_vip;http://stat.fonbet10.vip/test_object.js;http;;
+#fonbet10_vip;https://bets.fonbet10.vip/test_object.js;http;;
+#fonbet10_vip;https://live.fonbet10.vip/test_object.js;http;;
+#fonbet10_vip;https://toto.fonbet10.vip/test_object.js;http;;
+#fonbet10_vip;https://racing.fonbet10.vip/test_object.js;http;;
+#fonbet10_vip;https://fivelevel.fonbet10.vip/test_object.js;http;;
+#fonbet10_vip;https://virtualsports.fonbet10.vip/test_object.js;http;;
+#fonbet10_vip;https://toto-info.fonbet10.vip/test_object.js;http;;
+#fonbet10_vip;https://games.fonbet10.vip/test_object.js;http;;
