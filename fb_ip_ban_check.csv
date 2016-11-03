@@ -1,4 +1,4 @@
-#service;ip/domain;banned;comment;https://github.com/fbdevdata/psipl/edit/gh-pages/fb_ip_ban_check
+#service;ip/domain;banned;comment;https://github.com/fbdevdata/psipl/edit/gh-pages/fb_ip_ban_check 
 access_page;ap-04.accessfonbet.biz;;;
 landing_page;lp-03.foninsport.info;;;
 metrix_page «int»;mp-01.smartdirectroute.co;;;
