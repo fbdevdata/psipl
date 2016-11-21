@@ -1,8 +1,8 @@
 #service;ip/domain;banned;comment;https://github.com/fbdevdata/psipl/edit/gh-pages/fb_ip_ban_check 
-_access_page;ap-03.accessfonbet.online;;;
-_landing_page;lp-01.infoinsport.info;;;
+_access_page;ap-04.accessfonbet.online;;;
+_landing_page;lp-02.infoinsport.info;;;
 _metrix_page «int»;mp-01.smartdirectroute.co;;;
-_metrix_page «for all»;mp-05.directsmartroute.com;;;
+_metrix_page «for all»;mp-01.directsmartroute.xyz;;;
 _metrix_page «adv»;mp-04.directsmartroute.org;;;
 esports.bet;esports.bet;;;
 sportlevel.com;sportlevel.com;;;
@@ -288,7 +288,7 @@ fonbet.live;virtualsports.fonbet.live.com;1;;
 fonbet.live;toto-info.fonbet.live;1;;
 aboutfon.xyz;aboutfon.xyz;1;;
 lookfon.cc;lookfon.cc;;;
-getfonwin.com;getfonwin.com;;;
+getfonwin.com;getfonwin.com;1;;
 fonbet-info.ru;fonbet-info.ru;;;
 fonbet-bukmerer.site;fonbet-bukmerer.site;1;;
 fanatfon.com;fanatfon.com;;;
