@@ -1,5 +1,5 @@
 #service;ip/domain;banned;comment;https://github.com/fbdevdata/psipl/edit/gh-pages/fb_ip_ban_check 
-_access_page;ap-01.accessfonbets.net;;;
+_access_page;ap-02.accessfonbets.net;;;
 _landing_page;lp-04.infofromfonsport.info;;;
 _metrix_page «int»;mp-01.smartdirectroute.co;;;
 _metrix_page «for all»;mp-01.directroute.xyz;;;
@@ -1333,10 +1333,10 @@ gameinfon.online;www.gameinfon.online;1;;
 gameinfon.online;games.gameinfon.online;1;;
 gameinfon.online;virtualsports.gameinfon.online;1;;
 gameinfon.online;toto-info.gameinfon.online;1;;
-fongametime.online;m.fongametime.online;;;
-fongametime.online;www.fongametime.online;;;
-fongametime.online;racing.fongametime.online;;;
-fongametime.online;games.fongametime.online;;;
+fongametime.online;m.fongametime.online;1;;
+fongametime.online;www.fongametime.online;1;;
+fongametime.online;racing.fongametime.online;1;;
+fongametime.online;games.fongametime.online;1;;
 gameinfon.club;m.gameinfon.club;;;
 gameinfon.club;www.gameinfon.club;;;
 gameinfon.club;racing.gameinfon.club;;;
