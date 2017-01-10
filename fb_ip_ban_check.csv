@@ -58,7 +58,7 @@ fbls01;188.42.196.176;;fbios18;d4dbded416bd1af9b84b.xyz
 fbls01;188.42.196.177;;fbios19;fa45696947feba801d65.xyz
 fbls01;188.42.198.20;;service ip;
 fbls01;188.42.196.4;1;fbls_year|2016|andr;bc59a8.55643cdd7b6dc190e1.xyz
-fbls01;188.42.196.5;;fbls_year|2016|ios;595181.55643cdd7b6dc190e1.xyz
+fbls01;188.42.196.5;1;fbls_year|2016|ios;595181.55643cdd7b6dc190e1.xyz
 fbls01;188.42.196.6;1;fbls_year|2016|wc;eee2bd.55643cdd7b6dc190e1.xyz
 fbls01;188.42.196.87;1;fbls_month|201607|andr;832c2f.1116fa0f8d83960dc0.xyz
 fbls01;188.42.196.88;1;fbls_month|201607|ios;458fe4.1116fa0f8d83960dc0.xyz
@@ -324,7 +324,7 @@ winclient/fbwebdn.net;188.42.189.246;1;;
 winclient/fbwebdn.net;188.42.189.247;1;;
 winclient/fbwebdn.net;188.42.189.248;1;;
 winclient/fbwebdn.net;188.42.189.249;1;;
-winclient/fbwebdn.net;188.42.189.250;;;
+winclient/fbwebdn.net;188.42.189.250;1;;
 winclient/fbwebdn.net;188.42.189.251;;;
 winclient/fbwebdn.net;188.42.189.252;;;
 winclient/fbwebdn.net;188.42.189.253;;;
@@ -349,7 +349,7 @@ fbwc01;185.82.210.114;1;;
 fbwc01;185.82.210.116;1;;
 fbwc01;185.82.210.117;1;;
 fbwc01;185.82.210.135;1;;
-fbwc01;185.82.210.136;;;
+fbwc01;185.82.210.136;1;;
 fbwc01;185.82.210.146;;;
 fbwc01;185.82.210.147;;;
 fbwc01;185.82.210.148;;;
@@ -414,7 +414,7 @@ fbwc02;188.42.189.164;1;;
 fbwc02;188.42.189.165;1;;
 fbwc02;188.42.189.166;1;;
 fbwc02;188.42.189.167;1;;
-fbwc02;188.42.189.168;;;
+fbwc02;188.42.189.168;1;;
 fbwc02;188.42.189.169;;;
 fbwc02;188.42.189.170;;;
 fbwc02;188.42.189.171;;;
@@ -802,7 +802,7 @@ fbca04_(fbms02);185.106.140.25;1;;
 fbca04_(fbms02);185.106.140.26;1;;
 fbca04_(fbms02);185.106.140.27;1;;
 fbca04_(fbms02);185.106.140.28;1;;
-fbca04_(fbms02);185.106.140.29;;;
+fbca04_(fbms02);185.106.140.29;1;;
 fbca04_(fbms02);185.106.140.30;;;
 fbca04_(fbms02);185.106.140.31;;;
 fbca04_(fbms02);185.106.140.38;;;
