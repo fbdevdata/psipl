@@ -1,0 +1,149 @@
+# service [domain];url;validate;service_caption;host_caption [service]
+Google-dns-test;8.8.8.8:53;tcp;;
+5000-srv;81.198.186.9:5000;tcp;;5000a
+5000-srv;81.198.186.109:5000;tcp;;5000b
+access_page;ap-04.accessfonbets.net/test_object.js;http;;access_page
+landing_page;lp-02.fromfon.info/test_object.js;http;;landing_page
+metrix_page;mp-01.smartdirectroute.co/test_object.js;http;;metrix_page «int»
+metrix_page;mp-03.directroute.xyz/test_object.js;http;;metrix_page «for all»
+metrix_page;mp-01.directroute.co/test_object.js;http;;metrix_page «adv»
+fongame_online;https://m.fongame.online/favicons/manifest.json;http/json;;
+fongame_online;http://www.fongame.online/test_object.js;http;;
+fongame_online;https://racing.fongame.online/test_object.js;http;;
+fongame_online;https://games.fongame.online/test_object.js;http;;
+gameinfon_xyz;https://m.gameinfon.xyz/favicons/manifest.json;http/json;;
+gameinfon_xyz;http://www.gameinfon.xyz/test_object.js;http;;
+gameinfon_xyz;https://racing.gameinfon.xyz/test_object.js;http;;
+gameinfon_xyz;https://games.gameinfon.xyz/test_object.js;http;;
+fonbet14_com;https://m.fonbet14.com/favicons/manifest.json;http/json;;
+fonbet14_com;http://www.fonbet14.com/test_object.js;http;;
+fonbet14_com;https://racing.fonbet14.com/test_object.js;http;;
+fonbet14_com;https://games.fonbet14.com/test_object.js;http;;
+fonbet8_vip;https://m.fonbet8.vip/favicons/manifest.json;http/json;;
+fonbet8_vip;http://www.fonbet8.vip/test_object.js;http;;
+fonbet8_vip;https://racing.fonbet8.vip/test_object.js;http;;
+fonbet8_vip;https://games.fonbet8.vip/test_object.js;http;;
+#fbls;xxx.c2ef25.e3b227af32e4d25d50.xyz/cipl/test_object.js;http;Домен для списков прокси;fbls_day_mob
+fbls;9c5.c2ef25.db534bb0cc17aa05bc.xyz/cipl/test_object.js;http;;fbls_day_mob_201612
+fbls;9c5.c2ef25.e176cc6cb613436b37.xyz/cipl/test_object.js;http;;fbls_day_mob_201701
+kladr;http://185.79.117.35/getobjects?value=%D0%B4%D0%B5%D1%80%D0%B1%D0%B5%D0%BD%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F;http;KLADR;kladr@mskdc
+a660d996de04720d07d8_xyz;upd-random.a660d996de04720d07d8.xyz/winclient/test_object.js;http;;winclient_conf+upd
+dd9c8d009cde58905f2d_xyz;upd-random.dd9c8d009cde58905f2d.xyz/winclient/test_object.js;http;;winclient_conf+upd
+#fbappdn_account;https://a.fbappdn.com/MyAccount/img/ru.png;http;Account;
+#fbwebdn_registration;https://reg.fbwebdn.com/users/assets/images/favicon.ico;http;Registration;
+#line;https://line.fbwebdn.net/servertime;http/json;line.fb*dn;
+#line;https://line.fbwebdn.com/servertime;http/json;line.fb*dn;
+#fbla;https://fbla01-01.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla01-01
+#fbla;https://fbla01-02.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla01-02
+#fbla;https://fbla01-03.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla01-03
+#fbla;https://fbla01-04.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla01-04
+#fbla;https://fbla01-05.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla01-05
+#fbla;https://fbla01-06.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla01-06
+#fbla;https://fbla01-07.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla01-07
+#fbla;https://fbla01-08.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla01-08
+#fbla;https://fbla01-09.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla01-09
+#fbla;https://fbla01-10.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla01-10
+#fbla;https://fbla02-01.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-01
+#fbla;https://fbla02-02.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-02
+#fbla;https://fbla02-03.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-03
+#fbla;https://fbla02-04.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-04
+#fbla;https://fbla02-05.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-05
+#fbla;https://fbla02-06.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-06
+#fbla;https://fbla02-07.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-07
+#fbla;https://fbla02-08.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-08
+#fbla;https://fbla02-09.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-09
+#fbla;https://fbla02-10.fbwebdn.net/servertime;http/json;LineAgent сервер;fbla02-10
+#fbca;188.42.196.86:8078;tcp;ClienAgent server;fbca01-01
+#fbca;188.42.196.238:8078;tcp;ClienAgent server;fbca01-02
+#fbca;188.42.196.239:8078;tcp;ClienAgent server;fbca01-03
+#fbca;188.42.196.240:8078;tcp;ClienAgent server;fbca01-04
+#fbca;188.42.196.241:8078;tcp;ClienAgent server;fbca01-05
+#fbca;188.42.196.242:8078;tcp;ClienAgent server;fbca01-06
+#fbca;188.42.196.243:8078;tcp;ClienAgent server;fbca01-07
+#fbca;188.42.196.244:8078;tcp;ClienAgent server;fbca01-08
+#fbca;188.42.196.245:8078;tcp;ClienAgent server;fbca01-09
+#fbca;188.42.196.246:8078;tcp;ClienAgent server;fbca01-10
+android_client_proxy_list;http://androiddevdata.github.io/psipl/an.json;http/json/iplist;Домен для списков прокси;
+ios_client_proxy_list;http://fbdevdata.github.io/psipl/mps_v2.json;http/json/iplist;Домен для списков прокси;
+jme_client_proxy_list;http://fbdevdata.github.io/psipl/jme.list;http/iplist;Домен для списков прокси;
+jme_client_proxy_list;https://jmedevdata.github.io/psipl/jme.list;http/iplist;Домен для списков прокси;
+devtest;https://js.dvtfb.com/serverTime;http/json;;devtest-js
+fbps01;https://185.82.210.231:9444/serverTime;http/json;;
+fbps01;https://185.82.210.232:9444/serverTime;http/json;;
+fbps01;https://188.42.137.188:9444/serverTime;http/json;;
+fbps01;https://185.82.210.236:9444/serverTime;http/json;;
+fbps31 ;https://95.211.203.115:9444/serverTime;http/json;;
+fbps31 ;https://95.211.203.117:9444/serverTime;http/json;;
+fbps32;https://91.109.22.133:9444/serverTime;http/json;;
+fbps33;https://144.76.160.227:9444/serverTime;http/json;;
+fbps33;https://144.76.160.228:9444/serverTime;http/json;;
+xen_app;https://xa.fbsvc.bz/Citrix/XenApp/media/IcaComboAll.ico;http;;xen_app_lv
+xen_app;https://grs-xa.fbsvc.bz/Citrix/XenApp/media/IcaComboAll.ico;http;;xen_app_grs
+xen_app;https://dvt-xa.fbsvc.bz/Citrix/XenApp/media/IcaComboAll.ico;http;;xen_app_dvt
+xen_app;https://cor-xa.fbsvc.bz/Citrix/XenApp/media/IcaComboAll.ico;http;;xen_app_cor
+xen_app;https://bkfon-xa.fbsvc.bz/Citrix/XenApp/media/IcaComboAll.ico;http;;xen_app_bkfon
+xen_app;https://cuo-xa.fbsvc.bz/Citrix/XenApp/media/IcaComboAll.ico;http;;xen_app_cuo
+#unban_check;173.0.146.167/cipl/test_object.js;http;;173.0.146.167
+#unban_check;173.0.146.168/cipl/test_object.js;http;;173.0.146.168
+#unban_check;173.0.146.169/cipl/test_object.js;http;;173.0.146.169
+#unban_check;173.0.146.186/cipl/test_object.js;http;;173.0.146.186
+#unban_check;173.0.146.187/cipl/test_object.js;http;;173.0.146.187
+#unban_check;173.0.146.188/cipl/test_object.js;http;;173.0.146.188
+#unban_check;173.0.146.226/cipl/test_object.js;http;;173.0.146.226
+#unban_check;173.0.146.227/cipl/test_object.js;http;;173.0.146.227
+#unban_check;173.0.146.228/cipl/test_object.js;http;;173.0.146.228
+#unban_check;173.0.146.32/cipl/test_object.js;http;;173.0.146.32
+#unban_check;173.0.146.33/cipl/test_object.js;http;;173.0.146.33
+#unban_check;173.0.146.39/cipl/test_object.js;http;;173.0.146.39
+#unban_check;173.0.146.40/cipl/test_object.js;http;;173.0.146.40
+#unban_check;173.0.146.51/cipl/test_object.js;http;;173.0.146.51
+#unban_check;173.0.146.52/cipl/test_object.js;http;;173.0.146.52
+#unban_check;173.0.146.151/cipl/test_object.js;http;;173.0.146.151
+#unban_check;173.0.146.152/cipl/test_object.js;http;;173.0.146.152
+#unban_check;173.0.146.28/cipl/test_object.js;http;;173.0.146.28
+#unban_check;173.0.146.65/cipl/test_object.js;http;;173.0.146.65
+#unban_check;173.0.153.128/cipl/test_object.js;http;;173.0.153.128
+#unban_check;173.0.153.129/cipl/test_object.js;http;;173.0.153.129
+#unban_check;173.0.153.130/cipl/test_object.js;http;;173.0.153.130
+#unban_check;173.0.153.131/cipl/test_object.js;http;;173.0.153.131
+#unban_check;173.0.153.132/cipl/test_object.js;http;;173.0.153.132
+#unban_check;173.0.153.133/cipl/test_object.js;http;;173.0.153.133
+#unban_check;173.0.153.134/cipl/test_object.js;http;;173.0.153.134
+#unban_check;173.0.153.135/cipl/test_object.js;http;;173.0.153.135
+#unban_check;173.0.153.136/cipl/test_object.js;http;;173.0.153.136
+#unban_check;173.0.153.137/cipl/test_object.js;http;;173.0.153.137
+#unban_check;173.0.153.138/cipl/test_object.js;http;;173.0.153.138
+#unban_check;173.0.153.139/cipl/test_object.js;http;;173.0.153.139
+#unban_check;173.0.153.140/cipl/test_object.js;http;;173.0.153.140
+#unban_check;173.0.153.141/cipl/test_object.js;http;;173.0.153.141
+#unban_check;173.0.153.142/cipl/test_object.js;http;;173.0.153.142
+#unban_check;173.0.153.143/cipl/test_object.js;http;;173.0.153.143
+#unban_check;173.0.153.144/cipl/test_object.js;http;;173.0.153.144
+#unban_check;173.0.153.145/cipl/test_object.js;http;;173.0.153.145
+#unban_check;173.0.153.146/cipl/test_object.js;http;;173.0.153.146
+#unban_check;173.0.153.147/cipl/test_object.js;http;;173.0.153.147
+#unban_check;173.0.153.148/cipl/test_object.js;http;;173.0.153.148
+#unban_check;173.0.153.149/cipl/test_object.js;http;;173.0.153.149
+#unban_check;173.0.153.150/cipl/test_object.js;http;;173.0.153.150
+#unban_check;173.0.153.151/cipl/test_object.js;http;;173.0.153.151
+#unban_check;173.0.153.152/cipl/test_object.js;http;;173.0.153.152
+#unban_check;173.0.153.153/cipl/test_object.js;http;;173.0.153.153
+#unban_check;173.0.153.154/cipl/test_object.js;http;;173.0.153.154
+#unban_check;173.0.153.155/cipl/test_object.js;http;;173.0.153.155
+#unban_check;173.0.153.156/cipl/test_object.js;http;;173.0.153.156
+#unban_check;173.0.153.157/cipl/test_object.js;http;;173.0.153.157
+#unban_check;173.0.153.158/cipl/test_object.js;http;;173.0.153.158
+#unban_check;173.0.153.159/cipl/test_object.js;http;;173.0.153.159
+#unban_check;173.0.153.160/cipl/test_object.js;http;;173.0.153.160
+#unban_check;173.0.153.161/cipl/test_object.js;http;;173.0.153.161
+#unban_check;173.0.153.162/cipl/test_object.js;http;;173.0.153.162
+#unban_check;173.0.153.163/cipl/test_object.js;http;;173.0.153.163
+#unban_check;173.0.153.164/cipl/test_object.js;http;;173.0.153.164
+#unban_check;173.0.153.165/cipl/test_object.js;http;;173.0.153.165
+#unban_check;173.0.153.166/cipl/test_object.js;http;;173.0.153.166
+#unban_check;173.0.153.167/cipl/test_object.js;http;;173.0.153.167
+#unban_check;173.0.153.168/cipl/test_object.js;http;;173.0.153.168
+#unban_check;173.0.153.169/cipl/test_object.js;http;;173.0.153.169
+#unban_check;173.0.153.170/cipl/test_object.js;http;;173.0.153.170
+#unban_check;173.0.153.171/cipl/test_object.js;http;;173.0.153.171
+#unban_check;173.0.153.172/cipl/test_object.js;http;;173.0.153.172
