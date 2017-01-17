@@ -1,4 +1,4 @@
-#service;ip/domain;banned;comment;https://github.com/fbdevdata/psipl/edit/gh-pages/fb_ip_ban_check 
+#service;ip/domain;banned;comment;https://github.com/fbdevdata/psipl/edit/gh-pages/fb_ip_ban_check
 _access_page;ap-01.accessfonbets.org;;;
 _landing_page;lp-04.fromfon.info;;;
 _metrix_page «int»;mp-01.smartdirectroute.co;;;
@@ -814,7 +814,7 @@ fbca04_(fbms02);185.106.140.45;1;;
 fbca04_(fbms02);185.106.140.46;1;;
 fbca04_(fbms02);185.106.140.47;1;;
 fbca04_(fbms02);185.106.140.48;1;;
-fbca04_(fbms02);185.106.140.49;; ;
+fbca04_(fbms02);185.106.140.49;;�;
 fbca04_(fbms02);185.106.140.50;;;
 fbca04_(fbms02);185.106.140.51;;;
 fbca04_(fbms02);185.106.140.52;;;
