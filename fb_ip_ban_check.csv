@@ -1,6 +1,6 @@
 #service;ip/domain;banned;comment;https://github.com/fbdevdata/psipl/edit/gh-pages/fb_ip_ban_check
-_access_page;ap-02.accessfonbets.org;;;
-_landing_page;lp-05.fromfon.info;;;
+_access_page;ap-03.accessfonbets.org;;;
+_landing_page;lp-01.fongametime.info;;;
 _metrix_page «int»;mp-01.smartdirectroute.co;;;
 _metrix_page «for all»;mp-01.smartdirectpath.xyz;;;
 _metrix_page «adv»;mp-04.directroute.co;;;
@@ -1345,10 +1345,10 @@ fongame.online;m.fongame.online;1;;
 fongame.online;www.fongame.online;1;;
 fongame.online;racing.fongame.online;1;;
 fongame.online;games.fongame.online;1;;
-sport-in-fon.org;m.sport-in-fon.org;;;
-sport-in-fon.org;www.sport-in-fon.org;;;
-sport-in-fon.org;racing.sport-in-fon.org;;;
-sport-in-fon.org;games.sport-in-fon.org;;;
+sport-in-fon.org;m.sport-in-fon.org;1;;
+sport-in-fon.org;www.sport-in-fon.org;1;;
+sport-in-fon.org;racing.sport-in-fon.org;1;;
+sport-in-fon.org;games.sport-in-fon.org;1;;
 fongametime.com;m.fongametime.com;;;
 fongametime.com;www.fongametime.com;;;
 fongametime.com;racing.fongametime.com;;;
