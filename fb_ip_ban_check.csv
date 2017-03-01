@@ -1,8 +1,8 @@
 #service;ip/domain;banned;comment;https://github.com/fbdevdata/psipl/edit/gh-pages/fb_ip_ban_check
-_access_page;ap-03.accessfonbets.info;;;
-_landing_page;lp-02.fon-sportinfo.info;;;
+_access_page;ap-04.accessfonbets.info;;;
+_landing_page;lp-03.fon-sportinfo.info;;;
 _metrix_page «int»;mp-01.smartdirectroute.co;;;
-_metrix_page «for all»;mp-01.smartdirectpath.net;;;
+_metrix_page «for all»;mp-02.smartdirectpath.net;;;
 _metrix_page «adv»;mp-01.smartdirectpath.info;;;
 esports.bet;esports.bet;;;
 sportlevel.com;sportlevel.com;;;
