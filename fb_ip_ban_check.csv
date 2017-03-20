@@ -1,8 +1,8 @@
 #service;ip/domain;banned;comment;https://github.com/fbdevdata/psipl/edit/gh-pages/fb_ip_ban_check
-_access_page;ap-04.accessfonbets.online;;;
-_landing_page;lp-03.fon-info.info;;;
+_access_page;ap-05.accessfonbets.online;;;
+_landing_page;lp-04.fon-info.info;;;
 _metrix_page «int»;mp-01.smartdirectroute.co;;;
-_metrix_page «for all»;mp-01.smartdirectpath.com;;;
+_metrix_page «for all»;mp-02.smartdirectpath.com;;;
 _metrix_page «adv»;mp-01.smartdirectpath.info;;;
 fon-sportbet.xyz;m.fon-sportbet.xyz;;;
 fon-sportbet.xyz;www.fon-sportbet.xyz;;;
