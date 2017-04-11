@@ -1,6 +1,6 @@
 #service;ip/domain;banned;comment;https://github.com/fbdevdata/psipl/edit/gh-pages/fb_ip_ban_check
-_access_page;ap-05.accessfonbets.club;;;
-_landing_page;lp-04.foninfosport.info;;;
+_access_page;ap-01.access-fonbet.click;;;
+_landing_page;lp-05.foninfosport.info;;;
 _metrix_page «int»;mp-01.smartdirectroute.co;;;
 _metrix_page «for all»;mp-02.smartdirectpath.org;;;
 _metrix_page «adv»;mp-01.smartdirectpath.info;;;
@@ -16,10 +16,10 @@ fonbet38.com;m.fonbet38.com;;;
 fonbet38.com;www.fonbet38.com;;;
 fonbet38.com;racing.fonbet38.com;;;
 fonbet38.com;games.fonbet38.com;;;
-fonbet22.vip;m.fonbet22.vip;;;
-fonbet22.vip;www.fonbet22.vip;;;
-fonbet22.vip;racing.fonbet22.vip;;;
-fonbet22.vip;games.fonbet22.vip;;;
+fonbet23.vip;m.fonbet23.vip;;;
+fonbet23.vip;www.fonbet23.vip;;;
+fonbet23.vip;racing.fonbet23.vip;;;
+fonbet23.vip;games.fonbet23.vip;;;
 sportlevel.com;sportlevel.com;;;
 esports;esport-ctrl.com;;;
 esports;esport-origin.com;;;
