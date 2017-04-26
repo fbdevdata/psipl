@@ -1,9 +1,9 @@
 #service;ip/domain;banned;comment;https://github.com/fbdevdata/psipl/edit/gh-pages/fb_ip_ban_check
-_access_page;ap-05.access-fonbet.click;;;
-_landing_page;lp-04.foninfo-sport.info;;;
+_access_page;ap-01.access-fonbet.com;;;
+_landing_page;lp-05.foninfo-sport.info;;;
 _metrix_page «int»;mp-01.smartdirectroute.co;;;
 _metrix_page «for all»;mp-01.fbmetrix.org;;;
-_metrix_page «adv»;mp-01.smartdirectpath.info;;;
+_metrix_page «adv»;mp-02.smartdirectpath.info;;;
 fonsport-bet.tk;m.fonsport-bet.tk;;;
 fonsport-bet.tk;www.fonsport-bet.tk;;;
 fonsport-bet.tk;racing.fonsport-bet.tk;;;
