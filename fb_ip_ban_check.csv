@@ -1,9 +1,9 @@
 #service;ip/domain;banned;comment;https://github.com/fbdevdata/psipl/edit/gh-pages/fb_ip_ban_check
-_access_page;ap-12.access-fonbet.com;;;
-_landing_page;lp-11.fon-infosport.info;;;
+_access_page;ap-13.access-fonbet.com;;;
+_landing_page;lp-12.fon-infosport.info;;;
 _metrix_page «int»;mp-01.smartdirectroute.co;;;
-_metrix_page «for all»;mp-03.fbmetrix.org;;;
-_metrix_page «adv»;mp-14.smartdirectpath.info;;;
+_metrix_page «for all»;mp-04.fbmetrix.org;;;
+_metrix_page «adv»;mp-13.smartdirectpath.info;;;
 fonbetgame.cf;m.fonbetgame.cf;;;
 fonbetgame.cf;www.fonbetgame.cf;;;
 fonbetgame.cf;racing.fonbetgame.cf;;;
@@ -12,10 +12,10 @@ bkfonbet-online.cf;m.bkfonbet-online.cf;;;
 bkfonbet-online.cf;www.bkfonbet-online.cf;;;
 bkfonbet-online.cf;racing.bkfonbet-online.cf;;;
 bkfonbet-online.cf;games.bkfonbet-online.cf;;;
-fonbet54.com;m.fonbet54.com;;;
-fonbet54.com;www.fonbet54.com;;;
-fonbet54.com;racing.fonbet54.com;;;
-fonbet54.com;games.fonbet54.com;;;
+fonbet55.com;m.fonbet55.com;;;
+fonbet55.com;www.fonbet55.com;;;
+fonbet55.com;racing.fonbet55.com;;;
+fonbet55.com;games.fonbet55.com;;;
 fonbet39.vip;m.fonbet39.vip;;;
 fonbet39.vip;www.fonbet39.vip;;;
 fonbet39.vip;racing.fonbet39.vip;;;
