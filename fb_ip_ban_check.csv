@@ -1,9 +1,9 @@
 #service;ip/domain;banned;comment;https://github.com/fbdevdata/psipl/edit/gh-pages/fb_ip_ban_check
-_access_page;ap-16.access-fonbet.com;;;
-_landing_page;lp-15.fon-infosport.info;;;
+_access_page;ap-19.access-fonbet.com;;;
+_landing_page;lp-18.fon-infosport.info;;;
 _metrix_page «int»;mp-01.smartdirectroute.co;;;
-_metrix_page «for all»;mp-08.fbmetrix.org;;;
-_metrix_page «adv»;mp-17.smartdirectpath.info;;;
+_metrix_page «for all»;mp-12.fbmetrix.org;;;
+_metrix_page «adv»;mp-22.smartdirectpath.info;;;
 fon-betbk.cf;m.fon-betbk.cf;;;
 fon-betbk.cf;www.fon-betbk.cf;;;
 fon-betbk.cf;racing.fon-betbk.cf;;;
