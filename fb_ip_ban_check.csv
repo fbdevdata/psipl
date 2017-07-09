@@ -1,8 +1,8 @@
 #service;ip/domain;banned;comment;https://github.com/fbdevdata/psipl/edit/gh-pages/fb_ip_ban_check
 _access_page;ap-04.access-fonbet.net;;;
-_landing_page;lp-27.fon-infosport.info;;;
+_landing_page;lp-28.fon-infosport.info;;;
 _metrix_page «int»;mp-01.smartdirectroute.co;;;
-_metrix_page «for all»;mp-21.fbmetrix.org;;;
+_metrix_page «for all»;mp-22.fbmetrix.org;;;
 _metrix_page «adv»;mp-05.fbmetrix.info;;;
 bk-fon-bet.tk;m.bk-fon-bet.tk;;;
 bk-fon-bet.tk;www.bk-fon-bet.tk;;;
