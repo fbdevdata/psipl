@@ -1,8 +1,8 @@
 #service;ip/domain;banned;comment;https://github.com/fbdevdata/psipl/edit/gh-pages/fb_ip_ban_check
-_access_page;ap-32.access-fonbet.net;;;
-_landing_page;lp-56.fon-infosport.info;;;
+_access_page;ap-01.access-fonbet.org;;;
+_landing_page;lp-01.infofonbet.info;;;
 _metrix_page «int»;mp-01.smartdirectroute.co;;;
-_metrix_page «for all»;mp-05.fb-metrix.org;;;
+_metrix_page «for all»;mp-01.fb-metrix.com;;;
 _metrix_page «adv»;mp-37.fbmetrix.info;;;
 betinfon.tk;www.betinfon.tk;;;
 betinfon.tk;racing.betinfon.tk;;;
