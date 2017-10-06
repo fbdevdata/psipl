@@ -1,12 +1,12 @@
 #service;ip/domain;banned;comment;https://github.com/fbdevdata/psipl/edit/gh-pages/fb_ip_ban_check
 _access_page;ap-03.access-fonbet.xyz;;;
-_landing_page;lp-03.fonbet-info.info;;;
+_landing_page;lp-04.fonbet-info.info;;;
 _metrix_page «int»;mp-01.smartdirectroute.co;1;;
 _metrix_page «for all»;mp-07.fb-metrix.com;;;
 _metrix_page «adv»;mp-02.fb-metrix.info;;;
-invite-to-fonbet.tk;www.invite-to-fonbet.tk;;;
-invite-to-fonbet.tk;racing.invite-to-fonbet.tk;;;
-invite-to-fonbet.tk;games.invite-to-fonbet.tk;;;
+fonbet-forever.tk;www.fonbet-forever.tk;;;
+fonbet-forever.tk;racing.fonbet-forever.tk;;;
+fonbet-forever.tk;games.fonbet-forever.tk;;;
 fonbet117.com;m.fonbet117.com;1;;
 fonbet117.com;www.fonbet117.com;;;
 fonbet117.com;racing.fonbet117.com;;;
@@ -124,7 +124,7 @@ fbpr02;188.42.196.222;1;;
 fbpr02;188.42.48.132;1;;
 fbpr02;188.42.48.133;1;;
 fbpr02;188.42.48.134;1;;
-fbpr02;188.42.48.135;;;
+fbpr02;188.42.48.135;1;;
 fbpr02;188.42.48.136;;;
 fbpr02;188.42.48.137;;;
 fbpr02;188.42.48.138;;;
