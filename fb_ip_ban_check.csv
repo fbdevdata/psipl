@@ -1,8 +1,8 @@
 #service;ip/domain;banned;comment;https://github.com/fbdevdata/psipl/edit/gh-pages/fb_ip_ban_check
-_access_page;ap-07.access-fonbet.xyz;;;
-_landing_page;lp-02.info-fonbet.info;;;
+_access_page;ap-10.access-fonbet.club;;;
+_landing_page;lp-03.info-fonbet.info;;;
 _metrix_page «int»;mp-01.smartdirectroute.co;1;;
-_metrix_page «for all»;mp-01.fb-metrix.xyz;;;
+_metrix_page «for all»;mp-02.fb-metrix.xyz;;;
 _metrix_page_test «for all»;*.fb-metrix.xyz;;;
 _metrix_page «adv»;mp-02.fb-metrix.info;1;;
 fonbet-a021e.tk;www.fonbet-a021e.tk;;;
