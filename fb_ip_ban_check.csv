@@ -1,19 +1,19 @@
 #service;ip/domain;banned;comment;https://github.com/fbdevdata/psipl/edit/gh-pages/fb_ip_ban_check
-_access_page;ap-12.access-fonbet.club;;;
-_landing_page;lp-05.info-fonbet.info;;;
+_access_page;ap-13.access-fonbet.club;;;
+_landing_page;lp-06.info-fonbet.info;;;
 _metrix_page «int»;mp-01.smartdirectroute.co;1;;
-_metrix_page «for all»;mp-01.fbmetrix-fd9f6.tk;;;
+_metrix_page «for all»;mp-02.fbmetrix-fd9f6.tk;;;
 _metrix_page_test «for all»;*.fbmetrix-fd9f6.tk;;;
 _metrix_page «adv»;mp-02.fb-metrix.info;1;;
 fonbet-31a6c.tk;www.fonbet-31a6c.tk;;;
 fonbet-31a6c.tk;racing.fonbet-31a6c.tk;;;
 fonbet-31a6c.tk;games.fonbet-31a6c.tk;;;
-fonbet133.com;www.fonbet133.com;;;
-fonbet133.com;racing.fonbet133.com;;;
-fonbet133.com;games.fonbet133.com;;;
-fonbet108.vip;www.fonbet108.vip;;;
-fonbet108.vip;racing.fonbet108.vip;;;
-fonbet108.vip;games.fonbet108.vip;;;
+fonbet134.com;www.fonbet134.com;;;
+fonbet134.com;racing.fonbet134.com;;;
+fonbet134.com;games.fonbet134.com;;;
+fonbet109.vip;www.fonbet109.vip;;;
+fonbet109.vip;racing.fonbet109.vip;;;
+fonbet109.vip;games.fonbet109.vip;;;
 sportlevel.com;sportlevel.com;;;
 esports;esport-ctrl.com;;;
 esports;esport-origin.com;;;
