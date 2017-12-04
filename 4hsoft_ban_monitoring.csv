@@ -2,7 +2,7 @@
 #Google-dns-test;8.8.8.8:53;tcp;;
 5000-srv;81.198.186.9:5000;tcp;;5000a
 5000-srv;81.198.186.109:5000;tcp;;5000b
-access_page;ap-03.accessfonbet-29dd0.tk/test_object.js;http;;access_page
+access_page;ap-01.accessfonbet-c7d66.tk/test_object.js;http;;access_page
 landing_page;lp-02.infofonbet-43823.tk/test_object.js;http;;landing_page
 #metrix_page;mp-01.smartdirectroute.co/test_object.js;http;;metrix_page «int»
 metrix_page;mp-01.fbmetrix-ea797.tk/test_object.js;http;;metrix_page «for all»
