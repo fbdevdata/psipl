@@ -1,6 +1,6 @@
 #service;ip/domain;banned;comment;https://github.com/fbdevdata/psipl/edit/gh-pages/fb_ip_ban_check
-_access_page;ap-03.accessfonbet-c7d66.tk;;;
-_access_page_test;*.accessfonbet-c7d66.tk;1;;
+_access_page;ap-01.accessfonbet-2b5d6.tk;;;
+_access_page_test;*.accessfonbet-2b5d6.tk;;;
 _landing_page;lp-03.infofonbet-43823.tk;1;;
 _metrix_page «int»;mp-01.smartdirectroute.co;1;;
 _metrix_page «for all»;mp-01.fbmetrix-63e34.tk;;;
