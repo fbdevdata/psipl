@@ -2,15 +2,15 @@
 #Google-dns-test;8.8.8.8:53;tcp;;
 5000-srv;81.198.186.9:5000;tcp;;5000a
 5000-srv;81.198.186.109:5000;tcp;;5000b
-access_page;ap-01.accessfonbet-161b3.tk/test_object.js;http;;access_page
+access_page;ap-01.accessfonbet-eca6d.tk/test_object.js;http;;access_page
 landing_page;lp-10.infofonbet-43823.tk/test_object.js;http;;landing_page
 #metrix_page;mp-01.smartdirectroute.co/test_object.js;http;;metrix_page «int»
-metrix_page;mp-01.fbmetrix-b9a02.tk/test_object.js;http;;metrix_page «for all»
+metrix_page;mp-01.fbmetrix-6efea.tk/test_object.js;http;;metrix_page «for all»
 #metrix_page;mp-01.fb-metrix.info/test_object.js;http;;metrix_page «adv»
 #bk-sportfon_tk;https://m.bk-sportfon.tk/favicons/manifest.json;http/json;;
-fonbet-0f07b_tk;https://www.fonbet-0f07b.tk/test_object.js;http;;
-fonbet-0f07b_tk;https://racing.fonbet-0f07b.tk/test_object.js;http;;
-fonbet-0f07b_tk;https://games.fonbet-0f07b.tk/test_object.js;http;;
+fonbet-9e5b6_tk;https://www.fonbet-9e5b6.tk/test_object.js;http;;
+fonbet-9e5b6_tk;https://racing.fonbet-9e5b6.tk/test_object.js;http;;
+fonbet-9e5b6_tk;https://games.fonbet-9e5b6.tk/test_object.js;http;;
 #bkfonsports_tk;https://m.bkfonsports.tk/favicons/manifest.json;http/json;;
 #bkfonsports_tk;https://www.bkfonsports.tk/test_object.js;http;;
 #bkfonsports_tk;https://racing.bkfonsports.tk/test_object.js;http;;
