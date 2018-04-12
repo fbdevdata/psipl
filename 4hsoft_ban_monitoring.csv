@@ -2,10 +2,10 @@
 #Google-dns-test;8.8.8.8:53;tcp;;
 5000-srv;81.198.186.9:5000;tcp;;5000a
 5000-srv;81.198.186.109:5000;tcp;;5000b
-AP-42e18;ap-01.accessfonbet-42e18.com/test_object.js;http;;access_page
+AP-a5367;ap-01.accessfonbet-a5367.com/test_object.js;http;;access_page
 #landing_page;lp-10.infofonbet-43823.tk/test_object.js;http;;landing_page
 #metrix_page;mp-01.smartdirectroute.co/test_object.js;http;;metrix_page «int»
-MP-d6f3c;mp-01.fbmetrix-d6f3c.com/test_object.js;http;;metrix_page «for all»
+MP-fb14d;mp-01.fbmetrix-fb14d.com/test_object.js;http;;metrix_page «for all»
 #metrix_page;mp-01.fb-metrix.info/test_object.js;http;;metrix_page «adv»
 #bk-sportfon_tk;https://m.bk-sportfon.tk/favicons/manifest.json;http/json;;
 fonbet-58bf9_com;https://www.fonbet-58bf9.com/test_object.js;http;;
