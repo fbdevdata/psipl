@@ -28,10 +28,10 @@ android_client_proxy_list;http://androiddevdata.github.io/psipl/an.json;http/jso
 #ios_client_proxy_list;http://fbdevdata.github.io/psipl/mps_v2.json;http/json/iplist;ios_client_proxy_list;
 jme_client_proxy_list;http://fbdevdata.github.io/psipl/jme.list;http/iplist;jme_client_proxy_list;
 jme_client_proxy_list;https://jmedevdata.github.io/psipl/jme.list;http/iplist;jme_client_proxy_list;
-fbps01;https://185.82.210.231:9443/showToto;http/json;;
-fbps01;https://185.82.210.232:9443/showToto;http/json;;
-fbps01;https://188.42.137.188:9443/showToto;http/json;;
-fbps01;https://185.82.210.236:9443/showToto;http/json;;
+fbps01;https://185.82.210.231:9444/showToto;http/json;;
+fbps01;https://185.82.210.232:9444/showToto;http/json;;
+fbps01;https://188.42.137.188:9444/showToto;http/json;;
+fbps01;https://185.82.210.236:9444/showToto;http/json;;
 xen_app;https://xa.fbsvc.bz/Citrix/XenApp/media/IcaComboAll.ico;http;;xen_app_lv
 xen_app;https://de-xa.fbsvc.bz/Citrix/XenApp/media/IcaComboAll.ico;http;;xen_app_de
 xen_app;https://dvt-xa.fbsvc.bz/Citrix/XenApp/media/IcaComboAll.ico;http;;xen_app_dvt
