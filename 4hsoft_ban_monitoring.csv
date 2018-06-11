@@ -2,11 +2,11 @@
 #Google-dns-test;8.8.8.8:53;tcp;;
 5000-srv;81.198.186.9:5000;tcp;;5000a
 5000-srv;81.198.186.109:5000;tcp;;5000b
-AP-a7eca;ap-01.accessfonbet-a7eca.com/test_object.js;http;;access_page
+AP-39b6b;ap-01.accessfonbet-39b6b.com/test_object.js;http;;access_page
 #landing_page;lp-10.infofonbet-43823.tk/test_object.js;http;;landing_page
 #metrix_page;mp-01.smartdirectroute.co/test_object.js;http;;metrix_page «int»
 MP-fd1a8;mp-01.fbmetrix-fd1a8.com/test_object.js;http;;metrix_page «for all»
-fonbet-4754e.com;http://fonbet-4754e.com;http;;Blue_Mirror
+fonbet-16521.com;http://fonbet-16521.com;http;;Blue_Mirror
 www_fonbet_ru;https://www.fonbet.ru/favicons/favicon-16x16.png;http;;
 esports_bet;https://www.esports.bet/urls.json;http/json;;
 liveodds;liveodds.fbsvc.bz:8080;http;;
