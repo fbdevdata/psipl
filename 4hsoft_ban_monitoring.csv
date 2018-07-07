@@ -7,11 +7,11 @@
 5000-prx;bkwps02.fbtools.cc:5000;tcp;;5000_bkwps02
 5000-prx;bkwps03.fbtools.cc:5000;tcp;;5000_bkwps03
 5000-prx;bkwps04.fbtools.cc:5000;tcp;;5000_bkwps04
-AP-788e0;ap-01.accessfonbet-788e0.com/test_object.js;http;;access_page
+AP-a2564;ap-01.accessfonbet-a2564.com/test_object.js;http;;access_page
 #landing_page;lp-10.infofonbet-43823.tk/test_object.js;http;;landing_page
 #metrix_page;mp-01.smartdirectroute.co/test_object.js;http;;metrix_page «int»
-MP-17d3a;mp-01.fbmetrix-17d3a.com/test_object.js;http;;metrix_page «for all»
-#fonbet-10be7.com;http://fonbet-10be7.com;http;;Blue_Mirror
+MP-2d614;mp-01.fbmetrix-2d614.com/test_object.js;http;;metrix_page «for all»
+fonbet-29797.com;http://fonbet-29797.com;http;;Blue_Mirror
 www_fonbet_ru;https://www.fonbet.ru/favicons/favicon-16x16.png;http;;
 esports_bet;https://www.esports.bet/urls.json;http/json;;
 liveodds;liveodds.fbsvc.bz:8080;http;;
