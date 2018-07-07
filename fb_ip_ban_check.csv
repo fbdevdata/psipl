@@ -1,14 +1,14 @@
 #service;ip/domain;banned;comment;https://github.com/fbdevdata/psipl/edit/gh-pages/fb_ip_ban_check
-_access_page;ap-01.accessfonbet-788e0.com;;;
-_access_page_test;*.accessfonbet-788e0.com;;;
+_access_page;ap-01.accessfonbet-a2564.com;;;
+_access_page_test;*.accessfonbet-a2564.com;;;
 _landing_page;lp-03.infofonbet-43823.tk;1;;
 _metrix_page «int»;mp-01.smartdirectroute.co;1;;
-_metrix_page «for all»;mp-01.fbmetrix-17d3a.com;;;
-_metrix_page_test «for all»;*.fbmetrix-17d3a.com;;;
+_metrix_page «for all»;mp-01.fbmetrix-2d614.com;;;
+_metrix_page_test «for all»;*.fbmetrix-2d614.com;;;
 _metrix_page «adv»;mp-02.fb-metrix.info;1;;
-fonbet-10be7.com;www.fonbet-10be7.com;;;
-fonbet-10be7.com;racing.fonbet-10be7.com;;;
-fonbet-10be7.com;games.fonbet-10be7.com;;;
+fonbet-29797.com;www.fonbet-29797.com;;;
+fonbet-29797.com;racing.fonbet-29797.com;;;
+fonbet-29797.com;games.fonbet-29797.com;;;
 fonbet150.com;www.fonbet150.com;1;;
 fonbet150.com;racing.fonbet150.com;1;;
 fonbet150.com;games.fonbet150.com;1;;
