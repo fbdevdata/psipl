@@ -1,6 +1,5 @@
 # service [domain];url;validate;service_caption;host_caption [service]
 #Google-dns-test;8.8.8.8:53;tcp;;
-5000-srv;195.13.211.209:5000;tcp;;5000_195.13.211.209
 5000-srv;195.13.211.219:5000;tcp;;5000_195.13.211.219
 5000-srv;195.13.211.229:5000;tcp;;5000_195.13.211.229
 5000-prx;bkwps01.fbtools.cc:5000;tcp;;5000_bkwps01
