@@ -13,7 +13,7 @@ betsinfoclient_line;http://js.fbsvc.bz/servertime;http;;
 #vbr_robots;vbr.fbsvc.bz:3401;http;;
 #j2me_old_droid_psipl;%random%.2cba60e65b3328a97e.xyz/cipl/test_object.js;http;;j2me_old_droid_psipl
 #fbls;%random%.a2341e99d0a2f2982f.xyz/cipl/test_object.js;http;;fbls_day_mob_201803
-fbls;%random%.%random%.a2099754328cbc75a8.xyz/cipl/test_object.js;http;;fbls_day_mob_201809
+#fbls;%random%.%random%.a2099754328cbc75a8.xyz/cipl/test_object.js;http;;fbls_day_mob_201809
 fbls;%random%.%random%.1bd09afc6d40947315.xyz/cipl/test_object.js;http;;fbls_day_mob_201810
 fbls;%random%.%random%.04fff8f92b65ccf19e.xyz/cipl/test_object.js;http;;fbls_day_mob_201811
 fbls;%random%.%random%.a52a114bd68358278c.xyz/cipl/test_object.js;http;;fbls_day_mob_201812
