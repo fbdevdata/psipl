@@ -14,9 +14,9 @@ betsinfoclient_line;http://js.fbsvc.bz/servertime;http;;
 #vbr_robots;vbr.fbsvc.bz:3401;http;;
 #j2me_old_droid_psipl;%random%.2cba60e65b3328a97e.xyz/cipl/test_object.js;http;;j2me_old_droid_psipl
 #fbls;%random%.a2341e99d0a2f2982f.xyz/cipl/test_object.js;http;;fbls_day_mob_201803
-fbls;%random%.%random%.a52a114bd68358278c.xyz/cipl/test_object.js;http;;fbls_day_mob_201812
-fbls;%random%.%random%.54e2744bca7b92a397.xyz/cipl/test_object.js;http;;fbls_day_mob_201901
-fbls;%random%.%random%.c3c3c181b04df957ed.xyz/cipl/test_object.js;http;;fbls_day_mob_201902
+#fbls;%random%.%random%.a52a114bd68358278c.xyz/cipl/test_object.js;http;;fbls_day_mob_201812
+#fbls;%random%.%random%.54e2744bca7b92a397.xyz/cipl/test_object.js;http;;fbls_day_mob_201901
+#fbls;%random%.%random%.c3c3c181b04df957ed.xyz/cipl/test_object.js;http;;fbls_day_mob_201902
 fbls;%random%.%random%.17db55ece5fcfe4da7.xyz/cipl/test_object.js;http;;fbls_day_mob_201903
 fbls;%random%.%random%.5cfe2c7059ce83cd98.xyz/cipl/test_object.js;http;;fbls_day_mob_201904
 fbls;%random%.%random%.f4af545634b4a6ae0c.xyz/cipl/test_object.js;http;;fbls_day_mob_201905
