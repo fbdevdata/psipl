@@ -11,7 +11,7 @@ www_fonbet_ru;https://www.fonbet.ru/settings.js;http;;
 esports_bet;https://www.esports.bet/urls.json;http/json;;
 liveodds;liveodds.fbsvc.bz:8080;http;;
 betsinfoclient_line;http://js.fbsvc.bz/servertime;http;;
-STM-UPD;http://origin.bkfon.org/Updates/Stakemat/stakemat.json;http/json;;Origin (LV)
+STM-UPD;http://origin.bkfon.org/Updates/Stakemat/stakemat.json;http/json;;Origin (DC)
 STM-UPD;http://origin.bkfon-resource.ru/Updates/Stakemat/stakemat.json;http/json;;CDN (G-Core)
 STM-UPD;http://upd.stm-ep.com/stakemat/stakemat.json;http/json;;STMPR (stmpr31)
 #vbr_robots;vbr.fbsvc.bz:3401;http;;
