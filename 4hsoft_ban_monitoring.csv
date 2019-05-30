@@ -20,9 +20,9 @@ STM-UPD;http://upd.stm-ep.com/stakemat/stakemat.json;http/json;;STMPR (stmpr31)
 #fbls;%random%.%random%.a52a114bd68358278c.xyz/cipl/test_object.js;http;;fbls_day_mob_201812
 #fbls;%random%.%random%.54e2744bca7b92a397.xyz/cipl/test_object.js;http;;fbls_day_mob_201901
 #fbls;%random%.%random%.c3c3c181b04df957ed.xyz/cipl/test_object.js;http;;fbls_day_mob_201902
-fbls;%random%.%random%.17db55ece5fcfe4da7.xyz/cipl/test_object.js;http;;fbls_day_mob_201903
-fbls;%random%.%random%.5cfe2c7059ce83cd98.xyz/cipl/test_object.js;http;;fbls_day_mob_201904
-fbls;%random%.%random%.f4af545634b4a6ae0c.xyz/cipl/test_object.js;http;;fbls_day_mob_201905
+#fbls;%random%.%random%.17db55ece5fcfe4da7.xyz/cipl/test_object.js;http;;fbls_day_mob_201903
+#fbls;%random%.%random%.5cfe2c7059ce83cd98.xyz/cipl/test_object.js;http;;fbls_day_mob_201904
+#fbls;%random%.%random%.f4af545634b4a6ae0c.xyz/cipl/test_object.js;http;;fbls_day_mob_201905
 fbls;%random%.%random%.a041c573691288f5d8.xyz/cipl/test_object.js;http;;fbls_day_mob_201906
 fbls;%random%.%random%.cf99ba7f8a69c93729.xyz/cipl/test_object.js;http;;fbls_day_mob_201907
 fbls;%random%.%random%.61a72664d647663e74.xyz/cipl/test_object.js;http;;fbls_day_mob_201908
@@ -33,6 +33,8 @@ fbls;%random%.%random%.3a9f626aa2196bc695.xyz/cipl/test_object.js;http;;fbls_day
 fbls;%random%.%random%.03cc51fdbc1a1e229f.xyz/cipl/test_object.js;http;;fbls_day_mob_202001
 fbls;%random%.%random%.094ff4508eb78ba7c5.xyz/cipl/test_object.js;http;;fbls_day_mob_202002
 fbls;%random%.%random%.84a31a1a9f47a102b2.xyz/cipl/test_object.js;http;;fbls_day_mob_202003
+fbls;%random%.%random%.d2300153c66da9dd91.xyz/cipl/test_object.js;http;;fbls_day_mob_202004
+fbls;%random%.%random%.3456d41ebc1d5af55d.xyz/cipl/test_object.js;http;;fbls_day_mob_202005
 kladr;http://kladr.cshdsk-ep.com/getobjects?value=12345;http;KLADR;kladr-lb
 kladr;http://kladr01.cshdsk-ep.com/getobjects?value=12345;http;KLADR;kladr@cshdsk-ep01
 kladr;http://kladr02.cshdsk-ep.com/getobjects?value=12345;http;KLADR;kladr@cshdsk-ep02
