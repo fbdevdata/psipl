@@ -15,7 +15,7 @@ STM-UPD;http://origin.bkfon.org/Updates/Stakemat/stakemat.json;http/json;;Origin
 STM-UPD;http://origin.bkfon-resource.ru/Updates/Stakemat/stakemat.json;http/json;;CDN (G-Core)
 STM-UPD;http://upd.stm-ep.com/stakemat/stakemat.json;http/json;;STMPR (stmpr31)
 STM-Results;http://results.stm-ep.com/;http;;BK DC proxy
-STM-Statistics;http://stat.stm-ep.com/;http;;BK DC proxy
+STM-FON-Stat;http://stat.stm-ep.com/;http;;BK DC proxy
 STM-Stat-Center;http://stat.stm-ep.com/stat-center/;http;;BK DC proxy
 #vbr_robots;vbr.fbsvc.bz:3401;http;;
 #j2me_old_droid_psipl;%random%.2cba60e65b3328a97e.xyz/cipl/test_object.js;http;;j2me_old_droid_psipl
