@@ -26,7 +26,7 @@ STM-Stat-Center;http://stat.stm-ep.com/stat-center/;http;;BK DC proxy
 #fbls;%random%.%random%.17db55ece5fcfe4da7.xyz/cipl/test_object.js;http;;fbls_day_mob_201903
 #fbls;%random%.%random%.5cfe2c7059ce83cd98.xyz/cipl/test_object.js;http;;fbls_day_mob_201904
 #fbls;%random%.%random%.f4af545634b4a6ae0c.xyz/cipl/test_object.js;http;;fbls_day_mob_201905
-fbls;%random%.%random%.a041c573691288f5d8.xyz/cipl/test_object.js;http;;fbls_day_mob_201906
+#fbls;%random%.%random%.a041c573691288f5d8.xyz/cipl/test_object.js;http;;fbls_day_mob_201906
 fbls;%random%.%random%.cf99ba7f8a69c93729.xyz/cipl/test_object.js;http;;fbls_day_mob_201907
 fbls;%random%.%random%.61a72664d647663e74.xyz/cipl/test_object.js;http;;fbls_day_mob_201908
 fbls;%random%.%random%.cb4653eddc3ef7c160.xyz/cipl/test_object.js;http;;fbls_day_mob_201909
@@ -56,7 +56,7 @@ fbps01;https://188.42.137.188:9444/showToto;http/json;;
 fbps01;https://185.82.210.236:9444/showToto;http/json;;
 xen_app;https://xa.fbsvc.bz/Citrix/XenApp/media/IcaComboAll.ico;http;;xen_app_lv
 #xen_app;https://de-xa.fbsvc.bz/Citrix/XenApp/media/IcaComboAll.ico;http;;xen_app_de
-xen_app;https://cor-xa.fbsvc.bz/Citrix/XenApp/media/IcaComboAll.ico;http;;xen_app_cor
+xen_app;https://cor-xa.fbsvc.bz/Citrix/cor-xaWeb/custom/strings.en.js;http;;xen_app_cor
 #xen_app;https://bkfon-xa.fbsvc.bz/Citrix/XenApp/media/IcaComboAll.ico;http;;xen_app_bkfon
 #xen_app;https://dvt-xa.fbsvc.bz/Citrix/XenApp/media/IcaComboAll.ico;http;;xen_app_dvt
 xen_app;https://lnm-xa.fbsvc.bz/Citrix/XenApp/media/IcaComboAll.ico;http;;xen_app_lnm
