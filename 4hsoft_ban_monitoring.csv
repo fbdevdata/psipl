@@ -54,8 +54,8 @@ fbps01;https://185.82.210.231:9444/showToto;http/json;;
 fbps01;https://185.82.210.232:9444/showToto;http/json;;
 fbps01;https://188.42.137.188:9444/showToto;http/json;;
 fbps01;https://185.82.210.236:9444/showToto;http/json;;
-old_toto-info_com;http://old.toto-info.co/DataService.svc/SelectCultures;http/json;;SelectCultures
-old_toto-info_com;http://old.toto-info.co/DataService.svc/GetAllDrawings;http/json;;GetAllDrawings
+old_toto-info_co ;http://old.toto-info.co/DataService.svc/SelectCultures;http/json;;SelectCultures 
+old_toto-info_co ;http://old.toto-info.co/DataService.svc/GetAllDrawings;http/json;;GetAllDrawings 
 xen_app;https://xa.fbsvc.bz/Citrix/XenApp/media/IcaComboAll.ico;http;;xen_app_lv
 #xen_app;https://de-xa.fbsvc.bz/Citrix/XenApp/media/IcaComboAll.ico;http;;xen_app_de
 #xen_app;https://cor-xa.fbsvc.bz/Citrix/cor-xaWeb/custom/strings.en.js;http;;xen_app_cor
