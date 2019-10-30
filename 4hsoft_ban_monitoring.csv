@@ -1,7 +1,7 @@
 # service [domain];url;validate;service_caption;host_caption [service]
 # Google-dns-test;8.8.8.8:53;tcp;;
-old_toto_info_co;http://old.toto-info.co/DataService.svc/GetAllDrawings;http/json;old_toto_info_co;GetAllDrawings
-old_toto_info_co;http://old.toto-info.co/DataService.svc/SelectCultures;http/json;old_toto_info_co;SelectCultures
+TOTOINFO;http://old.toto-info.co/DataService.svc/GetAllDrawings;http/json;old_toto_info_co;GetAllDrawings
+TOTOINFO;http://old.toto-info.co/DataService.svc/SelectCultures;http/json;old_toto_info_co;SelectCultures
 5000-srv;195.13.211.219:5000;tcp;;5000_195.13.211.219
 #5000-srv;195.13.211.229:5000;tcp;;5000_195.13.211.229
 #8050-prx;bkwps01.fbtools.cc:8050;tcp;;8050_bkwps01
