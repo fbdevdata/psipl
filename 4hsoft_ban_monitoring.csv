@@ -1,5 +1,5 @@
 # service [domain];url;validate;service_caption;host_caption [service]
-#Google-dns-test;8.8.8.8:53;tcp;;
+# Google-dns-test;8.8.8.8:53;tcp;;
 5000-srv;195.13.211.219:5000;tcp;;5000_195.13.211.219
 OldTotoinfoCom;http://old.toto-info.co/DataService.svc/GetAllDrawings;http/json;;GetAllDrawings
 OldTotoinfoCom;http://old.toto-info.co/DataService.svc/SelectCultures;http/json;;SelectCultures
