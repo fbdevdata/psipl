@@ -1,7 +1,7 @@
 #service [domain];url;validate;service_caption;host_caption [service]
 5000-srv;195.13.211.219:5000;tcp;;5000_195.13.211.219
-old.toto-info.com;http://old.toto-info.co/DataService.svc/GetAllDrawings;http/json;toto-info.com;GetAllDrawings
-old.toto-info.com;http://old.toto-info.co/DataService.svc/SelectCultures;http/json;toto-info.com;SelectCultures
+old.toto-info.com;http://old.toto-info.co/DataService.svc/GetAllDrawings;http/json;totoinfocom;GetAllDrawings
+old.toto-info.com;http://old.toto-info.co/DataService.svc/SelectCultures;http/json;totoinfocom;SelectCultures
 www_fonbet_ru;https://www.fonbet.ru/settings.js;http;;
 esports_bet;https://www.esports.bet/urls.json;http/json;;
 liveodds;liveodds.fbsvc.bz:8080;http;;
