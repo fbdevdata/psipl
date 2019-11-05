@@ -2,7 +2,7 @@
 5000-srv;195.13.211.219:5000;tcp;;5000_195.13.211.219
 www.fonbet.ru;https://www.fonbet.ru/settings.js;http;;www.fonbet.ru
 esports.bet;https://www.esports.bet/urls.json;http/json;;esports.bet
-VolCalc|VolleyBollRobot;vbr.fbsvc.bz:8000;http;VolCalc[VolleyBollRobot];
+VolCalc|VolleyBollRobot;vbr.fbsvc.bz:8000;tcp;VolCalc[VolleyBollRobot];
 liveodds;liveodds.fbsvc.bz:8080;http;;liveodds
 betsinfoclient_line;http://js.fbsvc.bz/servertime;http;;betsinfoclient_line
 STM-UPD;http://origin.bkfon.org/Updates/Stakemat/stakemat.json;http/json;;Origin (DC)
