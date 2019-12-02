@@ -11,7 +11,7 @@ STM-UPD;http://upd.stm-ep.com/stakemat/stakemat.json;http/json;;STMPR (stmpr31)
 STM-Results;http://results.stm-ep.com/;http;;BK DC proxy
 STM-FON-Stat;http://stat.stm-ep.com/;http;;BK DC proxy
 STM-Stat-Center;http://stat.stm-ep.com/stat-center/;http;;BK DC proxy
-fbls;%random%.%random%.6036bbf0df71190437.xyz/cipl/test_object.js;http;;fbls_day_mob_201911
+#fbls;%random%.%random%.6036bbf0df71190437.xyz/cipl/test_object.js;http;;fbls_day_mob_201911
 fbls;%random%.%random%.3a9f626aa2196bc695.xyz/cipl/test_object.js;http;;fbls_day_mob_201912
 fbls;%random%.%random%.03cc51fdbc1a1e229f.xyz/cipl/test_object.js;http;;fbls_day_mob_202001
 fbls;%random%.%random%.094ff4508eb78ba7c5.xyz/cipl/test_object.js;http;;fbls_day_mob_202002
