@@ -35,4 +35,4 @@ fbps01;https://188.42.137.188:9444/showToto;http/json;;
 fbps01;https://185.82.210.236:9444/showToto;http/json;;
 xen_app;https://xa.fbsvc.bz/Citrix/XenApp/media/IcaComboAll.ico;http;;xen_app_lv
 xen_app;https://lnm-xa.fbsvc.bz/Citrix/XenApp/media/IcaComboAll.ico;http;;xen_app_lnm
-is;http://old.toto-info.co/DataService.svc/SelectCultures;http/json;IS;
+#is;http://old.toto-info.co/DataService.svc/SelectCultures;http/json;IS;
