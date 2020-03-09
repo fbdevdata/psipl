@@ -13,9 +13,9 @@ STM-FON-Stat;http://stat.stm-ep.com/;http;;BK DC proxy
 STM-Stat-Center;http://stat.stm-ep.com/stat-center/;http;;BK DC proxy
 STM-stakemat-screens;https://bk-www.stm-ep.com/stakemat-screens/;http;;Servers DC proxy
 #fbls;%random%.%random%.6036bbf0df71190437.xyz/cipl/test_object.js;http;;fbls_day_mob_201911
-fbls;%random%.%random%.3a9f626aa2196bc695.xyz/cipl/test_object.js;http;;fbls_day_mob_201912
-fbls;%random%.%random%.03cc51fdbc1a1e229f.xyz/cipl/test_object.js;http;;fbls_day_mob_202001
-fbls;%random%.%random%.094ff4508eb78ba7c5.xyz/cipl/test_object.js;http;;fbls_day_mob_202002
+#fbls;%random%.%random%.3a9f626aa2196bc695.xyz/cipl/test_object.js;http;;fbls_day_mob_201912
+#fbls;%random%.%random%.03cc51fdbc1a1e229f.xyz/cipl/test_object.js;http;;fbls_day_mob_202001
+#fbls;%random%.%random%.094ff4508eb78ba7c5.xyz/cipl/test_object.js;http;;fbls_day_mob_202002
 fbls;%random%.%random%.84a31a1a9f47a102b2.xyz/cipl/test_object.js;http;;fbls_day_mob_202003
 fbls;%random%.%random%.d2300153c66da9dd91.xyz/cipl/test_object.js;http;;fbls_day_mob_202004
 fbls;%random%.%random%.3456d41ebc1d5af55d.xyz/cipl/test_object.js;http;;fbls_day_mob_202005
