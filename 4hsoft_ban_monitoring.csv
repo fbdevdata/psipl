@@ -30,10 +30,10 @@ winclient_conf+upd;upd-%random%.fc64b916334e329bee.xyz/winclient/test_object.js;
 android_client_proxy_list;http://androiddevdata.github.io/psipl/an.json;http/json/iplist;android_client_proxy_list;
 jme_client_proxy_list;http://fbdevdata.github.io/psipl/jme.list;http/iplist;jme_client_proxy_list;
 jme_client_proxy_list;https://jmedevdata.github.io/psipl/jme.list;http/iplist;jme_client_proxy_list;
-fbps01;https://185.82.210.231:9444/showToto;http/json;;
-fbps01;https://185.82.210.232:9444/showToto;http/json;;
-fbps01;https://188.42.137.188:9444/showToto;http/json;;
-fbps01;https://185.82.210.236:9444/showToto;http/json;;
+#fbps01;https://185.82.210.231:9444/showToto;http/json;;
+#fbps01;https://185.82.210.232:9444/showToto;http/json;;
+#fbps01;https://188.42.137.188:9444/showToto;http/json;;
+#fbps01;https://185.82.210.236:9444/showToto;http/json;;
 xen_app;https://xa.fbsvc.bz/Citrix/XenApp/media/IcaComboAll.ico;http;;xen_app_lv
 xen_app;https://lnm-xa.fbsvc.bz/Citrix/XenApp/media/IcaComboAll.ico;http;;xen_app_lnm
 #is;http://old.toto-info.co/DataService.svc/SelectCultures;http/json;IS;
