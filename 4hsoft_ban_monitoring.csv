@@ -22,8 +22,8 @@ fbls;%random%.%random%.3456d41ebc1d5af55d.xyz/cipl/test_object.js;http;;fbls_day
 kladr;http://kladr.cshdsk-ep.com/getobjects?value=12345;http;KLADR;kladr-lb
 kladr;http://kladr01.cshdsk-ep.com/getobjects?value=12345;http;KLADR;kladr@cshdsk-ep01
 kladr;http://kladr02.cshdsk-ep.com/getobjects?value=12345;http;KLADR;kladr@cshdsk-ep02
-web_static;https://static-www002.ccf4ab51771cacd46d.com/header3/img/rus-on.svg;http;;ccf4ab51771cacd46d.com
-web_static;https://static-www002.e6cf1b2fba639af003.com/header3/img/rus-on.svg;http;;e6cf1b2fba639af003.com
+#web_static;https://static-www002.ccf4ab51771cacd46d.com/header3/img/rus-on.svg;http;;ccf4ab51771cacd46d.com
+#web_static;https://static-www002.e6cf1b2fba639af003.com/header3/img/rus-on.svg;http;;e6cf1b2fba639af003.com
 winclient_conf+upd;upd-%random%.23ce084f5ccbd434aa.xyz/winclient/test_object.js;http;;23ce084f5ccbd434aa.xyz
 winclient_conf+upd;upd-%random%.c6c3aef60209c1de54.xyz/winclient/test_object.js;http;;c6c3aef60209c1de54.xyz
 winclient_conf+upd;upd-%random%.fc64b916334e329bee.xyz/winclient/test_object.js;http;;fc64b916334e329bee.xyz
