@@ -16,9 +16,9 @@ STM-stakemat-screens;https://bk-www.stm-ep.com/stakemat-screens/;http;;Servers D
 #fbls;%random%.%random%.3a9f626aa2196bc695.xyz/cipl/test_object.js;http;;fbls_day_mob_201912
 #fbls;%random%.%random%.03cc51fdbc1a1e229f.xyz/cipl/test_object.js;http;;fbls_day_mob_202001
 #fbls;%random%.%random%.094ff4508eb78ba7c5.xyz/cipl/test_object.js;http;;fbls_day_mob_202002
-fbls;%random%.%random%.84a31a1a9f47a102b2.xyz/cipl/test_object.js;http;;fbls_day_mob_202003
-fbls;%random%.%random%.d2300153c66da9dd91.xyz/cipl/test_object.js;http;;fbls_day_mob_202004
-fbls;%random%.%random%.3456d41ebc1d5af55d.xyz/cipl/test_object.js;http;;fbls_day_mob_202005
+#fbls;%random%.%random%.84a31a1a9f47a102b2.xyz/cipl/test_object.js;http;;fbls_day_mob_202003
+#fbls;%random%.%random%.d2300153c66da9dd91.xyz/cipl/test_object.js;http;;fbls_day_mob_202004
+#fbls;%random%.%random%.3456d41ebc1d5af55d.xyz/cipl/test_object.js;http;;fbls_day_mob_202005
 kladr;http://kladr.cshdsk-ep.com/getobjects?value=12345;http;KLADR;kladr-lb
 kladr;http://kladr01.cshdsk-ep.com/getobjects?value=12345;http;KLADR;kladr@cshdsk-ep01
 kladr;http://kladr02.cshdsk-ep.com/getobjects?value=12345;http;KLADR;kladr@cshdsk-ep02
