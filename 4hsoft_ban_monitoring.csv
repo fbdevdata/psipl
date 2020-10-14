@@ -6,7 +6,7 @@ VolCalc|VolleyBollRobot;vbr.fbsvc.bz:8000;tcp;VolCalc[VolleyBollRobot];
 liveodds;liveodds.fbsvc.bz:8080;http;liveodds;
 betsinfoclient_line;http://js.fbsvc.bz/servertime;http;;betsinfoclient_line
 STM-UPD;http://origin.bkfon.org/Updates/Stakemat/stakemat.json;http/json;;Origin (DC)
-STM-UPD;http://origin.bkfon-resource.ru/Updates/Stakemat/stakemat.json;http/json;;CDN (G-Core)
+STM-UPD;http://origin.bkfon-resources.com/Updates/Stakemat/stakemat.json;http/json;;CDN (Edgecast|Verizon)
 STM-UPD;http://upd.stm-ep.com/stakemat/stakemat.json;http/json;;STMPR (stmpr31)
 STM-Results;http://results.stm-ep.com/;http;;BK DC proxy
 STM-FON-Stat;http://stat.stm-ep.com/;http;;BK DC proxy
