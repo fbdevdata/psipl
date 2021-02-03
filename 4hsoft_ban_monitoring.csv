@@ -61,11 +61,11 @@ web-ca;https://clientsapi31.bkfon-resources.com/servertime;http;web-ca;
 web-ca;https://clientsapi41.bkfon-resources.com/servertime;http;web-ca;
 web-la;https://line11.bkfon-resources.com/servertime;http;web-la;
 web-la;https://line12.bkfon-resources.com/servertime;http;web-la;
-web-la;https://line15.bkfon-resources.com/servertime;http;web-la;
-web-la;https://line31c.bkfon-resources.com/servertime;http;web-la;
 web-la;https://line14.bkfon-resources.com/servertime;http;web-la;
 web-la;https://line16.bkfon-resources.com/servertime;http;web-la;
 web-la;https://line17.bkfon-resources.com/servertime;http;web-la;
 web-la;https://line18.bkfon-resources.com/servertime;http;web-la;
-webmob-la;https://line13.bkfon-resources.com/servertime;http;webmob-la;
-webmob-la;https://line32c.bkfon-resources.com/servertime;http;webmob-la;
+mobweb-la;https://line13.bkfon-resources.com/servertime;http;mobweb-la;
+mobweb-la;https://line15.bkfon-resources.com/servertime;http;mobweb-la;
+mobweb-la;https://line41.bkfon-resources.com/servertime;http;mobweb-la;
+
