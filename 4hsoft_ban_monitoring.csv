@@ -1,7 +1,6 @@
 #service [domain];url;validate;service_caption;host_caption [service]
 5000-srv;195.13.211.219:5000;tcp;;5000_195.13.211.219
 www.fonbet.ru;https://www.fonbet.ru/settings.js;http;;www.fonbet.ru
-#esports.bet;https://www.esports.bet/urls.json;http/json;;esports.bet
 VolCalc|VolleyBollRobot;vbr.fbsvc.bz:8000;tcp;VolCalc[VolleyBollRobot];
 liveodds;liveodds.fbsvc.bz:8080;http;liveodds;
 betsinfoclient_line;http://js.fbsvc.bz/servertime;http;;betsinfoclient_line
@@ -12,31 +11,6 @@ STM-Results;http://results.stm-ep.com/;http;;BK DC proxy
 STM-FON-Stat;http://stat.stm-ep.com/;http;;BK DC proxy
 STM-Stat-Center;http://stat.stm-ep.com/stat-center/;http;;BK DC proxy
 STM-stakemat-screens;https://bk-www.stm-ep.com/stakemat-screens/;http;;Servers DC proxy
-#fbls;%random%.%random%.6036bbf0df71190437.xyz/cipl/test_object.js;http;;fbls_day_mob_201911
-#fbls;%random%.%random%.3a9f626aa2196bc695.xyz/cipl/test_object.js;http;;fbls_day_mob_201912
-#fbls;%random%.%random%.03cc51fdbc1a1e229f.xyz/cipl/test_object.js;http;;fbls_day_mob_202001
-#fbls;%random%.%random%.094ff4508eb78ba7c5.xyz/cipl/test_object.js;http;;fbls_day_mob_202002
-#fbls;%random%.%random%.84a31a1a9f47a102b2.xyz/cipl/test_object.js;http;;fbls_day_mob_202003
-#fbls;%random%.%random%.d2300153c66da9dd91.xyz/cipl/test_object.js;http;;fbls_day_mob_202004
-#fbls;%random%.%random%.3456d41ebc1d5af55d.xyz/cipl/test_object.js;http;;fbls_day_mob_202005
-kladr;http://kladr.cshdsk-ep.com/getobjects?value=12345;http;KLADR;kladr-lb
-kladr;http://kladr01.cshdsk-ep.com/getobjects?value=12345;http;KLADR;kladr@cshdsk-ep01
-kladr;http://kladr02.cshdsk-ep.com/getobjects?value=12345;http;KLADR;kladr@cshdsk-ep02
-#web_static;https://static-www002.ccf4ab51771cacd46d.com/header3/img/rus-on.svg;http;;ccf4ab51771cacd46d.com
-#web_static;https://static-www002.e6cf1b2fba639af003.com/header3/img/rus-on.svg;http;;e6cf1b2fba639af003.com
-#winclient_conf+upd;upd-%random%.23ce084f5ccbd434aa.xyz/winclient/test_object.js;http;;23ce084f5ccbd434aa.xyz
-#winclient_conf+upd;upd-%random%.c6c3aef60209c1de54.xyz/winclient/test_object.js;http;;c6c3aef60209c1de54.xyz
-#winclient_conf+upd;upd-%random%.fc64b916334e329bee.xyz/winclient/test_object.js;http;;fc64b916334e329bee.xyz
-#android_client_proxy_list;http://androiddevdata.github.io/psipl/an.json;http/json/iplist;android_client_proxy_list;
-#jme_client_proxy_list;http://fbdevdata.github.io/psipl/jme.list;http/iplist;jme_client_proxy_list;
-#jme_client_proxy_list;https://jmedevdata.github.io/psipl/jme.list;http/iplist;jme_client_proxy_list;
-#fbps01;https://185.82.210.231:9444/showToto;http/json;;
-#fbps01;https://185.82.210.232:9444/showToto;http/json;;
-#fbps01;https://188.42.137.188:9444/showToto;http/json;;
-#fbps01;https://185.82.210.236:9444/showToto;http/json;;
-xen_app;https://xa.fbsvc.bz/Citrix/XenApp/media/IcaComboAll.ico;http;;xen_app_lv
-xen_app;https://lnm-xa.fbsvc.bz/Citrix/XenApp/media/IcaComboAll.ico;http;;xen_app_lnm
-#is;http://old.toto-info.co/DataService.svc/SelectCultures;http/json;IS;
 andr-la;https://line01a.bkfon-resources.com/servertime;http;andr-la;
 andr-la;https://line02a.bkfon-resources.com/servertime;http;andr-la;
 andr-la;https://line03a.bkfon-resources.com/servertime;http;andr-la;
@@ -68,4 +42,29 @@ web-la;https://line18.bkfon-resources.com/servertime;http;web-la;
 mobweb-la;https://line13.bkfon-resources.com/servertime;http;mobweb-la;
 mobweb-la;https://line15.bkfon-resources.com/servertime;http;mobweb-la;
 mobweb-la;https://line41.bkfon-resources.com/servertime;http;mobweb-la;
-
+kladr;http://kladr.cshdsk-ep.com/getobjects?value=12345;http;KLADR;kladr-lb
+kladr;http://kladr01.cshdsk-ep.com/getobjects?value=12345;http;KLADR;kladr@cshdsk-ep01
+kladr;http://kladr02.cshdsk-ep.com/getobjects?value=12345;http;KLADR;kladr@cshdsk-ep02
+xen_app;https://xa.fbsvc.bz/Citrix/XenApp/media/IcaComboAll.ico;http;;xen_app_lv
+xen_app;https://lnm-xa.fbsvc.bz/Citrix/XenApp/media/IcaComboAll.ico;http;;xen_app_lnm
+#esports.bet;https://www.esports.bet/urls.json;http/json;;esports.bet
+#fbls;%random%.%random%.6036bbf0df71190437.xyz/cipl/test_object.js;http;;fbls_day_mob_201911
+#fbls;%random%.%random%.3a9f626aa2196bc695.xyz/cipl/test_object.js;http;;fbls_day_mob_201912
+#fbls;%random%.%random%.03cc51fdbc1a1e229f.xyz/cipl/test_object.js;http;;fbls_day_mob_202001
+#fbls;%random%.%random%.094ff4508eb78ba7c5.xyz/cipl/test_object.js;http;;fbls_day_mob_202002
+#fbls;%random%.%random%.84a31a1a9f47a102b2.xyz/cipl/test_object.js;http;;fbls_day_mob_202003
+#fbls;%random%.%random%.d2300153c66da9dd91.xyz/cipl/test_object.js;http;;fbls_day_mob_202004
+#fbls;%random%.%random%.3456d41ebc1d5af55d.xyz/cipl/test_object.js;http;;fbls_day_mob_202005
+#web_static;https://static-www002.ccf4ab51771cacd46d.com/header3/img/rus-on.svg;http;;ccf4ab51771cacd46d.com
+#web_static;https://static-www002.e6cf1b2fba639af003.com/header3/img/rus-on.svg;http;;e6cf1b2fba639af003.com
+#winclient_conf+upd;upd-%random%.23ce084f5ccbd434aa.xyz/winclient/test_object.js;http;;23ce084f5ccbd434aa.xyz
+#winclient_conf+upd;upd-%random%.c6c3aef60209c1de54.xyz/winclient/test_object.js;http;;c6c3aef60209c1de54.xyz
+#winclient_conf+upd;upd-%random%.fc64b916334e329bee.xyz/winclient/test_object.js;http;;fc64b916334e329bee.xyz
+#android_client_proxy_list;http://androiddevdata.github.io/psipl/an.json;http/json/iplist;android_client_proxy_list;
+#jme_client_proxy_list;http://fbdevdata.github.io/psipl/jme.list;http/iplist;jme_client_proxy_list;
+#jme_client_proxy_list;https://jmedevdata.github.io/psipl/jme.list;http/iplist;jme_client_proxy_list;
+#fbps01;https://185.82.210.231:9444/showToto;http/json;;
+#fbps01;https://185.82.210.232:9444/showToto;http/json;;
+#fbps01;https://188.42.137.188:9444/showToto;http/json;;
+#fbps01;https://185.82.210.236:9444/showToto;http/json;;
+#is;http://old.toto-info.co/DataService.svc/SelectCultures;http/json;IS;
