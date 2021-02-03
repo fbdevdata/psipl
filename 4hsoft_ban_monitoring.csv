@@ -1,9 +1,5 @@
 #service [domain];url;validate;service_caption;host_caption [service]
-5000-srv;195.13.211.219:5000;tcp;;5000_195.13.211.219
 www.fonbet.ru;https://www.fonbet.ru/settings.js;http;;www.fonbet.ru
-VolCalc|VolleyBollRobot;vbr.fbsvc.bz:8000;tcp;VolCalc[VolleyBollRobot];
-liveodds;liveodds.fbsvc.bz:8080;http;liveodds;
-betsinfoclient_line;http://js.fbsvc.bz/servertime;http;;betsinfoclient_line
 STM-UPD;http://origin.bkfon.org/Updates/Stakemat/stakemat.json;http/json;;Origin (DC)
 STM-UPD;http://origin.bkfon-resources.com/Updates/Stakemat/stakemat.json;http/json;;CDN (Edgecast|Verizon)
 STM-UPD;http://upd.stm-ep.com/stakemat/stakemat.json;http/json;;STMPR (stmpr31)
@@ -42,6 +38,10 @@ web-la;https://line18.bkfon-resources.com/servertime;http;web-la;
 mobweb-la;https://line13.bkfon-resources.com/servertime;http;mobweb-la;
 mobweb-la;https://line15.bkfon-resources.com/servertime;http;mobweb-la;
 mobweb-la;https://line41.bkfon-resources.com/servertime;http;mobweb-la;
+5000-srv;195.13.211.219:5000;tcp;;5000_195.13.211.219
+VolCalc|VolleyBollRobot;vbr.fbsvc.bz:8000;tcp;VolCalc[VolleyBollRobot];
+liveodds;liveodds.fbsvc.bz:8080;http;liveodds;
+betsinfoclient_line;http://js.fbsvc.bz/servertime;http;;betsinfoclient_line
 kladr;http://kladr.cshdsk-ep.com/getobjects?value=12345;http;KLADR;kladr-lb
 kladr;http://kladr01.cshdsk-ep.com/getobjects?value=12345;http;KLADR;kladr@cshdsk-ep01
 kladr;http://kladr02.cshdsk-ep.com/getobjects?value=12345;http;KLADR;kladr@cshdsk-ep02
