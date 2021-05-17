@@ -29,6 +29,7 @@ web-ca;https://clientsapi11.bkfon-resources.com/servertime;http;web-ca;
 web-ca;https://clientsapi12.bkfon-resources.com/servertime;http;web-ca;
 web-ca;https://clientsapi31.bkfon-resources.com/servertime;http;web-ca;
 web-ca;https://clientsapi41.bkfon-resources.com/servertime;http;web-ca;
+web-ca;https://clientsapi51.bkfon-resources.com/servertime;http;web-ca;
 web-la;https://line11.bkfon-resources.com/servertime;http;web-la;
 web-la;https://line12.bkfon-resources.com/servertime;http;web-la;
 web-la;https://line14.bkfon-resources.com/servertime;http;web-la;
