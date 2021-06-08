@@ -40,7 +40,7 @@ mobweb-la;https://line13.bkfon-resources.com/servertime;http;mobweb-la;
 mobweb-la;https://line15.bkfon-resources.com/servertime;http;mobweb-la;
 mobweb-la;https://line41.bkfon-resources.com/servertime;http;mobweb-la;
 #5000-srv;195.13.211.219:5000;tcp;;5000_195.13.211.219
-VolCalc|VolleyBollRobot;vbr.fbsvc.bz:8000;tcp;VolCalc[VolleyBollRobot];
+#VolCalc|VolleyBollRobot;vbr.fbsvc.bz:8000;tcp;VolCalc[VolleyBollRobot];
 liveodds;liveodds.fbsvc.bz:8080;http;liveodds;
 #betsinfoclient_line;http://js.fbsvc.bz/servertime;http;;betsinfoclient_line
 kladr;http://kladr.cshdsk-ep.com/getobjects?value=12345;http;KLADR;kladr-lb
