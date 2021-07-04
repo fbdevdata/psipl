@@ -36,9 +36,9 @@ web-la;https://line14.bkfon-resources.com/servertime;http;web-la;
 web-la;https://line16.bkfon-resources.com/servertime;http;web-la;
 web-la;https://line17.bkfon-resources.com/servertime;http;web-la;
 web-la;https://line18.bkfon-resources.com/servertime;http;web-la;
-mobweb-la;https://line13.bkfon-resources.com/servertime;http;mobweb-la;
-mobweb-la;https://line15.bkfon-resources.com/servertime;http;mobweb-la;
-mobweb-la;https://line41.bkfon-resources.com/servertime;http;mobweb-la;
+mobweb-la;https://line13.bkfon-resources.com/line/mobile/showEvents?lang=ru&lineType=full_line&sportId=20044&specify1X2=false&sysId=1;http/json;mobweb-la;
+mobweb-la;https://line15.bkfon-resources.com/line/mobile/showEvents?lang=ru&lineType=full_line&sportId=20044&specify1X2=false&sysId=1;http/json;mobweb-la;
+mobweb-la;https://line41.bkfon-resources.com/line/mobile/showEvents?lang=ru&lineType=full_line&sportId=20044&specify1X2=false&sysId=1;http/json;mobweb-la;
 #5000-srv;195.13.211.219:5000;tcp;;5000_195.13.211.219
 #VolCalc|VolleyBollRobot;vbr.fbsvc.bz:8000;tcp;VolCalc[VolleyBollRobot];
 liveodds;liveodds.fbsvc.bz:8080;http;liveodds;
