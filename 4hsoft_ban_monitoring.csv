@@ -1,47 +1,72 @@
 #service [domain];url;validate;service_caption;host_caption [service]
-0001;https://www.fonbet.ru/settings.js;http;;www.fonbet.ru
-0002;http://origin-dc.bk-svc.com/Updates/Stakemat/stakemat.json;http/json;;Origin (DC)
-0003;http://origin.bkfon-resources.com/Updates/Stakemat/stakemat.json;http/json;;CDN (Edgecast|Verizon)
-0004;http://upd.stm-ep.com/stakemat/stakemat.json;http/json;;STMPR (stmpr31)
-0005;http://results.stm-ep.com/;http;;BK DC proxy
-0006;http://stat.stm-ep.com/;http;;BK DC proxy
-0007;http://stat.stm-ep.com/stat-center/;http;;BK DC proxy
-0008;https://bk-www.stm-ep.com/stakemat-screens/;http;;Servers DC proxy
-0009;https://line01a.bkfon-resources.com/line/mobile/showEvents?lang=ru&lineType=full_line&sportId=20044&specify1X2=false&sysId=1;http/json;andr-la;
-0010;https://line02a.bkfon-resources.com/line/mobile/showEvents?lang=ru&lineType=full_line&sportId=20044&specify1X2=false&sysId=1;http/json;andr-la;
-0011;https://line03a.bkfon-resources.com/line/mobile/showEvents?lang=ru&lineType=full_line&sportId=20044&specify1X2=false&sysId=1;http/json;andr-la;
-0012;https://line04a.bkfon-resources.com/line/mobile/showEvents?lang=ru&lineType=full_line&sportId=20044&specify1X2=false&sysId=1;http/json;andr-la;
-0013;https://clientsapi36a.bkfon-resources.com/geoIp/checkGeoAccess;http/json;andr-ca;
-0014;https://clientsapi15a.bkfon-resources.com/geoIp/checkGeoAccess;http/json;andr-ca;
-0015;https://clientsapi02a.bkfon-resources.com/geoIp/checkGeoAccess;http/json;andr-ca;
-0016;https://line05i.bkfon-resources.com/line/mobile/showEvents?lang=ru&lineType=full_line&sportId=20044&specify1X2=false&sysId=1;http/json;ios-la;
-0017;https://line06i.bkfon-resources.com/line/mobile/showEvents?lang=ru&lineType=full_line&sportId=20044&specify1X2=false&sysId=1;http/json;ios-la;
-0018;https://line07i.bkfon-resources.com/line/mobile/showEvents?lang=ru&lineType=full_line&sportId=20044&specify1X2=false&sysId=1;http/json;ios-la;
-0019;https://line08i.bkfon-resources.com/line/mobile/showEvents?lang=ru&lineType=full_line&sportId=20044&specify1X2=false&sysId=1;http/json;ios-la;
-0020;https://clientsapi05i.bkfon-resources.com/geoIp/checkGeoAccess;http/json;ios-ca;
-0021;https://clientsapi07i.bkfon-resources.com/geoIp/checkGeoAccess;http/json;ios-ca;
-0022;https://clientsapi01i.bkfon-resources.com/geoIp/checkGeoAccess;http/json;ios-ca;
-0023;https://clientsapi35i.bkfon-resources.com/geoIp/checkGeoAccess;http/json;ios-ca;
-0024;https://clientsapi03i.bkfon-resources.com/geoIp/checkGeoAccess;http/json;ios-ca;
-0025;https://clientsapi11.bkfon-resources.com/geoIp/checkGeoAccess;http/json;web-ca;
-0026;https://clientsapi12.bkfon-resources.com/geoIp/checkGeoAccess;http/json;web-ca;
-0027;https://clientsapi31.bkfon-resources.com/geoIp/checkGeoAccess;http/json;web-ca;
-0028;https://clientsapi51.bkfon-resources.com/geoIp/checkGeoAccess;http/json;web-ca;
-0029;https://line11.bkfon-resources.com/line/desktop/topEvents3?place=line&sysId=1&lang=ru&supertop=4&scopeMarket=1600;http/json;web-la;
-0030;https://line12.bkfon-resources.com/line/desktop/topEvents3?place=line&sysId=1&lang=ru&supertop=4&scopeMarket=1600;http/json;web-la;
-0031;https://line13.bkfon-resources.com/line/desktop/topEvents3?place=line&sysId=1&lang=ru&supertop=4&scopeMarket=1600;http/json;web-la;
-0032;https://line14.bkfon-resources.com/line/desktop/topEvents3?place=line&sysId=1&lang=ru&supertop=4&scopeMarket=1600;http/json;web-la;
-0033;https://line32.bkfon-resources.com/line/desktop/topEvents3?place=line&sysId=1&lang=ru&supertop=4&scopeMarket=1600;http/json;web-la;
-0034;https://line51.bkfon-resources.com/line/desktop/topEvents3?place=line&sysId=1&lang=ru&supertop=4&scopeMarket=1600;http/json;web-la;
-0035;https://line52.bkfon-resources.com/line/desktop/topEvents3?place=line&sysId=1&lang=ru&supertop=4&scopeMarket=1600;http/json;web-la;
-0036;https://line53.bkfon-resources.com/line/desktop/topEvents3?place=line&sysId=1&lang=ru&supertop=4&scopeMarket=1600;http/json;web-la;
-0037;https://line59.bkfon-resources.com/line/desktop/topEvents3?place=line&sysId=1&lang=ru&supertop=4&scopeMarket=1600;http/json;web-la;
-0038;https://line15.bkfon-resources.com/line/mobile/showEvents?lang=ru&lineType=full_line&sportId=20044&specify1X2=false&sysId=1;http/json;web-la;
-0039;https://line16.bkfon-resources.com/line/mobile/showEvents?lang=ru&lineType=full_line&sportId=20044&specify1X2=false&sysId=1;http/json;web-la;
-0040;https://line31.bkfon-resources.com/line/mobile/showEvents?lang=ru&lineType=full_line&sportId=20044&specify1X2=false&sysId=1;http/json;mobweb-la;
-0041;https://line54.bkfon-resources.com/line/mobile/showEvents?lang=ru&lineType=full_line&sportId=20044&specify1X2=false&sysId=1;http/json;mobweb-la;
-0042;liveodds.fbsvc.bz:8080;http;liveodds;
-0043;http://kladr.cshdsk-ep.com/getobjects?value=12345;http;KLADR;kladr-lb
-0044;http://kladr01.cshdsk-ep.com/getobjects?value=12345;http;KLADR;kladr@cshdsk-ep01
-0045;http://kladr02.cshdsk-ep.com/getobjects?value=12345;http;KLADR;kladr@cshdsk-ep02
-0046;https://xa.fbsvc.bz/Citrix/XenApp/media/IcaComboAll.ico;http;;xen_app_lv
+www.fonbet.ru;https://www.fonbet.ru/settings.js;http;;www.fonbet.ru
+STM-UPD;http://origin-dc.bk-svc.com/Updates/Stakemat/stakemat.json;http/json;;Origin (DC)
+STM-UPD;http://origin.bkfon-resources.com/Updates/Stakemat/stakemat.json;http/json;;CDN (Edgecast|Verizon)
+STM-UPD;http://upd.stm-ep.com/stakemat/stakemat.json;http/json;;STMPR (stmpr31)
+STM-Results;http://results.stm-ep.com/;http;;BK DC proxy
+STM-FON-Stat;http://stat.stm-ep.com/;http;;BK DC proxy
+STM-Stat-Center;http://stat.stm-ep.com/stat-center/;http;;BK DC proxy
+STM-stakemat-screens;https://bk-www.stm-ep.com/stakemat-screens/;http;;Servers DC proxy
+andr-la;https://line01a.bkfon-resources.com/line/mobile/showEvents?lang=ru&lineType=full_line&sportId=20044&specify1X2=false&sysId=1;http/json;andr-la;
+andr-la;https://line02a.bkfon-resources.com/line/mobile/showEvents?lang=ru&lineType=full_line&sportId=20044&specify1X2=false&sysId=1;http/json;andr-la;
+andr-la;https://line03a.bkfon-resources.com/line/mobile/showEvents?lang=ru&lineType=full_line&sportId=20044&specify1X2=false&sysId=1;http/json;andr-la;
+andr-la;https://line04a.bkfon-resources.com/line/mobile/showEvents?lang=ru&lineType=full_line&sportId=20044&specify1X2=false&sysId=1;http/json;andr-la;
+andr-ca;https://clientsapi36a.bkfon-resources.com/geoIp/checkGeoAccess;http/json;andr-ca;
+andr-ca;https://clientsapi15a.bkfon-resources.com/geoIp/checkGeoAccess;http/json;andr-ca;
+andr-ca;https://clientsapi02a.bkfon-resources.com/geoIp/checkGeoAccess;http/json;andr-ca;
+ios-la;https://line05i.bkfon-resources.com/line/mobile/showEvents?lang=ru&lineType=full_line&sportId=20044&specify1X2=false&sysId=1;http/json;ios-la;
+ios-la;https://line06i.bkfon-resources.com/line/mobile/showEvents?lang=ru&lineType=full_line&sportId=20044&specify1X2=false&sysId=1;http/json;ios-la;
+ios-la;https://line07i.bkfon-resources.com/line/mobile/showEvents?lang=ru&lineType=full_line&sportId=20044&specify1X2=false&sysId=1;http/json;ios-la;
+ios-la;https://line08i.bkfon-resources.com/line/mobile/showEvents?lang=ru&lineType=full_line&sportId=20044&specify1X2=false&sysId=1;http/json;ios-la;
+ios-ca;https://clientsapi05i.bkfon-resources.com/geoIp/checkGeoAccess;http/json;ios-ca;
+ios-ca;https://clientsapi07i.bkfon-resources.com/geoIp/checkGeoAccess;http/json;ios-ca;
+ios-ca;https://clientsapi01i.bkfon-resources.com/geoIp/checkGeoAccess;http/json;ios-ca;
+ios-ca;https://clientsapi35i.bkfon-resources.com/geoIp/checkGeoAccess;http/json;ios-ca;
+ios-ca;https://clientsapi03i.bkfon-resources.com/geoIp/checkGeoAccess;http/json;ios-ca;
+web-ca;https://clientsapi11.bkfon-resources.com/geoIp/checkGeoAccess;http/json;web-ca;
+web-ca;https://clientsapi12.bkfon-resources.com/geoIp/checkGeoAccess;http/json;web-ca;
+web-ca;https://clientsapi31.bkfon-resources.com/geoIp/checkGeoAccess;http/json;web-ca;
+web-ca;https://clientsapi51.bkfon-resources.com/geoIp/checkGeoAccess;http/json;web-ca;
+web-la;https://line11.bkfon-resources.com/line/desktop/topEvents3?place=line&sysId=1&lang=ru&supertop=4&scopeMarket=1600;http/json;web-la;
+web-la;https://line12.bkfon-resources.com/line/desktop/topEvents3?place=line&sysId=1&lang=ru&supertop=4&scopeMarket=1600;http/json;web-la;
+web-la;https://line13.bkfon-resources.com/line/desktop/topEvents3?place=line&sysId=1&lang=ru&supertop=4&scopeMarket=1600;http/json;web-la;
+web-la;https://line14.bkfon-resources.com/line/desktop/topEvents3?place=line&sysId=1&lang=ru&supertop=4&scopeMarket=1600;http/json;web-la;
+web-la;https://line32.bkfon-resources.com/line/desktop/topEvents3?place=line&sysId=1&lang=ru&supertop=4&scopeMarket=1600;http/json;web-la;
+web-la;https://line51.bkfon-resources.com/line/desktop/topEvents3?place=line&sysId=1&lang=ru&supertop=4&scopeMarket=1600;http/json;web-la;
+web-la;https://line52.bkfon-resources.com/line/desktop/topEvents3?place=line&sysId=1&lang=ru&supertop=4&scopeMarket=1600;http/json;web-la;
+web-la;https://line53.bkfon-resources.com/line/desktop/topEvents3?place=line&sysId=1&lang=ru&supertop=4&scopeMarket=1600;http/json;web-la;
+web-la;https://line59.bkfon-resources.com/line/desktop/topEvents3?place=line&sysId=1&lang=ru&supertop=4&scopeMarket=1600;http/json;web-la;
+mobweb-la;https://line15.bkfon-resources.com/line/mobile/showEvents?lang=ru&lineType=full_line&sportId=20044&specify1X2=false&sysId=1;http/json;web-la;
+mobweb-la;https://line16.bkfon-resources.com/line/mobile/showEvents?lang=ru&lineType=full_line&sportId=20044&specify1X2=false&sysId=1;http/json;web-la;
+mobweb-la;https://line31.bkfon-resources.com/line/mobile/showEvents?lang=ru&lineType=full_line&sportId=20044&specify1X2=false&sysId=1;http/json;mobweb-la;
+mobweb-la;https://line54.bkfon-resources.com/line/mobile/showEvents?lang=ru&lineType=full_line&sportId=20044&specify1X2=false&sysId=1;http/json;mobweb-la;
+#5000-srv;195.13.211.219:5000;tcp;;5000_195.13.211.219
+#VolCalc|VolleyBollRobot;vbr.fbsvc.bz:8000;tcp;VolCalc[VolleyBollRobot];
+liveodds;liveodds.fbsvc.bz:8080;http;liveodds;
+#betsinfoclient_line;http://js.fbsvc.bz/servertime;http;;betsinfoclient_line
+kladr;http://kladr.cshdsk-ep.com/getobjects?value=12345;http;KLADR;kladr-lb
+kladr;http://kladr01.cshdsk-ep.com/getobjects?value=12345;http;KLADR;kladr@cshdsk-ep01
+kladr;http://kladr02.cshdsk-ep.com/getobjects?value=12345;http;KLADR;kladr@cshdsk-ep02
+xen_app;https://xa.fbsvc.bz/Citrix/XenApp/media/IcaComboAll.ico;http;;xen_app_lv
+#xen_app;https://lnm-xa.fbsvc.bz/Citrix/XenApp/media/IcaComboAll.ico;http;;xen_app_lnm
+#esports.bet;https://www.esports.bet/urls.json;http/json;;esports.bet
+#fbls;%random%.%random%.6036bbf0df71190437.xyz/cipl/test_object.js;http;;fbls_day_mob_201911
+#fbls;%random%.%random%.3a9f626aa2196bc695.xyz/cipl/test_object.js;http;;fbls_day_mob_201912
+#fbls;%random%.%random%.03cc51fdbc1a1e229f.xyz/cipl/test_object.js;http;;fbls_day_mob_202001
+#fbls;%random%.%random%.094ff4508eb78ba7c5.xyz/cipl/test_object.js;http;;fbls_day_mob_202002
+#fbls;%random%.%random%.84a31a1a9f47a102b2.xyz/cipl/test_object.js;http;;fbls_day_mob_202003
+#fbls;%random%.%random%.d2300153c66da9dd91.xyz/cipl/test_object.js;http;;fbls_day_mob_202004
+#fbls;%random%.%random%.3456d41ebc1d5af55d.xyz/cipl/test_object.js;http;;fbls_day_mob_202005
+#web_static;https://static-www002.ccf4ab51771cacd46d.com/header3/img/rus-on.svg;http;;ccf4ab51771cacd46d.com
+#web_static;https://static-www002.e6cf1b2fba639af003.com/header3/img/rus-on.svg;http;;e6cf1b2fba639af003.com
+#winclient_conf+upd;upd-%random%.23ce084f5ccbd434aa.xyz/winclient/test_object.js;http;;23ce084f5ccbd434aa.xyz
+#winclient_conf+upd;upd-%random%.c6c3aef60209c1de54.xyz/winclient/test_object.js;http;;c6c3aef60209c1de54.xyz
+#winclient_conf+upd;upd-%random%.fc64b916334e329bee.xyz/winclient/test_object.js;http;;fc64b916334e329bee.xyz
+#android_client_proxy_list;http://androiddevdata.github.io/psipl/an.json;http/json/iplist;android_client_proxy_list;
+#jme_client_proxy_list;http://fbdevdata.github.io/psipl/jme.list;http/iplist;jme_client_proxy_list;
+#jme_client_proxy_list;https://jmedevdata.github.io/psipl/jme.list;http/iplist;jme_client_proxy_list;
+#fbps01;https://185.82.210.231:9444/showToto;http/json;;
+#fbps01;https://185.82.210.232:9444/showToto;http/json;;
+#fbps01;https://188.42.137.188:9444/showToto;http/json;;
+#fbps01;https://185.82.210.236:9444/showToto;http/json;;
+#is;http://old.toto-info.co/DataService.svc/SelectCultures;http/json;IS;
