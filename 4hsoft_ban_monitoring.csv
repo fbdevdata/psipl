@@ -27,6 +27,7 @@ web-ca;https://clientsapi11.bkfon-resources.com/geoIp/checkGeoAccess;http/json;w
 web-ca;https://clientsapi12.bkfon-resources.com/geoIp/checkGeoAccess;http/json;web-ca;
 web-ca;https://clientsapi31.bkfon-resources.com/geoIp/checkGeoAccess;http/json;web-ca;
 web-ca;https://clientsapi51.bkfon-resources.com/geoIp/checkGeoAccess;http/json;web-ca;
+web-ca;https://clientsapi52.bkfon-resources.com/geoIp/checkGeoAccess;http/json;web-ca;
 web-la;https://line11.bkfon-resources.com/line/desktop/topEvents3?place=line&sysId=1&lang=ru&supertop=4&scopeMarket=1600;http/json;web-la;
 web-la;https://line12.bkfon-resources.com/line/desktop/topEvents3?place=line&sysId=1&lang=ru&supertop=4&scopeMarket=1600;http/json;web-la;
 web-la;https://line13.bkfon-resources.com/line/desktop/topEvents3?place=line&sysId=1&lang=ru&supertop=4&scopeMarket=1600;http/json;web-la;
@@ -47,7 +48,7 @@ liveodds;liveodds.fbsvc.bz:8080;http;liveodds;
 kladr;http://kladr.cshdsk-ep.com/getobjects?value=12345;http;KLADR;kladr-lb
 kladr;http://kladr01.cshdsk-ep.com/getobjects?value=12345;http;KLADR;kladr@cshdsk-ep01
 kladr;http://kladr02.cshdsk-ep.com/getobjects?value=12345;http;KLADR;kladr@cshdsk-ep02
-xen_app;https://xa.fbsvc.bz/Citrix/XenApp/media/IcaComboAll.ico;http;;xen_app_lv
+#xen_app;https://xa.fbsvc.bz/Citrix/XenApp/media/IcaComboAll.ico;http;;xen_app_lv
 #xen_app;https://lnm-xa.fbsvc.bz/Citrix/XenApp/media/IcaComboAll.ico;http;;xen_app_lnm
 #esports.bet;https://www.esports.bet/urls.json;http/json;;esports.bet
 #fbls;%random%.%random%.6036bbf0df71190437.xyz/cipl/test_object.js;http;;fbls_day_mob_201911
