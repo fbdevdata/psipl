@@ -1,8 +1,8 @@
 #service [domain];url;validate;service_caption;host_caption [service]
 www.fonbet.ru;https://www.fonbet.ru/settings.js;http;;www.fonbet.ru
-STM-UPD;http://origin-dc.bk-svc.com/Updates/Stakemat/stakemat.json;http/json;;Origin (DC)
-STM-UPD;http://origin.bkfon-resources.com/Updates/Stakemat/stakemat.json;http/json;;CDN (Edgecast|Verizon)
-STM-UPD;http://upd.stm-ep.com/stakemat/stakemat.json;http/json;;STMPR (stmpr31)
+#STM-UPD;http://origin-dc.bk-svc.com/Updates/Stakemat/stakemat.json;http/json;;Origin (DC)
+#STM-UPD;http://origin.bkfon-resources.com/Updates/Stakemat/stakemat.json;http/json;;CDN (Edgecast|Verizon)
+STM-UPD;http://upd.stm-ep.com/stakemat/stakemat.json;http/json;;CDN (Edgecenter/ngenix)
 STM-Results;http://results.stm-ep.com/;http;;BK DC proxy
 STM-FON-Stat;http://stat.stm-ep.com/;http;;BK DC proxy
 STM-Stat-Center;http://stat.stm-ep.com/stat-center/;http;;BK DC proxy
